@@ -1,0 +1,315 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Gouffre_du_Colonney.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6454
+geomag declinations (deg):
+  2024.1.1  2.9414
+  2025.1.1  3.1040
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 873 stations, connect‚es par 872 vis‚es.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =  693.43m ( 693.43m ajust‚)
+ 7> Longueur totale en projection horizontale =  416.24m
+ 8> Longueur totale verticale =  447.40m
+ 9> Intervalle vertical = 246.63m (de 1 … 2290.00m jusqu'… 857 … 2043.37m)
+10> Intervalle Nord-Sud = 120.73m (de 114 … 5094383.46m jusqu'… 814 … 5094262.73m)
+11> Intervalle Est-Ouest = 95.47m (de 524 … 322892.33m jusqu'… 11 … 322796.86m)
+12>  785 1-noeuds.
+13>    4 2-noeuds.
+14>    1 4-noeud.
+15>    2 6-noeuds.
+16>    8 7-noeuds.
+17>    8 8-noeuds.
+18>    9 9-noeuds.
+19>   14 10-noeuds.
+20>    6 11-noeuds.
+21>    7 12-noeuds.
+22>   11 13-noeuds.
+23>    6 14-noeuds.
+24>    1 15-noeud.
+25>    6 16-noeuds.
+26>    1 18-noeud.
+27>    2 19-noeuds.
+28>    1 20-noeud.
+29>    1 30-noeud.
+30> 
+######################### transcription ########################
+ 4> 873 : 104@Colonney_Entree.Gouffre_du_Colonney -- 872 : .@Colonney_Entree.Gouffre_du_Colonney
+ 9> 1 : Gouffre_du_Colonney@Colonney_Entree.Gouffre_du_Colonney -- 857 : .@Colonney_Entree.Gouffre_du_Colonney
+10> 114 : 17@Colonney_Entree.Gouffre_du_Colonney -- 814 : .@Colonney_Entree.Gouffre_du_Colonney
+11> 524 : .@Colonney_Entree.Gouffre_du_Colonney -- 11 : .@Colonney_Entree.Gouffre_du_Colonney
+12> 785 : .@Colonney_Entree.Gouffre_du_Colonney
+13> 4 : .@Colonney_Entree.Gouffre_du_Colonney
+14> 1 : Gouffre_du_Colonney@Colonney_Entree.Gouffre_du_Colonney
+15> 2 : 1@Colonney_Entree.Gouffre_du_Colonney
+16> 8 : .@Colonney_Entree.Gouffre_du_Colonney
+17> 8 : .@Colonney_Entree.Gouffre_du_Colonney
+18> 9 : 3@Colonney_Entree.Gouffre_du_Colonney
+19> 14 : .@Colonney_Entree.Gouffre_du_Colonney
+20> 6 : .@Colonney_Entree.Gouffre_du_Colonney
+21> 7 : .@Colonney_Entree.Gouffre_du_Colonney
+22> 11 : .@Colonney_Entree.Gouffre_du_Colonney
+23> 6 : .@Colonney_Entree.Gouffre_du_Colonney
+24> 1 : Gouffre_du_Colonney@Colonney_Entree.Gouffre_du_Colonney
+25> 6 : .@Colonney_Entree.Gouffre_du_Colonney
+26> 1 : Gouffre_du_Colonney@Colonney_Entree.Gouffre_du_Colonney
+27> 2 : 1@Colonney_Entree.Gouffre_du_Colonney
+28> 1 : Gouffre_du_Colonney@Colonney_Entree.Gouffre_du_Colonney
+29> 1 : Gouffre_du_Colonney@Colonney_Entree.Gouffre_du_Colonney
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.74%
+writing Data/Gouffre_du_Colonney-map.xvi ... done
+processing projection extended ... done
+average distortion: 0.07%
+writing Data/Gouffre_du_Colonney-coupe.xvi ... done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-Gouffre_du_Colonney@Gouffre_du_Colonney (Gouffre du Colonney)
+S     0.00 SC-Gouffre_du_Colonney_00@Gouffre_du_Colonney ()
+S     0.00 SC-Gouffre_du_Colonney_01@Gouffre_du_Colonney ()
+S     0.00 SC-Gouffre_du_Colonney_02@Gouffre_du_Colonney ()
+S     0.00 SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Gouffre_du_Colonney-Coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 12:51
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1]
+[Warning: scrap outline intersects itself in scrap SC-Gouffre_du_Colonney_03@Go
+uffre_du_Colonney] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap SC-Gouffre_du_Colonney_02@Go
+uffre_du_Colonney] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+(./mptextmp.mp) [17] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [18] [19] [20] [21] [22] [23]
+[24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] )
+ 
+Here is how much of MetaPost's memory you used:
+ 10687 strings using 258978 characters
+ 2742968 bytes of node memory
+ 1749 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+52 output files written: data-patt.1 .. data.37
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 12:51
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex
+Overfull \hbox (8.32932pt too wide) in paragraph at lines 12--12
+[]\thfb Donn\thfc é\thfb es to-pographiques : \thfb https://github.com/Alex38Ly
+on/Synthese-Flaine-Plate |
+
+\hbox(9.0+3.0)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfb D
+.\thfb o
+.\thfb n
+.\thfb n
+.etc.
+
+
+Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
+[]\thfb (c) li-cence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/
+4.0/ 2024 |
+
+\hbox(9.0+3.0)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfb (
+.\thfb c
+.\thfb )
+.\glue 4.0 plus 2.0 minus 1.33333
+.etc.
+
+(./th_legend.tex)) (./th_pages.tex)
+ 92 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 349 strings out of 94604
+ 4555 string characters out of 1142524
+ 41275 words of memory out of 5024003
+ 2001 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 12i,5n,8p,712b,73s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
+e1/csssi10.pfb>
+Output written on data.pdf (1 page, 106610 bytes).
+PDF statistics:
+ 136 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M  2202.49 MP-Gouffre_du_Colonney@Gouffre_du_Colonney (Gouffre du Colonney)
+S  2269.67 SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney ()
+S  2212.50 SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney ()
+S  2151.35 SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney ()
+S  2259.72 SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney ()
+S  2119.23 SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Gouffre_du_Colonney-Plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 12:51
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8]
+[Warning: scrap outline intersects itself in scrap SP-Gouffre_du_Colonney_02@Go
+uffre_du_Colonney] [9] [10] [11] [12] [13] [14] [15] [16]
+[Warning: scrap outline intersects itself in scrap SP-Gouffre_du_Colonney_00@Go
+uffre_du_Colonney] [17] [18] [19] (./mptextmp.mp) [20] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+[51] [52] [53] )
+ 
+Here is how much of MetaPost's memory you used:
+ 12199 strings using 289716 characters
+ 2980232 bytes of node memory
+ 1749 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+68 output files written: data-patt.1 .. data.53
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 12:51
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex
+Overfull \hbox (8.32932pt too wide) in paragraph at lines 12--12
+[]\thfb Donn\thfc é\thfb es to-pographiques : \thfb https://github.com/Alex38Ly
+on/Synthese-Flaine-Plate |
+
+\hbox(9.0+3.0)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfb D
+.\thfb o
+.\thfb n
+.\thfb n
+.etc.
+
+
+Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
+[]\thfb (c) li-cence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/
+4.0/ 2024 |
+
+\hbox(9.0+3.0)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfb (
+.\thfb c
+.\thfb )
+.\glue 4.0 plus 2.0 minus 1.33333
+.etc.
+
+(./th_legend.tex)) (./th_pages.tex)
+ 110 numeric registers used out of 32768
+ [1] )
+(\end occurred when \ifx on line 12 was incomplete) 
+Here is how much of TeX's memory you used:
+ 367 strings out of 94604
+ 4716 string characters out of 1142524
+ 93036 words of memory out of 5068764
+ 2019 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 12i,5n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Ther
+ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
+pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
+:/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 157062 bytes).
+PDF statistics:
+ 174 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 445 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Gouffre_du_Colonney.lox ........ done
+writing Outputs/Gouffre_du_Colonney-model.kml ... done
+writing Outputs/Gouffre_du_Colonney-3D.kml ... done
+writing Outputs/Gouffre_du_Colonney.html ... done
+compilation time: 4 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   2.46%  100.00%  SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney
+   0.03%    7.82%  SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney
+   0.00%    0.53%  SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney
+   0.00%    0.02%  SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney
+   0.00%    0.02%  SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.08%   12.20%  SC-Gouffre_du_Colonney_00@Gouffre_du_Colonney
+   0.19%    4.92%  SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney
+   0.00%    0.44%  SC-Gouffre_du_Colonney_02@Gouffre_du_Colonney
+   0.00%    0.04%  SC-Gouffre_du_Colonney_01@Gouffre_du_Colonney
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.712, 45.980) (6.712, 45.980)
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

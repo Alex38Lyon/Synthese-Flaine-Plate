@@ -1,0 +1,23 @@
+Title	Length	Depth	Explored	X	Y	Altitude
+Karst de Faine / Platé	2022	861				
+  Gouffre de la petite Marielle	748	296				
+    Gouffre de la petite Marielle	748	296				
+      Gouffre de la petite Marielle				322898.000000	5094854.000000	2300.000000
+  Gouffre de la moquette qui suinte	311	40				
+    Gouffre Moquette qui suinte P66 (ou P63)	311	40				
+      Gouffre Moquette qui suinte				322894.000000	5094747.000000	2330.000000
+  Gouffre Chimelle	99	93				
+    Gouffre Chimelle	99	93				
+      Gouffre Chimelle				321222.000000	5094742.000000	2425.000000
+  Gouffre de Monthieu	55	18				
+    Grotte de Monthieu	55	18				
+      Grotte de Monthieu				321516.090000	5094605.910000	2200.000000
+  L'oeil central des 3 yeux	63	3				
+    L'oeil central des 3 yeux	63	3				
+      L'oeil central des 3 yeux				322869.000000	5094842.000000	2294.000000
+  Gouffre du Colonney	693	246				
+    Gouffre du Colonney	693	246				
+      Gouffre du colonney				322803.000000	5094375.000000	2290.000000
+  Grotte des trois gros	52	3				
+    Grotte des trois gros (GRSIF 70-12)	52	3				
+      Grotte des trois gros (GRSIF 70-12)				319999.290000	5096657.790000	1564.000000

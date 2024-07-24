@@ -1,0 +1,163 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Flaine_Plate.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6529
+geomag declinations (deg):
+  2018.1.1  1.9823
+  2019.1.1  2.1344
+  2020.1.1  2.2864
+  2021.1.1  2.4498
+  2022.1.1  2.6131
+  2023.1.1  2.7762
+  2024.1.1  2.9390
+  2025.1.1  3.1017
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.65%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 1260 stations, connect‚es par 1256 vis‚es.
+ 5> Il y a 4 bouclages.
+ 6> La topographie contient 8 composants connect‚s.
+ 7> Longueur totale de la topographie = 2021.84m (2021.33m ajust‚)
+ 8> Longueur totale en projection horizontale = 1279.96m
+ 9> Longueur totale verticale = 1171.72m
+10> Intervalle vertical = 861.79m (de 238 … 2425.00m jusqu'… 1169 … 1563.21m)
+11> Intervalle Nord-Sud = 2417.67m (de 1202 … 5096680.40m jusqu'… 1092 … 5094262.72m)
+12> Intervalle Est-Ouest = 3008.14m (de 235 … 323001.44m jusqu'… 1158 … 319993.30m)
+13>  920 1-noeuds.
+14>  216 2-noeuds.
+15>   28 3-noeuds.
+16>    1 4-noeud.
+17>    1 5-noeud.
+18>    3 6-noeuds.
+19>   10 7-noeuds.
+20>    8 8-noeuds.
+21>   11 9-noeuds.
+22>   14 10-noeuds.
+23>    6 11-noeuds.
+24>    9 12-noeuds.
+25>   12 13-noeuds.
+26>    6 14-noeuds.
+27>    4 15-noeuds.
+28>    6 16-noeuds.
+29>    1 18-noeud.
+30>    2 19-noeuds.
+31>    1 20-noeud.
+32>    1 30-noeud.
+33> 
+######################### transcription ########################
+ 4> 1260 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate -- 1256 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate
+ 5> 4 : 1.0@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+ 6> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+10> 238 : 9@Gouffre_Chimelle.Gouffre_Chimelle.Flaine_Plate -- 1169 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate
+11> 1202 : 10@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate -- 1092 : .@Colonney_Entree.Gouffre_du_Colonney.Flaine_Plate
+12> 235 : 41.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte.Flaine_Plate -- 1158 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate
+13> 920 : .@Colonney_Entree.Gouffre_du_Colonney.Flaine_Plate
+14> 216 : 46.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte.Flaine_Plate
+15> 28 : 4.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+16> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+17> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+18> 3 : 1.2@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+19> 10 : 2f.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+20> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+21> 11 : 2.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+22> 14 : 2.4@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+23> 6 : 1.0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+24> 9 : 2f.0@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+25> 12 : 2.2@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+26> 6 : 1.0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+27> 4 : 1.0@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+28> 6 : 1.0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+29> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+30> 2 : 0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+31> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+32> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing Outputs/Flaine_Plate.lox ...
+processing projection plan ... done
+average distortion: 0.42%
+..... done
+writing Outputs/Flaine_Plate.plt ... done
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JUL 2024 20:54
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
+
+
+#################### end of metapost log file ####################
+writing Outputs/Flaine_Plate ... done
+writing Outputs/Flaine_Plate ... done
+writing Outputs/Flaine_Plate.kml ... done
+writing Outputs/Flaine_Plate-model.kml ... done
+writing Outputs/databaseFlaine_Plate-2024.sql ... 
+processing projection extended ... done
+average distortion: 0.08%
+done
+writing Outputs/ContinuationsFlaine_Plate-2024.html ... done
+writing Outputs/ContinuationsFlaine_Plate-2024.kml ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- geographical reference is not associated with table
+done
+writing Outputs/SurveysFlaine_Plate2024.html ... done
+writing Outputs/CavesFlaine_Plate2024.html ... done
+writing Outputs/Caves-Flaine_Plate.txt ... done
+writing Outputs/Flaine_Plate/Caves.txt ... done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  4.45%    1.9m   43.5m  12   -1.8m   -0.7m    0.2m [1.0@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux.Flaine_Plate - 2.8 - 2.7 - 2.6 - 2.5 - 2.4 - 2.3 - 2.2 - 2.1 - 2.0 - 1.2 - 1.1 - 1.0]
+  0.87%    1.2m  139.3m  28    0.3m    0.3m   -1.1m [10.4@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 12.7 - 12.6 - 12.5 - 12.4 - 12.3 - 12.2 - 12.1 - 12.0 - 11.3 - 11.2 - 11.1 - 11.0 - 10.1 - 10.2 - 10.3 - 10.4]
+  0.48%    0.2m   49.5m  10   -0.2m    0.0m    0.1m [Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate - 18 - 17 - 16 - 13 - 11 - 7 - 5 - 3 - 1 - Grotte_des_3_gros]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   1.21%  100.00%  SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
+   0.06%    7.40%  SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney.Flaine_Plate
+   0.04%    2.39%  SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
+   0.02%    0.72%  SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
+   0.05%    0.56%  SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.08%   12.20%  SC-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
+   0.21%    9.69%  SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
+   0.00%    0.43%  SC-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
+   0.00%    0.04%  SC-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.675, 45.980) (6.713, 46.000)
+  [LONG-LAT â†’ LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

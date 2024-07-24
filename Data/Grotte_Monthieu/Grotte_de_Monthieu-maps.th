@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Grotte_de_Monthieu -title "Grotte de Monthieu"
+	SP-Grotte_de_Monthieu
+endmap
+
+
+#map MC-Grotte_de_Monthieu -title "Grotte_de_Monthieu"
+#	SC-Grotte_de_Monthieu-1
+
+#endmap
+

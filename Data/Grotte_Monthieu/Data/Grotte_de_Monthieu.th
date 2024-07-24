@@ -1,0 +1,53 @@
+encoding utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'apr�s Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+
+survey Grotte_de_Monthieu -title "Grotte de Monthieu"
+	
+	centerline
+		
+		cs long-lat
+		fix Grotte_de_Monthieu 6.695704 45.981790	2200
+		station Grotte_de_Monthieu "Grotte de Monthieu" entrance
+		
+		date 2021.07.22
+		team "Laurence Tanguille"
+		team "Laurent Cadhilac"
+		
+		explo-date 2021
+		explo-team "CESAME"
+		
+		explo-date 1971
+		explo-team "S.S.S./Genève"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		#;Laurence et Laurent 22 juilllet 2021 distoX c�same;
+		Grotte_de_Monthieu	0d	0.00	0.00	0.00	2.67	4.52	0.77	0.10
+		Grotte_de_Monthieu	1ht	5.23	52.30	45.40	1.20	0.50	0.50	0.50
+		Grotte_de_Monthieu	1bas	5.28	266.00	-37.00	2.67	4.52	0.77	0.10
+		1bas	A0	2.14	75.00	37.00	0.50	3.50	1.00	0.10
+		A0	A1	2.49	0.00	90.00	0	0	0	0
+		A1	A2	5.70	145.00	-21.90	0.40	0.30	2.60	1.20
+		A2	1A0	2.03	12.60	24.00	0.30	2.00	0.60	1.00
+		1bas	2	2.70	199.00	-30.70	1.30	0.30	0.50	0.10
+		2	3	6.90	165.00	-90.00	1.30	0.40	0.40	0.00
+		3	4	16.30	172.00	-9.20	1.00	0.70	0.60	0.70
+		4	5	2.19	112.00	51.00	1.90	0.00	0.90	1.14
+		5	6	3.66	208.00	-30.00	0	3.21	0.90	1.14
+		
+	endcenterline
+	
+	
+endsurvey

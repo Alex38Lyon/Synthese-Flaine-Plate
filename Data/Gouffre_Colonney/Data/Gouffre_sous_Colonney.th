@@ -1,0 +1,36 @@
+# 2024.07.20 created by TopoDroid v 5.1.40
+
+survey Gouffre_sous_Colonney -title "Gouffre sous le Colonney"
+	# beb vinc alex
+	
+	centerline
+		
+		cs long-lat
+		fix gouffre_sous_le_colonney 6.712510 45.980052 2232
+		station gouffre_sous_le_colonney "Gouffre sous le Colonney" entrance
+		
+		date 2024.07.20
+		
+		team "Bertrand Hamm"
+		team "Vincent Lacombe"
+		team "Alexandre Pont"
+		
+		explo-date 2024
+		explo-team "CESAME"
+		
+		units length meters
+		units compass clino degrees
+		data normal from to length compass clino
+		# extend auto
+		gouffre_sous_le_colonney . 3.13 152.3 1.7
+		gouffre_sous_le_colonney . 1.69 124.3 -1.4
+		gouffre_sous_le_colonney . 0.29 217.4 -7.2
+		gouffre_sous_le_colonney . 0.35 352.6 -24.6
+		gouffre_sous_le_colonney . 0.97 112.4 -4.8
+		gouffre_sous_le_colonney . 3.90 157.7 -29.1
+		gouffre_sous_le_colonney . 5.54 163.9 -41.0
+		gouffre_sous_le_colonney 1 10.06 176.0 -63.0
+		
+	endcenterline
+	
+endsurvey

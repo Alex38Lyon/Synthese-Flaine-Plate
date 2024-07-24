@@ -1,0 +1,46 @@
+encoding utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'apr�s Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Gouffre_Chimelle -title "Gouffre de la Chimelle"
+	
+	centerline
+		
+		cs UTM32
+		fix Gouffre_Chimelle 321222.00 5094742.00 2425.00
+		station Gouffre_Chimelle "Gouffre de la Chimelle" entrance
+		
+		date 2021.07.25
+		team "Luna Valentin"
+		team "Malo Courtier"
+		team "Sevan Retif"
+		
+		explo-date 2021
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		#;Luna, Malo, Sevan le 25 juillet 2021 dsitoX Césame;
+		extend left
+		Gouffre_Chimelle	0d	0.00	0.00	0.00	9.00	2.00	2.00	2.00	#
+		Gouffre_Chimelle	9	0.00	0.00	0.00	0	0	0	0	#
+		fd	1	24.60	50.00	87.60	4.00	4.00	2.00	3.00	#
+		1	2	3.70	40.80	68.80	10.50	0.80	2.00	1.60	#
+		2	3	6.74	17.70	43.00	5.00	1.85	2.00	3.30	#
+		3	4	27.00	181.30	85.10	1.80	1.30	3.70	0.00	#
+		4	5	4.23	190.30	29.40	1.00	3.70	2.00	2.85	#
+		5	6	10.72	38.70	85.90	1.70	2.10	1.30	0.00	#
+		6	7	5.12	194.70	72.16	3.90	1.60	0.70	0.00	#
+		7	8	14.48	186.50	73.50	1.10	1.50	0.80	0.00	#
+		8	9	2.09	308.70	64.20	0.50	0.35	1.00	0.50	#
+		
+	endcenterline
+	
+	
+endsurvey

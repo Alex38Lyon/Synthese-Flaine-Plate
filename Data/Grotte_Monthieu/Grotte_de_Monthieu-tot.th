@@ -1,0 +1,18 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'après Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Grotte_de_Monthieu -title "Gouffre de Monthieu"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/Grotte_de_Monthieu.th
+	
+	# Import du dessin en plan
+	#input  Data/Grotte_de_Monthieu.th2
+	
+	# Import des maps
+	#input Grotte_de_Monthieu-maps.th
+	
+endsurvey

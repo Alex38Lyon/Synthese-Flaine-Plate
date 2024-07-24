@@ -1,0 +1,19 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'après Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Gouffre_de_la_petite_Marielle -title "Gouffre de la petite Marielle"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/Gouffre_de_la_petite_Marielle.th
+	
+	# Import du dessin en plan
+	input  Data/Gouffre_de_la_petite_Marielle_Plan.th2
+	input  Data/Gouffre_de_la_petite_Marielle_Coupe.th2
+	
+	# Import des maps
+	input Gouffre_de_la_petite_Marielle-maps.th
+	
+endsurvey

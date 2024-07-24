@@ -1,0 +1,153 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Gouffre_Moquette_qui_suinte.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6448
+geomag declinations (deg):
+  2019.1.1  2.1372
+  2020.1.1  2.2892
+  2021.1.1  2.4526
+  2022.1.1  2.6158
+  2023.1.1  2.7788
+  2024.1.1  2.9417
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 98 stations, connect‚es par 97 vis‚es.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =  311.44m ( 311.44m ajust‚)
+ 7> Longueur totale en projection horizontale =  257.64m
+ 8> Longueur totale verticale =  114.70m
+ 9> Intervalle vertical = 40.18m (de 3 … 2330.00m jusqu'… 96 … 2289.82m)
+10> Intervalle Nord-Sud = 37.65m (de 72 … 5094771.30m jusqu'… 56 … 5094733.65m)
+11> Intervalle Est-Ouest = 107.45m (de 98 … 323001.45m jusqu'… 3 … 322894.00m)
+12>   14 1-noeuds.
+13>   74 2-noeuds.
+14>    9 3-noeuds.
+15>    1 5-noeud.
+16> 
+######################### transcription ########################
+ 4> 98 : 41.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte -- 97 : 41.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+ 9> 3 : 1.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte -- 96 : 41.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+10> 72 : 44.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte -- 56 : 41.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+11> 98 : 41.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte -- 3 : 1.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+12> 14 : 1.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+13> 74 : 45.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+14> 9 : 1.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+15> 1 : Gouffre_Moquette_qui_suinte@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection extended ... done
+writing Data/Gouffre_Moquette_qui_suinte-coupe.xvi ... done
+processing projection plan ... done
+average distortion: 0.06%
+
+
+############### export maps & scraps selection #################
+M  2302.95 MP-Gouffre_Moquette_qui_suinte@Gouffre_Moquette_qui_suinte (Gouffre de la Moquette qui suinte)
+S  2308.07 SP-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte ()
+S  2309.35 SP-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte ()
+S  2291.44 SP-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte ()
+S     -.-- SP-Gouffre_Moquette_qui_suinte_03@Gouffre_Moquette_qui_suinte ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Gouffre_Moquette_qui_suinte-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  23 JUL 2024 14:37
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4]
+[Warning: scrap outline intersects itself in scrap SP-Gouffre_Moquette_qui_suin
+te_01@Gouffre_Moquette_qui_suinte] [5] [6] [7] [8] [9] [10] [11] (./mptextmp.mp
+) [12] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+[37] [38] )
+ 
+Here is how much of MetaPost's memory you used:
+ 9254 strings using 238974 characters
+ 2674036 bytes of node memory
+ 1757 symbolic tokens
+ 9i,82n,16p,502b,5f stack positions out of 16i,98n,20p,608b,6f
+53 output files written: data-patt.1 .. data.38
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  23 JUL 2024 14:37
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 91 numeric registers used out of 32768
+
+[1] )
+(\end occurred when \ifx on line 12 was incomplete) 
+Here is how much of TeX's memory you used:
+ 349 strings out of 94604
+ 4525 string characters out of 1142524
+ 46156 words of memory out of 5028884
+ 2001 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 12i,5n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Ther
+ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
+pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
+:/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 92803 bytes).
+PDF statistics:
+ 134 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Gouffre_Moquette_qui_suinte.lox ....... done
+writing Outputs/Gouffre_Moquette_qui_suinte-model.kml ... done
+writing Outputs/Gouffre_Moquette_qui_suinte-3D.kml ... done
+writing Outputs/Gouffre_Moquette_qui_suinte.html ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.10%    8.51%  SP-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte
+   0.00%    0.03%  SP-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte
+   0.00%    0.01%  SP-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte
+   0.00%    0.00%  SP-Gouffre_Moquette_qui_suinte_03@Gouffre_Moquette_qui_suinte
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.713, 45.983) (6.713, 45.983)
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

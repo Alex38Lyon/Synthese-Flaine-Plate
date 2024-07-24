@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Gouffre de Monthieu]]></name>
+<description><![CDATA[Length 55 m<br>Depth 18 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Grotte de Monthieu]]></name>
+<Point> <coordinates>6.69570399726325,45.98178998021174,2200.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Grotte de Monthieu]]></name>
+<Placemark>
+<name>Grotte_de_Monthieu</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	6.69570399726325,45.98178998021174,2200.00000000000000 	6.69570399726325,45.98178998021174,2200.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	6.69570399726325,45.98178998021174,2200.00000000000000 	6.69574271294991,45.98180903247535,2203.71999999999980 
+</coordinates></LineString>
+<LineString><coordinates>
+	6.69570399726325,45.98178998021174,2200.00000000000000 	6.69564955258171,45.98178906188221,2196.82000000000016 	6.69567110481775,45.98179237686674,2198.11000000000013 	6.69567110481775,45.98179237686674,2200.59999999999991 	6.69570776173919,45.98175216356712,2198.46999999999980 	6.69571406319889,45.98176831178156,2199.30000000000018 
+</coordinates></LineString>
+<LineString><coordinates>
+	6.69564955258171,45.98178906188221,2196.82000000000016 	6.69563861259377,45.98176957986609,2195.44000000000005 	6.69563861259377,45.98176957986609,2188.53999999999996 	6.69565840664729,45.98162551932485,2185.94000000000005 	6.69567450107446,45.98162035363302,2187.63999999999987 	6.69565370086237,45.98159581236965,2185.80999999999995 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

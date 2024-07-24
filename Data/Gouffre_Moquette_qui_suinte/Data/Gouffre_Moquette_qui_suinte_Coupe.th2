@@ -1,0 +1,15 @@
+encoding  utf-8
+
+
+scrap SC-Gouffre_Moquette_qui_suinte_00 -projection extended -station-names "" "@Gouffre_Moquette_qui_suinte" -author 2018 "Philippe Monteil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+	
+endscrap
+
+
+scrap SC-Gouffre_Moquette_qui_suinte_01 -projection extended -station-names "" "@Gouffre_Moquette_qui_suinte" -author 2018 "Philippe Monteil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+	
+endscrap
+
+scrap SC-Gouffre_Moquette_qui_suinte_02 -projection extended -station-names "" "@Gouffre_Moquette_qui_suinte" -author 2018 "Philippe Monteil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+	
+endscrap

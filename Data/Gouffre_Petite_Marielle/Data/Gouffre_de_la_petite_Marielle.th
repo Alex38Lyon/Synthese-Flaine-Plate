@@ -1,0 +1,284 @@
+encoding utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'après Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Gouffre_de_la_petite_Marielle -title "Gouffre de la petite Marielle"
+	
+	centerline
+		
+		cs UTM32
+		fix Gouffre_de_la_petite_Marielle 322898.00 5094854.00 2300.00
+		station Gouffre_de_la_petite_Marielle "Gouffre de la petite Marielle" entrance
+		
+		date 2018.07.24
+		team "Philippe Monteil"
+		team "Bertrand Hamm"
+		
+		explo-date 2018
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		#;Phil Beb DistoX Cesame 24/07/18;
+		extend left
+		Gouffre_de_la_petite_Marielle	0d	0.00	0.00	0.00	0	0	0	0
+		Gouffre_de_la_petite_Marielle	1.2	0.00	0.00	0.00	0	0	0	0
+		1.0	2.0	0.00	0.00	0.00	0	0	0	0	# Base du puits d'entrée=2.0
+		1.0	1.0d	0.00	0.00	0.00	0.90	1.00	0.50	0.00
+		extend right
+		1.0	1.1	4.40	106.00	65.00	1.40	1.30	2.20	2.00	# En face de la dev
+		1.1	1.2	6.30	95.80	86.00	1.30	1.20	1.00	0.10	# Becquet à la verticale du puits
+		1.2	1.2d	0.00	0.00	0.00	1.30	1.20	0.00	1.00
+		2.0	2f.0	0.00	0.00	0.00	0.20	1.20	1.10	0.50	# Base du puits d'entrée = 1.0
+		2f.0	2f.1	4.50	269.70	-8.70	0.30	0.40	0.10	0.00
+		extend left
+		2.0	2.1	9.65	65.00	-3.70	0.20	0.80	0.50	0.70
+		2.1	2.2	4.80	80.00	16.00	0.60	0.00	1.40	1.40
+		2.2	2.3	9.25	71.00	-6.20	1.10	1.76	3.90	1.80	# Paroi gauche en face du pipi du puits formé
+		2.3	2.4	13.85	81.00	-7.80	1.50	0.60	1.40	1.70	# Arrivée d'eau dans joint de strate
+		2.4	2.5	2.34	66.40	-1.10	1.50	0.90	0.20	0.80	# Face à létroiture avec CA = 4.1
+		2.5	2.6	6.23	58.40	-25.70	0.60	0.20	1.10	0.40	# Flaque argileuse
+		2.6	2.7	6.65	67.20	4.10	0.20	1.10	0.20	0.90
+		2.7	2.8	3.55	67.60	-17.00	0.20	0.50	1.20	1.40	# Bloc avant l'albien
+		2.8	2.9	5.00	72.00	7.00	1.00	0.20	1.20	1.20	# Photo vers l'amont
+		2.9	2.10	8.00	61.90	-11.90	0.80	0.60	1.90	0.30
+		2.10	2.11	5.08	74.00	33.00	1.10	0.80	0.40	0.90	# En haut du cone d'éboulis
+		2.11	2.12	5.07	61.30	-20.20	1.00	0.40	1.00	1.00
+		2.12	2.13	1.21	21.30	19.00	0.00	1.00	0.80	1.20	# Sur 1er spit paroi gauche
+		2.3	3.0	0.00	0.00	0.00	1.10	1.76	3.90	1.80	# Vers le haut du puits formé
+		extend right
+		3.0	3.1	6.88	145.00	44.00	0.20	0.30	0.20	0.20
+		4.0	4.0d	0.00	0.00	0.00	1.00	0.40	0.50	0.10	# Cairn aprés l'étroiture avec CA, trémie remontante avec CA
+		#extend left
+		4.0	4.1	4.62	2.80	8.50	1.00	0.40	0.50	0.10
+		4.1	2.5	0.00	0.00	0.00	1.00	0.40	0.50	0.10
+		
+	endcenterline
+	
+	
+	centerline
+		
+		date 2018.07.25
+		team "Philippe Monteil"
+		team "Malo Courtier"
+		
+		explo-date 2018
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend right
+		#;Phil Malo 25/7/18 DistoX Cesame;
+		10.0	10.0d	0.00	0.00	0.00	4.24	0.00	2.10	2.10	# Base du P53-marqué par scotch
+		10.0	10.1	12.13	275.90	69.00	0.00	5.24	2.10	2.10	# AF en haut à gauche = 11.0
+		extend left
+		10.1	10.2	7.70	342.20	82.50	2.40	3.70	4.30	2.20	# surt le Y deuxième frac en descendant pareil en montant
+		10.2	10.3	1.50	111.20	45.90	2.40	3.70	4.30	2.20	# Visée de callage
+		10.3	10.4	14.80	63.70	84.80	5.50	2.00	4.20	1.00	# Y avec AF sur lame
+		10.4	10.5	13.90	177.00	82.80	1.40	6.00	2.30	1.30
+		10.5	10.6	2.56	165.00	58.30	2.70	1.00	2.00	0.50	# Haut du Puits en face des amarrages
+		10.6	10.7	10.30	240.40	55.90	0.70	0.00	0.50	3.00
+		extend right
+		10.7	10.8	1.75	221.90	8.50	0.00	0.90	0.70	1.50	# Au dessus de la couche d'Albien
+		10.8	10.9	1.21	299.80	40.70	1.20	0.00	0.70	1.20	# 1er spit = 2.13
+		10.9	2.13	0.00	0.00	0.00	0	0	0	0
+		extend left
+		10.1	11.0	0.00	0.00	0.00	0.00	1.20	10.00	2.00
+		extend right
+		11.0	11.1	9.25	9.30	-35.60	1.70	1.60	4.00	4.00	# Spit départ du P17
+		11.1	11.2	6.27	187.70	-73.10	1.50	1.60	0.30	2.20
+		11.2	11.3	8.63	299.80	-80.00	0.80	1.20	3.60	0.10	# Départ réseau des galets = 12.0
+		11.3	11.4	5.96	79.40	-51.10	0.20	0.40	2.00	1.00	# Fond bouché
+		11.3	12.0	0.00	0.00	0.00	0.00	1.20	1.20	4.00	# Départ réseau des galets =11.3
+		extend left
+		12.0	12.1	1.98	171.00	2.00	0.20	1.70	10.00	1.50	# Dans virage
+		12.1	12.2	5.01	300.10	-29.40	0.30	0.40	0.50	1.00
+		12.2	12.3	1.63	331.60	-44.90	0.60	0.60	0.90	0.50	# Croisement = 13.0
+		extend right
+		12.3	12.4	2.55	76.00	7.70	0.90	0.70	5.10	0.00	# Au dessus du puits selon dav mais qui irait � -300 selon le croquis!
+		12.4	12.5	2.60	76.80	10.20	0.70	0.80	5.70	0.10	# Base du remplissage
+		12.5	12.6	6.21	67.90	39.90	1.20	0.65	9.20	1.70	# Remontée vers l'amont
+		12.6	12.7	4.60	61.60	-33.70	1.00	2.00	19.00	2.00	# Bèquet, marqué par scotch light, sommet d'un P5
+		12.7	12.8	19.50	106.20	76.50	4.00	2.00	6.00	4.00	# Puits remontant, escalade à faire
+		extend left
+		12.3	13.0	0.00	0.00	0.00	0.30	0.10	1.00	0.40	# Vers l'aval =12.3
+		13.0	13.1	4.76	245.90	50.00	0.50	0.20	0.10	1.20
+		13.1	13.2	2.30	253.40	11.90	0.50	0.10	0.70	0.45	# Plage calcifiée
+		13.2	13.3	3.50	244.90	18.00	0.30	0.40	0.96	0.20
+		13.3	13.4	10.72	254.10	1.60	0.20	0.45	0.10	1.50
+		13.4	13.5	5.10	252.00	5.20	0.00	0.70	1.00	1.90	# Coquillage ?
+		13.5	13.6	3.21	260.00	-33.70	0.35	0.20	3.55	1.50
+		13.6	13.7	5.76	254.20	-1.40	0.00	0.30	1.30	2.70
+		13.7	13.8	5.55	263.30	-34.40	0.45	0.47	3.80	0.00	# Haut p11
+		13.8	13.9	11.30	348.00	-61.60	0.40	0.40	8.00	0.00	# Base du puits, filet d'eau
+		
+	endcenterline
+	
+	
+	centerline
+		
+		date 2019.07.18
+		team "Philippe Monteil"
+		team "Bruno Sourzac"
+		
+		explo-date 2019
+		explo-team "CESAME"
+		
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend right
+		#;18_7_19 phil et bruno sourzac;
+		20.0	12.7	0.00	0.00	0.00	1.00	2.00	6.00	0.50	# skotch ligth
+		20.0	20.1	3.81	110.60	61.10	1.00	0	0.50	15.00
+		20.1	20.2	2.42	75.70	9.50	0.00	2.00	1.20	10.00	# PAROIE GCHE EN MONTANT
+		20.2	20.3	7.40	125.40	57.80	0.20	0.40	5.00	6.00	# AF DANS ETROIT
+		
+		20.3	20.4	3.14	119.30	15.80	0.20	4.00	1.00	20.00	# DANS VIRAG SOUS TERRASSE EN BALCON
+		extend left
+		
+		20.4	20.5	14.94	265.50	78.70	8.10	5.80	15.00	15.00
+		20.5	20.6	14.10	73.80	84.80	0.20	0.30	1.00	30.00
+		20.6	20.7	4.36	249.30	-10.60	0.10	0.40	0.50	8.00	# MEANDRE ACCES
+		20.7	20.8	5.86	245.60	-5.90	2.00	1.00	6.00	0	# TERRASSE ALUVIALE
+		20.8	20.9	5.48	218.40	76.40	0.80	0.70	2.00	5.00	# Y DU P5
+		20.9	20.10	0.83	198.00	6.40	0.00	0.60	1.50	8.00
+		20.10	20.11	4.28	248.60	-0.70	0	0.60	2.00	10.00	# FACE AF
+		20.11	10.4	0.00	0.00	0.00	0	0	0	0
+		
+		20.4	21.0	0.00	0.00	0.00	0.50	0.50	15.00	15.00
+		extend right
+		21.0	21.1	5.28	247.90	-18.50	0.50	0.50	15.00	15.00
+		21.1	21.2	15.04	282.50	-79.30	2.00	2.00	0	20.00
+		
+	endcenterline
+	
+	
+	centerline
+		date 2019.07.16
+		team "Philippe Monteil"
+		team "Mathilde Hamm"
+		
+		explo-date 2019
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend left
+		#;LUCARNE QUI QUEUTE DU P50 MATHILDE PHIL 16/7/19;
+		15.0	10.6	0.00	0.00	0.00	0	2.00	3.00	2.00	# 1ER SPIT DU P50
+		15.0	15.1	11.54	34.10	-72.00	0.20	0.30	0.30	0.20
+		15.1	15.2	2.29	62.60	3.80	0.20	0.30	0.30	0.20
+		15.2	15.3	4.74	74.80	-4.70	0.10	0.10	0.10	0.10	# FD TRES ETROIT ECHO MAIS...
+		
+	endcenterline
+	
+	
+	centerline
+		date 2019.07.19
+		team "Philippe Monteil"
+		team "Fabien Darne"
+		
+		explo-date 2019
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend right
+		#;phil fab 19/7/19 DISTO CESAME;
+		30.0	30.0d	0.00	0.00	0.00	0.40	0.10	0.40	0.60	# FD ETROIT AVAL ISA A DESSOB
+		30.0	30.1	3.22	69.50	37.20	0	0.50	0.70	1.20
+		30.1	30.2	2.58	107.90	16.60	0.60	0	0.70	0.90	# VEINE SCALENOEDRE
+		30.2	30.3	2.11	65.70	9.30	0	0.60	0.70	0.10	# VEINE SCALENOEDRE PHOTO
+		30.3	30.4	2.52	88.00	-5.00	0.45	0.20	0.50	0.50	# AU DESSUS P10
+		30.4	30.5	5.09	69.70	-6.40	0	0.50	3.00	1.00	# 10CM A GCHE DU SPIT DU DEP DE LA MC DU P10
+		30.5	30.6	2.54	247.40	-6.20	0	0.50	0.20	1.30
+		30.6	30.7	1.79	268.20	-28.20	0.40	0	0.60	1.60
+		30.7	30.8	2.50	282.30	-16.90	1.00	2.50	1.60	1.20	# HT P10
+		30.8	30.9	11.66	26.60	-72.40	3.00	0.80	0.10	5.00	# BASE P10
+		extend left
+		30.9	13.9	0.00	0.00	0.00	0	0	0	0	# JCTION AVEC PT MALO 17/7/2018
+		30.9	30.10	2.80	292.60	13.00	0.30	0.20	0.30	1.10	# CALCITE FINE DEP MEANDRE DU mmm
+		30.10	30.11	4.71	19.20	-20.20	0.10	0.20	1.30	0	# ENTRE DEUX GOUR
+		30.11	30.12	6.08	9.80	-0.70	0	0.40	0.40	0.60
+		30.12	30.13	2.77	36.40	6.00	0.40	0.10	0.60	1.00
+		30.13	30.14	3.81	344.20	-0.60	0.00	0.20	0.30	1.40
+		30.14	30.15	6.01	16.10	-13.00	0.20	0.40	1.10	1.80	# NB DEP MC
+		30.15	30.16	2.88	25.10	-21.10	0.20	0.60	2.00	1.50	# NOEUD TETE DE PUITS
+		30.16	30.17	14.17	25.10	-84.20	1.20	1.00	7.00	10.00	# LAME PAROIE FACE AU FRAC
+		30.17	30.18	9.74	98.50	-65.50	0.80	1.00	1.50	0.40	# BLOC DU DAV
+		30.18	30.19	5.68	249.30	-18.80	0.80	1.30	2.40	1.90	# SPIT P9
+		30.19	30.20	9.33	220.30	-83.30	0.90	0.30	6.00	0.20	# BASE P9
+		30.20	30.21	4.62	77.90	-4.20	0.20	0.30	1.30	0.80
+		30.21	30.22	5.28	73.80	-5.60	0	0.30	1.00	0.30	# HT ETOITURE DE LA FISSURE
+		30.22	30.23	2.28	108.90	-7.50	0.20	0.20	3.00	1.00	# BAS ETROITURE DE LA FISSURE
+		30.23	30.24	4.39	77.90	-7.90	0.20	0.30	9.00	1.00	# SUITE DIACLASE
+		30.24	30.25	6.13	75.10	4.10	0	1.00	0.80	6.00
+		30.25	30.26	2.09	106.90	-9.40	2.00	0.20	0.60	0.40	# DS ANGLE DROIT
+		30.26	30.27	2.60	155.90	-3.80	0.20	0.50	0.70	0.80	# MITE SUR PAROIE SACHET DE THE ELEPHAN
+		30.27	30.28	2.22	169.80	12.90	0.50	0.40	0.40	1.20	# SOMMET PUITS FIL TOPO
+		30.28	30.29	1.10	111.90	18.10	0.10	0.60	0.20	1.80	# 1ER SPIT P100
+		30.20	31.0	0.00	0.00	0.00	0	0	0	0
+		extend right
+		31.0	31.1	8.00	165.00	-7.50	4.00	1.00	0.30	0.20	# FD P9
+	endcenterline
+	
+	centerline
+		date 2020.07
+		team "Philippe Monteil"
+		team "Vincent Lacombe"
+		
+		explo-date 2020
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend left
+		30.29	41.0	0.00	0.00	0.00	0.10	0.60	0.20	1.80	# TOPO PTS PHIL_VINCENT_07_2020
+		41.0	41.1	1.78	178.50	-21.00	0	0	0	0
+		41.1	41.2	0.93	89.00	-23.00	0	0	0	0
+		41.2	41.3	2.89	138.40	-83.00	0	0	0	0
+		41.3	42.0	0.00	0.00	0.00	0.80	1.00	2.00	0	# VERS LUCARNE FREDOUILLE & NINA
+		42.0	42.1	3.40	106.60	14.00	0.50	1.00	2.00	0
+		42.1	42.2	9.00	110.00	10.00	0.50	0.50	0.50	0.50	# FD ETROITURE NINA
+		41.3	41.4	5.24	33.70	-74.40	0	5.65	14.00	0.90	# FRAC 1 MARGELLE
+		41.4	41.5	19.38	126.00	-72.10	0	1.00	10.00	3.30	# FRAC 2
+		41.5	41.6	5.00	112.20	25.40	0.70	0.30	6.60	1.50	# FRAC3 FOSSILE PHOTO ?
+		41.6	41.7	18.00	65.50	-80.10	2.10	1.10	20.00	15.00	# FRAC4 APRES DEV
+		41.7	41.8	9.20	97.90	-85.80	4.60	0	20.00	11.40
+		41.8	41.9	21.50	23.10	-75.60	3.50	0	2.00	2.00	# DESSIN SECTION
+		41.9	41.10	8.15	56.10	-54.60	2.30	1.60	2.50	1.00	# DEP MC
+		41.10	41.11	3.94	74.40	-24.50	0	0.60	3.20	1.50
+		41.11	41.12	10.00	226.40	-87.20	5.40	0	12.00	1.70
+		41.12	41.13	1.77	286.00	-10.70	0.10	2.40	10.00	5.00	# TETE PTS COULEE CALCITE
+		41.13	41.14	21.80	297.30	-71.80	0.70	0.60	19.00	6.40
+		41.14	41.15	5.50	308.00	-58.30	0	0.60	4.60	10.00	# DEP MC DANS DIACLASE
+		41.15	41.16	3.92	3.40	12.10	0.70	0.60	2.00	6.00	# DECALLAGE MC DANS DIACLASE
+		41.16	41.17	35.90	304.80	-60.70	0.70	0.60	2.00	6.00
+		41.17	41.18	15.00	304.80	-70.70	0.20	0.20	1.00	1.00	# VERS FOND ACTIF PART DANS TROU DE 20CM DE DIAM
+		
+	endcenterline
+	
+	
+endsurvey

@@ -1,0 +1,171 @@
+encoding utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'apr�s Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Gouffre_Moquette_qui_suinte -title "Gouffre Moquette qui suinte P66 (ou P63)"
+	
+	centerline
+		
+		cs UTM32
+		fix Gouffre_Moquette_qui_suinte 322894.00 5094747.00 2330.00
+		station Gouffre_Moquette_qui_suinte "Gouffre Moquette qui suinte" entrance
+		
+		
+		date 2019.07.24   # Date à confirmer
+		team "Philippe Monteil"
+		team "Mathilde Hamm"
+		
+		explo-date 2019
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		#--/--/---- M ;Topographe Phil et Mathilde - DistoX CESAME;
+		Gouffre_Moquette_qui_suinte	0d	0.00	0.00	0.00	0	0	0	0	#
+		Gouffre_Moquette_qui_suinte	1.0	0.00	0.00	0.00	0.80	0.00	0.00	5.00	#  N ;AF de gauche
+		1.0	1.1	4.96	81.40	-77.50	2.00	1.50	5.00	0.00	#  N ;Haut névé base P5 d'entrée
+		1.1	1.2	5.33	89.70	-19.50	4.00	1.00	1.50	4.00	#  N ;Becquet haut R3 = 2.0
+		1.2	1.3	3.22	102.30	-72.00	2.00	0.40	2.00	1.50	#  N ;Points Marqué sur bloc
+		1.3	1.4	2.28	85.40	-18.40	0.00	0.30	0.50	6.00	#  N ;Haut P7
+		1.4	1.5	6.17	81.80	-59.70	0.00	2.50	1.50	4.70	#  N ;A gauche à la base de l'escalade = point marqué
+		1.5	1.6	8.42	103.20	53.70	0.00	1.00	1.20	1.50	#  N ;Haut escalade
+		1.6	1.7	1.60	185.70	-23.10	0.80	0.00	1.00	0.20	#  N ;Virage méandre
+		1.7	1.8	3.60	82.30	-4.10	0.00	0.40	0.60	1.30	#
+		1.8	1.9	1.23	111.10	-5.70	0.60	0.00	0.80	1.30	#
+		1.9	1.10	2.45	59.80	4.70	0.00	0.60	0.80	1.50	#  N ;Après pipi
+		1.10	1.11	2.38	109.50	-9.50	1.50	0.00	0.40	1.30	#
+		1.11	1.12	2.63	15.90	-17.80	0.80	0.00	2.50	1.00	#  N ;Becquet au dessus du P10 = 3.0=4.0=45.14
+		1.12	1.13	0.89	333.30	15.40	0.00	0.20	1.00	2.00	#
+		1.13	1.14	2.79	12.20	9.70	0.20	0.80	1.80	1.20	#  N ;Méandre amont actif
+		1.14	1.15	2.39	22.20	36.10	0.40	0.00	2.00	1.50	#  N ;Méandre en escalier, marches de 60 cm
+		1.15	1.16	4.75	1.80	44.00	1.50	1.50	0.50	5.00	#  N ;Petite salle ronde arosée
+		1.2	2.0	0.00	0.00	0.00	0.00	0.50	0.40	0.20	#
+		2.0	2.1	3.31	201.90	-13.80	0.30	0.00	0.20	1.30	#
+		2.1	2.2	4.13	186.00	-65.60	1.50	0.50	2.00	0.00	#  N ;Fond bouché
+		1.12	3.0	0.00	0.00	0.00	0.40	0.40	1.00	1.00	#  N ;sommet du P10 = 1.12
+		3.0	3.1	0.59	196.80	3.70	0.80	1.00	1.00	10.00	#  N ;Noeud du Y du P10
+		3.1	3.2	10.39	222.90	-89.20	0.90	0.90	1.40	0.50	#  N ;Fond non marqué
+		1.12	4.0	0.00	0.00	0.00	0.00	0.50	1.50	1.50	#  N ;M�andre fossile soufflant = 1.12
+		4.0	4.1	1.68	127.40	-17.10	0.60	0.00	2.00	0.40	#
+		4.1	4.2	2.35	68.40	6.50	0.10	0.20	1.50	1.00	#
+		4.2	4.3	1.40	101.10	4.90	0.40	0.00	2.00	1.50	#  N ;Prévoir massette
+		1.5	6.0	0.00	0.00	0.00	2.00	0.20	5.20	1.20	#  N ;AVAL ZONE ENTREE _ BEB PHIL 19_08_19 = 1.5 DU 26_7
+		6.0	6.1	2.41	249.00	-18.50	0.20	1.40	5.70	0.90	#
+		6.1	6.2	3.52	54.20	-18.70	2.10	0.50	1.30	1.60	#  N ;avt étroiture ds bloc
+		6.2	6.3	1.83	11.20	-44.60	0.50	0.10	0.30	0.50	#  N ;ds étroiture
+		6.3	6.4	3.26	17.00	-31.10	0.60	0.50	0.30	0.70	#  N ;béquet
+		6.4	6.5	1.51	299.50	4.40	0.30	1.70	1.20	1.20	#
+		6.5	6.6	5.84	77.50	-26.70	1.30	0.60	0.40	1.60	#  N ;niche fossile ? diam 1cm
+		6.6	6.7	3.17	354.60	-39.10	0.50	0.70	0.60	2.80	#
+		6.7	6.8	4.16	86.80	-16.40	0.40	0.30	0.30	1.80	#
+		6.8	6.9	4.83	59.20	-31.50	0.20	1.00	0.60	4.30	#
+		6.9	6.10	3.30	334.00	-81.00	0.20	1.00	1.00	5.00	#  N ;base R4
+		6.10	6.11	2.34	70.60	-23.20	1.00	1.50	2.90	0	#  N ;ht P3
+		6.11	6.12	2.29	277.50	-59.60	0	0.80	5.00	1.00	#
+		6.12	8.0	0.00	0.00	0.00	0	0.90	1.00	1.00	#
+		8.0	8.1	4.34	289.90	-0.10	0.50	0	2.00	0.50	#
+		8.1	8.2	2.00	267.90	10.00	0	0	2.00	1.00	#
+		8.2	8.3	2.05	303.30	-20.30	0.20	0.20	0.10	1.00	#  N ;visée dans amont étroit
+		6.10	7.0	0.00	0.00	0.00	1.00	1.00	1.00	3.00	#
+		7.0	7.1	5.43	105.80	-11.80	0	1.20	1.10	0.10	#
+		7.1	7.2	1.20	242.50	20.90	1.00	0.10	0.70	0.40	#  N ;callage
+		7.2	7.3	3.42	103.50	-14.00	0	1.40	1.20	0	#  N ;billes argiles bouché
+		6.12	6.13	1.46	88.10	-5.40	0.60	1.00	1.00	0.50	#
+		6.13	6.14	2.16	15.40	-4.10	0	0.20	1.00	0.50	#
+		6.14	6.15	2.20	49.50	-2.60	0.10	0.10	0.20	0.50	#  N ;jonction topo ??
+		
+	endcenterline
+	
+	
+	centerline
+		
+		date 2020.07.31
+		team "Philippe Monteil"
+		team "Bertrand Hamm"
+		team "David Cantalupi"
+		
+		explo-date 2020
+		explo-team "CESAME"
+		
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		#--/--/---- M ;BEB PHIL DAV 31/07/2020 MAIS 30 SOUS TERRE (ERREUR) DU FOND VERS AMMARRAGES P10;
+		40.0	40.0d	0.00	0.00	0.00	0.20	0.10	2.00	0.30	#  N ;PT MARQUE =41.0
+		40.0	41.0	0.00	0.00	0.00	1.20	0	0.20	1.60	#
+		40.0	40.1	4.04	341.00	-20.00	0.20	0.10	2.00	0.30	#  N ;BLOC MILIEU
+		40.1	40.2	2.24	293.40	12.10	0.00	0.40	1.50	0.10	#  N ;PAROIE GCHE
+		40.2	40.3	1.92	341.10	18.90	0.10	0.40	0.60	0.70	#
+		40.3	40.4	2.66	8.80	11.80	0.30	0.10	0.20	1.10	#
+		40.4	40.5	3.31	302.40	2.70	0	0.20	0.10	1.80	#  N ;APRES OS SUR BLOC LIGNE EN HAUT
+		40.5	40.6	1.88	344.70	-49.40	0	0.80	1.50	0.30	#
+		40.6	40.7	2.93	1.00	38.20	0.40	0	0.30	1.80	#  N ;DS VIRAGE GCH
+		40.7	40.8	1.24	265.90	-11.10	0.20	0.30	0.40	1.70	#  N ;DS VIRAGE DTE
+		40.8	40.9	1.50	351.10	8.10	0.40	0.10	0.10	2.00	#  N ;SECTION BB'
+		40.9	40.10	7.75	339.40	0.60	0.90	0.30	0	1.80	#  N ;=43.0
+		40.10	43.0	0.00	0.00	2.00	0.20	0.30	0	2.00	#
+		43.0	43.1	2.91	255.40	2.00	0.20	0.30	0	2.00	#
+		40.10	40.11	12.06	347.00	-1.00	0.30	0.40	0.20	2.00	#  N ;=44.0=45.0
+		40.11	44.0	0.00	0.00	0.00	1.50	0.50	0.50	1.00	#
+		44.0	44.1	5.23	274.40	-16.50	0.50	0.50	0.20	0.20	#
+		44.1	44.2	3.80	292.00	-2.70	0.50	0.50	0.20	0.20	#  N ;JONCTION POTENTIELLE AVEC 6.14 OU 6.15
+		40.11	45.0	0.00	0.00	0.00	0	0	0	0	#  N ;SUITE REMONTEE
+		45.0	45.1	10.60	168.50	46.00	0.50	3.00	5.00	2.00	#  N ;HT P8
+		45.1	45.2	5.18	250.30	48.00	0.50	0.60	6.00	2.00	#  N ;HT P4
+		45.2	45.3	1.85	192.00	-7.20	1.00	2.00	8.00	1.50	#  N ;BLOC BASE P6
+		45.3	45.4	5.54	269.00	80.50	0.30	0	0.20	5.00	#  N ;AMMARRAGE
+		45.4	45.5	5.69	248.00	16.00	0	0.80	0.50	5.00	#
+		45.5	46.0	0.00	0.00	0.00	0.50	0.50	1.00	2.00	#  N ;DEP ANNEXE
+		46.0	46.1	6.89	153.00	48.00	0.50	0.20	0.50	1.00	#
+		45.5	45.6	1.58	253.00	7.00	0.30	0.60	0.60	3.00	#  N ;SUR BLOC
+		45.6	45.7	5.60	219.00	-4.60	1.00	0	1.50	6.00	#
+		45.7	45.8	3.65	104.20	19.60	0	1.00	1.30	5.00	#  N ;BASE R4
+		45.8	45.9	4.97	217.50	53.30	0.80	0	2.00	1.00	#  N ;DEBUT MEANDRE DESOB TRITONS
+		45.9	45.10	3.48	256.00	-4.20	0.60	0.20	4.00	1.00	#
+		45.10	45.11	3.50	246.00	46.00	0.50	0	0.40	2.00	#  N ;DESOB GUY
+		45.11	45.12	3.75	242.00	-1.50	0.50	0	1.00	1.00	#
+		45.12	45.13	3.97	254.50	-2.30	0	0.30	1.00	1.50	#
+		45.13	45.14	1.72	276.20	10.50	0.50	0.50	1.00	1.50	#  N ;=1.12 AF P10 ATTENTION LE PT 1.12 EST SUR UN BECQUET JUSTE AU DESSUS
+		45.14	1.12	0.00	0.00	0.00	0	0	0	0	#
+		40.9	42.0	0.00	0.00	0.00	0.20	0.10	0.10	1.00	#
+		42.0	42.1	5.39	242.30	0.00	0.20	0.10	0.10	1.00	#
+		
+	endcenterline
+	
+	
+	centerline
+		
+		date 2023.07.20
+		team "Philippe Monteil"
+		team "Janet Saumet"
+		
+		explo-date 2020
+		explo-team "CESAME"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		#--/--/---- M ;vis�es du 20_07_23 janet Phil distoX C�same;
+		41.0	41.1	5.99	71.50	-11.50	0.20	0	1.00	0.50	#
+		41.1	41.2	7.16	82.00	-3.80	0.40	0	0.60	0.60	#
+		41.2	41.3	9.15	73.30	-4.40	0	0.20	1.20	0.60	#
+		41.3	41.4	2.14	88.90	-7.30	0.20	0.00	1.20	0.60	#
+		41.4	41.5	5.21	68.40	-4.50	0	0.20	2.00	1.80	#
+		41.5	41.6	3.30	81.40	3.50	0.60	0.50	1.00	1.60	#
+		41.6	41.7	10.00	80.00	0.00	0.30	0.30	0.30	0.30	#  N ;FICTIF VERS DESOB EN COURS
+		
+	endcenterline
+	
+	
+endsurvey

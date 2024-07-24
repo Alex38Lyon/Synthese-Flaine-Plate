@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Flaine_Plate -title "Karst de Faine / Platé"
+	# Pour importer les différentes données des différents fichiers topos :
+	
+	input Data/Gouffre_de_la_petite_Marielle/Gouffre_de_la_petite_Marielle-tot.th
+	input Data/Gouffre_Moquette_qui_suinte/Gouffre_Moquette_qui_suinte-tot.th
+	input Data/Gouffre_Chimelle/Gouffre_Chimelle-tot.th
+	input Data/Grotte_de_Monthieu/Grotte_de_Monthieu-tot.th
+	input Data/L_oeil_central_des_3_yeux/L_oeil_central_des_3_yeux-tot.th
+	input Data/Gouffre_du_Colonney/Gouffre_du_Colonney-tot.th
+	input Data/Grotte_des_3_gros/Grotte_des_3_gros-tot.th
+	
+	# Import maps
+	#input Koytendag-maps.th
+	
+endsurvey

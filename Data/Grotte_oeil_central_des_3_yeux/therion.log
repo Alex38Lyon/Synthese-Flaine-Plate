@@ -1,0 +1,71 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: L_oeil_central_des_3_yeux.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6451
+geomag declinations (deg):
+  2018.1.1  1.9850
+  2019.1.1  2.1371
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 4.45%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 18 stations, connect‚es par 18 vis‚es.
+ 5> Il y a 1 bouclage.
+ 6> Longueur totale de la topographie =   63.20m (  62.70m ajust‚)
+ 7> Longueur totale en projection horizontale =   62.06m
+ 8> Longueur totale verticale =    8.13m
+ 9> Intervalle vertical = 3.42m (de 9 … 2295.53m jusqu'… 16 … 2292.10m)
+10> Intervalle Nord-Sud = 12.60m (de 9 … 5094854.59m jusqu'… 18 … 5094841.98m)
+11> Intervalle Est-Ouest = 34.61m (de 9 … 322901.51m jusqu'… 17 … 322866.90m)
+12>    2 1-noeuds.
+13>   14 2-noeuds.
+14>    2 3-noeuds.
+15> 
+######################### transcription ########################
+ 4> 18 : 2.8@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux -- 18 : 2.8@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+ 5> 1 : L_oeil_central_des_3_yeux@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+ 9> 9 : 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux -- 16 : 2.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+10> 9 : 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux -- 18 : 2.8@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+11> 9 : 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux -- 17 : 2.7@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+12> 2 : 0d@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+13> 14 : 2.4@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+14> 2 : 0d@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing Data/L_oeil_central_des_3_yeux-map.xvi ... done
+writing Outputs/L_oeil_central_des_3_yeux.lox ... done
+writing Outputs/L_oeil_central_des_3_yeux-model.kml ... done
+writing Outputs/L_oeil_central_des_3_yeux-3D.kml ... done
+writing Outputs/L_oeil_central_des_3_yeux.html ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  4.45%    1.9m   43.5m  12   -1.8m   -0.7m    0.2m [1.0@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux - 2.8 - 2.7 - 2.6 - 2.5 - 2.4 - 2.3 - 2.2 - 2.1 - 2.0 - 1.2 - 1.1 - 1.0]
+##################### end of loop errors #######################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.713, 45.984) (6.713, 45.984)
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

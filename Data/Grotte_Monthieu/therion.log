@@ -1,0 +1,66 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Grotte_de_Monthieu.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6575
+geomag declinations (deg):
+  2021.1.1  2.4482
+  2022.1.1  2.6115
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 13 stations, connect‚es par 12 vis‚es.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =   54.62m (  54.62m ajust‚)
+ 7> Longueur totale en projection horizontale =   39.70m
+ 8> Longueur totale verticale =   28.05m
+ 9> Intervalle vertical = 17.91m (de 3 … 2203.72m jusqu'… 13 … 2185.81m)
+10> Intervalle Nord-Sud = 23.49m (de 3 … 5094607.94m jusqu'… 13 … 5094584.45m)
+11> Intervalle Est-Ouest = 8.19m (de 3 … 321519.15m jusqu'… 10 … 321510.96m)
+12>    4 1-noeuds.
+13>    7 2-noeuds.
+14>    2 3-noeuds.
+15> 
+######################### transcription ########################
+ 4> 13 : 6@Grotte_de_Monthieu.Grotte_de_Monthieu -- 12 : 5@Grotte_de_Monthieu.Grotte_de_Monthieu
+ 9> 3 : 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu -- 13 : 6@Grotte_de_Monthieu.Grotte_de_Monthieu
+10> 3 : 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu -- 13 : 6@Grotte_de_Monthieu.Grotte_de_Monthieu
+11> 3 : 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu -- 10 : 3@Grotte_de_Monthieu.Grotte_de_Monthieu
+12> 4 : 1bas@Grotte_de_Monthieu.Grotte_de_Monthieu
+13> 7 : A2@Grotte_de_Monthieu.Grotte_de_Monthieu
+14> 2 : 0d@Grotte_de_Monthieu.Grotte_de_Monthieu
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing Data/Grotte_de_Monthieu-map.xvi ... done
+writing Outputs/Grotte_de_Monthieu.lox ... done
+writing Outputs/Grotte_de_Monthieu-model.kml ... done
+writing Outputs/Grotte_de_Monthieu-3D.kml ... done
+writing Outputs/Grotte_de_Monthieu.html ... done
+compilation time: 0 sec
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.696, 45.982) (6.696, 45.982)
+  [LONG-LAT â†’ LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+  [LONG-LAT â†’ EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

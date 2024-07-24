@@ -1,0 +1,84 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Grotte_des_3_gros.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6726
+geomag declinations (deg):
+  2024.1.1  2.9329
+  2025.1.1  3.0957
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.48%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 109 stations, connect‚es par 109 vis‚es.
+ 5> Il y a 2 bouclages.
+ 6> La topographie contient 2 composants connect‚s.
+ 7> Longueur totale de la topographie =   52.34m (  52.33m ajust‚)
+ 8> Longueur totale en projection horizontale =   50.68m
+ 9> Longueur totale verticale =    7.31m
+10> Intervalle vertical = 4.88m (de 9 … 1568.08m jusqu'… 18 … 1563.21m)
+11> Intervalle Nord-Sud = 27.58m (de 51 … 5096680.40m jusqu'… 7 … 5096652.81m)
+12> Intervalle Est-Ouest = 13.78m (de 19 … 320007.09m jusqu'… 7 … 319993.30m)
+13>   98 1-noeuds.
+14>    1 6-noeud.
+15>    2 7-noeuds.
+16>    2 9-noeuds.
+17>    2 12-noeuds.
+18>    1 13-noeud.
+19>    3 15-noeuds.
+20> 
+######################### transcription ########################
+ 4> 109 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 109 : .@Grotte_des_3_gros.Grotte_des_3_gros
+ 5> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+ 6> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+10> 9 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 18 : .@Grotte_des_3_gros.Grotte_des_3_gros
+11> 51 : 10@Grotte_des_3_gros.Grotte_des_3_gros -- 7 : .@Grotte_des_3_gros.Grotte_des_3_gros
+12> 19 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 7 : .@Grotte_des_3_gros.Grotte_des_3_gros
+13> 98 : .@Grotte_des_3_gros.Grotte_des_3_gros
+14> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+15> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+16> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+17> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+18> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+19> 3 : .@Grotte_des_3_gros.Grotte_des_3_gros
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing Data/Grotte_des_3_gros-map.xvi ... done
+writing Outputs/Grotte_des_3_gros.lox ... done
+writing Outputs/Grotte_des_3_gros-model.kml ... done
+writing Outputs/Grotte_des_3_gros-3D.kml ... done
+writing Outputs/Grotte_des_3_gros.html ... done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.48%    0.2m   49.5m  10   -0.2m    0.0m    0.1m [Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros - 18 - 17 - 16 - 13 - 11 - 7 - 5 - 3 - 1 - Grotte_des_3_gros]
+##################### end of loop errors #######################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.675, 46.000) (6.675, 46.000)
+  [LONG-LAT â†’ LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+  [LONG-LAT â†’ EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

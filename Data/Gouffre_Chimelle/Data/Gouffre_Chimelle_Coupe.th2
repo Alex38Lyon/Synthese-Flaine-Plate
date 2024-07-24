@@ -1,0 +1,128 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 2175.2452000000003 4694.9316
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {787.3999999999999 1 1.0} {4133.860000000001 Gouffre_Chimelle} Gouffre_Chimelle-coupe.xvi 0 {}
+
+
+
+scrap SC-Gouffre_Chimelle -projection extended -station-names "" "@Gouffre_Chimelle" -author 2021 "Philippe Monteil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+line wall
+  490.0 4126.0
+  490.0 4126.0 714.0 4138.0 740.0 4112.0
+  766.0 4086.0 791.0 4060.0 803.0 4036.0
+  815.0 4012.0 921.0 3531.0 929.0 3499.0
+  937.0 3467.0 961.0 3350.0 963.0 3324.0
+  965.0 3298.0 972.0 2932.0 980.0 2902.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  980.0 2902.0
+  988.0 2872.0 1000.0 2790.0 1128.0 2786.0
+  1162.01 2784.94 1212.0 2784.0 1214.0 2758.0
+  smooth off
+endline
+
+line wall
+  1214.0 2758.0
+  1216.0 2732.0 1180.04 1774.82 1182.0 1748.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  1182.0 1748.0
+  1188.0 1666.0 1255.7 1664.46 1376.0 1586.0
+  1422.0 1556.0 1444.0 1568.0 1448.0 1516.0
+  smooth off
+endline
+
+line wall
+  1448.0 1516.0
+  1452.0 1464.0 1464.0 908.17 1464.0 864.0
+  1464.0 819.0 1479.0 593.5 1479.0 573.0
+  smooth off
+endline
+
+point 1618.0 996.0 wall-calcite
+
+point 1618.0 1224.0 wall-calcite
+
+point 1132.0 1124.0 label -text [Calcite décomposée]
+
+point 1108.0 606.0 label -text [Traces de boue <br>jusqu'a 2,5m]
+
+line wall -subtype clay
+  1479.0 573.0
+  1477.0 501.0 1484.0 466.0 1484.0 466.0
+  smooth off
+  1678.0 473.0
+  altitude .
+  1678.0 473.0 1681.0 543.0 1675.0 572.0
+  smooth off
+endline
+
+point 729.0 4343.0 entrance -orientation 167.6
+
+point 1318.0 1637.0 bones
+
+point 1089.0 2807.0 bones
+
+line rope
+  779.0 4120.0
+  848.0 4121.0
+  985.0 3336.0
+  1059.0 3337.0
+  1059.0 2859.0
+  1143.0 2858.0
+  1270.0 2819.0
+  1327.0 2808.0
+  1333.0 1669.0
+  1487.0 1600.0
+  1487.0 1600.0 1550.0 1596.0 1553.0 1594.0
+  1556.0 1592.0 1544.0 487.0 1544.0 487.0
+  smooth off
+endline
+
+line wall
+  1675.0 572.0
+  1674.0 587.5 1677.0 698.0 1673.0 712.0
+  1669.0 726.0 1645.52 1417.33 1644.0 1460.0
+  1637.0 1657.0 1663.32 1666.46 1516.0 1664.0
+  1396.0 1662.0 1414.0 1742.0 1398.0 1784.0
+  1382.0 1826.0 1392.0 2068.0 1388.0 2176.0
+  1384.0 2284.0 1414.0 2808.0 1372.0 2828.0
+  1330.0 2848.0 1282.0 2838.0 1238.0 2884.0
+  1223.56 2899.09 1202.0 2962.0 1170.0 2980.0
+  1138.0 2998.0 1138.0 3064.0 1130.0 3150.0
+  1122.0 3236.0 1121.67 3329.59 1117.0 3366.0
+  1112.0 3405.0 1025.0 3614.0 1005.0 3678.0
+  985.0 3742.0 878.35 4055.29 876.0 4077.0
+  872.0 4114.0 826.0 4118.0 988.0 4124.0
+  smooth off
+  altitude .
+endline
+
+point 1600.24 475.2000000000003 station -name fd
+
+point 1559.6799999999998 1442.5200000000002 station -name 1
+
+point 1507.01 1578.3500000000004 station -name 2
+
+point 1312.94 1759.4500000000003 station -name 3
+
+point 1222.1399999999999 2818.51 station -name 4
+
+point 1077.05 2900.4 station -name 5
+
+point 1046.8799999999999 3321.26 station -name 6
+
+point 985.1199999999999 3512.9900000000002 station -name 7
+
+point 823.2099999999999 4059.84 station -name 8
+
+point 787.3999999999999 4133.860000000001 station -name 9
+
+endscrap
+
+

@@ -1,0 +1,23 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Gouffre_Moquette_qui_suinte -title "Gouffre de la Moquette qui suinte"
+	SP-Gouffre_Moquette_qui_suinte_00
+	break
+	SP-Gouffre_Moquette_qui_suinte_01
+	break
+	SP-Gouffre_Moquette_qui_suinte_02
+	break
+	SP-Gouffre_Moquette_qui_suinte_03
+	break
+endmap
+
+
+#map MC-Gouffre_Moquette_qui_suinte -title "Gouffre_Moquette_qui_suinte"
+#	SC-Gouffre_Moquette_qui_suinte-1
+
+#endmap
+

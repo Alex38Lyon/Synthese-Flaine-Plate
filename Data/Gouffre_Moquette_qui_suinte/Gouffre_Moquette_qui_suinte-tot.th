@@ -1,0 +1,18 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'après Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Gouffre_Moquette_qui_suinte -title "Gouffre de la moquette qui suinte"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/Gouffre_Moquette_qui_suinte.th
+	
+	# Import du dessin en plan
+	input  Data/Gouffre_Moquette_qui_suinte_Plan.th2
+	
+	# Import des maps
+	input Gouffre_Moquette_qui_suinte-maps.th
+	
+endsurvey
