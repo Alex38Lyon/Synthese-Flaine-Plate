@@ -1,0 +1,15 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Grotte_du_lac -title "Grotte du Lac (GRSIF 71.26)"
+	SP-Grotte_du_lac_00
+endmap
+
+
+#map MC-Grotte_du_lac -title "Gouffre du Colonney"
+#	SC-Grotte_du_lac_00
+#endmap
+

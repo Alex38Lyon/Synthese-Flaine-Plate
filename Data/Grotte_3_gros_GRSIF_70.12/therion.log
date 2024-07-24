@@ -1,0 +1,157 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Grotte_des_3_gros.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.6739
+geomag declinations (deg):
+  2024.1.1  2.9326
+  2025.1.1  3.0954
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.14%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 114 stations, connect‚es par 114 vis‚es.
+ 5> Il y a 2 bouclages.
+ 6> La topographie contient 2 composants connect‚s.
+ 7> Longueur totale de la topographie =   25.76m (  25.79m ajust‚)
+ 8> Longueur totale en projection horizontale =   25.70m
+ 9> Longueur totale verticale =    1.72m
+10> Intervalle vertical = 6.69m (de 8 … 1569.92m jusqu'… 19 … 1563.23m)
+11> Intervalle Nord-Sud = 27.32m (de 59 … 5097040.53m jusqu'… 4 … 5097013.21m)
+12> Intervalle Est-Ouest = 13.68m (de 31 … 319897.55m jusqu'… 4 … 319883.87m)
+13>  104 1-noeuds.
+14>    1 2-noeud.
+15>    1 9-noeud.
+16>    1 10-noeud.
+17>    1 11-noeud.
+18>    2 13-noeuds.
+19>    2 15-noeuds.
+20>    1 16-noeud.
+21>    1 20-noeud.
+22> 
+######################### transcription ########################
+ 4> 114 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 114 : .@Grotte_des_3_gros.Grotte_des_3_gros
+ 5> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+ 6> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+10> 8 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 19 : .@Grotte_des_3_gros.Grotte_des_3_gros
+11> 59 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 4 : .@Grotte_des_3_gros.Grotte_des_3_gros
+12> 31 : .@Grotte_des_3_gros.Grotte_des_3_gros -- 4 : .@Grotte_des_3_gros.Grotte_des_3_gros
+13> 104 : .@Grotte_des_3_gros.Grotte_des_3_gros
+14> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+15> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+16> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+17> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+18> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+19> 2 : .@Grotte_des_3_gros.Grotte_des_3_gros
+20> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+21> 1 : Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.04%
+
+
+############### export maps & scraps selection #################
+M  1564.67 MP-Grotte_des_3_gros@Grotte_des_3_gros (Grotte des trois gros)
+S  1564.67 SP-Grotte_des_3_gros_00@Grotte_des_3_gros ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Grotte_des_3_gros-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 18:57
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] (./mptextmp.mp) [4] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] [6] [7]
+[8] [9] [10] [11] [12] [13] [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2459 strings using 66081 characters
+ 2833796 bytes of node memory
+ 1745 symbolic tokens
+ 9i,82n,12p,312b,5f stack positions out of 16i,98n,15p,312b,6f
+29 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 18:57
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 63 numeric registers used out of 32768
+
+[1] )
+(\end occurred when \ifx on line 12 was incomplete) 
+Here is how much of TeX's memory you used:
+ 320 strings out of 94604
+ 4255 string characters out of 1142524
+ 72184 words of memory out of 5050912
+ 1972 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 12i,5n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Ther
+ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
+pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
+:/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 66070 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Grotte_des_3_gros.lox .... done
+writing Outputs/Grotte_des_3_gros-model.kml ... done
+writing Outputs/Grotte_des_3_gros-3D.kml ... done
+writing Outputs/Grotte_des_3_gros.html ... done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  1.14%    0.6m   49.6m  10    0.4m   -0.1m   -0.4m [Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros - 8 - 7 - 6 - 5 - 4b - 4 - 3 - 2 - 1 - Grotte_des_3_gros]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.04%    0.18%  SP-Grotte_des_3_gros_00@Grotte_des_3_gros
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.674, 46.003) (6.674, 46.003)
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

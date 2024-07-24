@@ -64,7 +64,7 @@ S     0.00 SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_de_la_petite_Marielle-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 12:51
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 17:09
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -78,7 +78,7 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [23] [24] [25] [26] [27] )
  
 Here is how much of MetaPost's memory you used:
- 9549 strings using 240205 characters
+ 9549 strings using 240214 characters
  2592624 bytes of node memory
  1756 symbolic tokens
  9i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
@@ -89,7 +89,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 17:09
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -102,7 +102,7 @@ entering extended mode
 Here is how much of TeX's memory you used:
  340 strings out of 94604
  4486 string characters out of 1142524
- 31508 words of memory out of 5014236
+ 31596 words of memory out of 5014324
  1992 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -111,7 +111,7 @@ Here is how much of TeX's memory you used:
 iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therio
 n/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type
 1/csssi10.pfb>
-Output written on data.pdf (1 page, 79565 bytes).
+Output written on data.pdf (1 page, 79737 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
@@ -134,7 +134,7 @@ S  2106.46 SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_de_la_petite_Marielle-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 12:51
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 17:09
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -158,7 +158,7 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] )
  
 Here is how much of MetaPost's memory you used:
- 10453 strings using 260196 characters
+ 10453 strings using 260205 characters
  2632936 bytes of node memory
  1757 symbolic tokens
  9i,82n,16p,536b,5f stack positions out of 16i,98n,20p,608b,6f
@@ -169,7 +169,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 17:09
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -183,7 +183,7 @@ entering extended mode
 Here is how much of TeX's memory you used:
  352 strings out of 94604
  4579 string characters out of 1142524
- 42888 words of memory out of 5025616
+ 42976 words of memory out of 5025704
  2004 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -192,7 +192,7 @@ Here is how much of TeX's memory you used:
 ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
 pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
 :/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 102104 bytes).
+Output written on data.pdf (1 page, 102299 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream

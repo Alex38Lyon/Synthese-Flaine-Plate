@@ -1,7 +1,7 @@
 encoding utf-8
 
 # Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
-# Fichiers / Organisation dossiers, d'apr�s Xavier Robert
+# Fichiers / Organisation dossiers, d'après Xavier Robert
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
@@ -26,6 +26,7 @@ survey Gouffre_Moquette_qui_suinte -title "Gouffre Moquette qui suinte P66 (ou P
 		units clino degrees
 		
 		data topofil from to length compass clino left right up down
+		extend right
 		#--/--/---- M ;Topographe Phil et Mathilde - DistoX CESAME;
 		Gouffre_Moquette_qui_suinte	0d	0.00	0.00	0.00	0	0	0	0	#
 		Gouffre_Moquette_qui_suinte	1.0	0.00	0.00	0.00	0.80	0.00	0.00	5.00	#  N ;AF de gauche
@@ -46,11 +47,15 @@ survey Gouffre_Moquette_qui_suinte -title "Gouffre Moquette qui suinte P66 (ou P
 		1.14	1.15	2.39	22.20	36.10	0.40	0.00	2.00	1.50	#  N ;Méandre en escalier, marches de 60 cm
 		1.15	1.16	4.75	1.80	44.00	1.50	1.50	0.50	5.00	#  N ;Petite salle ronde arosée
 		1.2	2.0	0.00	0.00	0.00	0.00	0.50	0.40	0.20	#
+		extend left
 		2.0	2.1	3.31	201.90	-13.80	0.30	0.00	0.20	1.30	#
 		2.1	2.2	4.13	186.00	-65.60	1.50	0.50	2.00	0.00	#  N ;Fond bouché
+		extend right
 		1.12	3.0	0.00	0.00	0.00	0.40	0.40	1.00	1.00	#  N ;sommet du P10 = 1.12
+		extend left
 		3.0	3.1	0.59	196.80	3.70	0.80	1.00	1.00	10.00	#  N ;Noeud du Y du P10
 		3.1	3.2	10.39	222.90	-89.20	0.90	0.90	1.40	0.50	#  N ;Fond non marqué
+		extend right
 		1.12	4.0	0.00	0.00	0.00	0.00	0.50	1.50	1.50	#  N ;M�andre fossile soufflant = 1.12
 		4.0	4.1	1.68	127.40	-17.10	0.60	0.00	2.00	0.40	#
 		4.1	4.2	2.35	68.40	6.50	0.10	0.20	1.50	1.00	#
@@ -73,9 +78,11 @@ survey Gouffre_Moquette_qui_suinte -title "Gouffre Moquette qui suinte P66 (ou P
 		8.1	8.2	2.00	267.90	10.00	0	0	2.00	1.00	#
 		8.2	8.3	2.05	303.30	-20.30	0.20	0.20	0.10	1.00	#  N ;visée dans amont étroit
 		6.10	7.0	0.00	0.00	0.00	1.00	1.00	1.00	3.00	#
+		extend left
 		7.0	7.1	5.43	105.80	-11.80	0	1.20	1.10	0.10	#
 		7.1	7.2	1.20	242.50	20.90	1.00	0.10	0.70	0.40	#  N ;callage
 		7.2	7.3	3.42	103.50	-14.00	0	1.40	1.20	0	#  N ;billes argiles bouché
+		extend right
 		6.12	6.13	1.46	88.10	-5.40	0.60	1.00	1.00	0.50	#
 		6.13	6.14	2.16	15.40	-4.10	0	0.20	1.00	0.50	#
 		6.14	6.15	2.20	49.50	-2.60	0.10	0.10	0.20	0.50	#  N ;jonction topo ??
@@ -99,6 +106,7 @@ survey Gouffre_Moquette_qui_suinte -title "Gouffre Moquette qui suinte P66 (ou P
 		units clino degrees
 		
 		data topofil from to length compass clino left right up down
+		extend left
 		#--/--/---- M ;BEB PHIL DAV 31/07/2020 MAIS 30 SOUS TERRE (ERREUR) DU FOND VERS AMMARRAGES P10;
 		40.0	40.0d	0.00	0.00	0.00	0.20	0.10	2.00	0.30	#  N ;PT MARQUE =41.0
 		40.0	41.0	0.00	0.00	0.00	1.20	0	0.20	1.60	#
@@ -156,7 +164,8 @@ survey Gouffre_Moquette_qui_suinte -title "Gouffre Moquette qui suinte P66 (ou P
 		units clino degrees
 		
 		data topofil from to length compass clino left right up down
-		#--/--/---- M ;vis�es du 20_07_23 janet Phil distoX C�same;
+		extend right
+		#--/--/---- M ;visées du 20_07_23 janet Phil distoX Césame;
 		41.0	41.1	5.99	71.50	-11.50	0.20	0	1.00	0.50	#
 		41.1	41.2	7.16	82.00	-3.80	0.40	0	0.60	0.60	#
 		41.2	41.3	9.15	73.30	-4.40	0	0.20	1.20	0.60	#

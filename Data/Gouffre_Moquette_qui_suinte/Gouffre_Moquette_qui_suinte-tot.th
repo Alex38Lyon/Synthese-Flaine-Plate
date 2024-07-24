@@ -11,6 +11,7 @@ survey Gouffre_Moquette_qui_suinte -title "Gouffre de la moquette qui suinte"
 	
 	# Import du dessin en plan
 	input  Data/Gouffre_Moquette_qui_suinte_Plan.th2
+	input  Data/Gouffre_Moquette_qui_suinte_Coupe.th2
 	
 	# Import des maps
 	input Gouffre_Moquette_qui_suinte-maps.th

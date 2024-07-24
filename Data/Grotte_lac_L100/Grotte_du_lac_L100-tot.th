@@ -1,0 +1,20 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Fichiers / Organisation dossiers, d'après Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Grotte_du_lac -title "Grotte du Lac (L100)"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/Grotte_du_lac_L100.th
+	# input Data/Gouffre_sous_Colonney.th
+	
+	# Import du dessin en plan
+	#input  Data/Grotte_du_lac_Plan.th2
+	#input  Data/Grotte_du_lac_00_Coupe.th2
+	
+	# Import des maps
+	#input Grotte_du_lac-maps.th
+	
+endsurvey
