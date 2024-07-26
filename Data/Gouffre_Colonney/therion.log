@@ -92,7 +92,7 @@ S     0.00 SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_du_Colonney-Coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 17:07
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  26 JUL 2024 08:43
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -121,7 +121,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  26 JUL 2024 08:43
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -159,7 +159,7 @@ Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
 Here is how much of TeX's memory you used:
  349 strings out of 94604
  4555 string characters out of 1142524
- 42363 words of memory out of 5024091
+ 41247 words of memory out of 5023975
  2001 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -168,7 +168,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
 on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
 e1/csssi10.pfb>
-Output written on data.pdf (1 page, 106803 bytes).
+Output written on data.pdf (1 page, 106345 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
@@ -190,7 +190,7 @@ S  2119.23 SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_du_Colonney-Plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 17:07
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  26 JUL 2024 08:43
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -220,7 +220,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  24 JUL 2024 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  26 JUL 2024 08:43
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -259,7 +259,7 @@ Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
 Here is how much of TeX's memory you used:
  367 strings out of 94604
  4716 string characters out of 1142524
- 93124 words of memory out of 5068852
+ 93008 words of memory out of 5068736
  2019 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -268,7 +268,7 @@ Here is how much of TeX's memory you used:
 ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
 pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
 :/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 157251 bytes).
+Output written on data.pdf (1 page, 156792 bytes).
 PDF statistics:
  174 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
@@ -282,7 +282,7 @@ writing Outputs/Gouffre_du_Colonney.lox ........ done
 writing Outputs/Gouffre_du_Colonney-model.kml ... done
 writing Outputs/Gouffre_du_Colonney-3D.kml ... done
 writing Outputs/Gouffre_du_Colonney.html ... done
-compilation time: 4 sec
+compilation time: 5 sec
 
 
 ###################### scrap distortions #######################

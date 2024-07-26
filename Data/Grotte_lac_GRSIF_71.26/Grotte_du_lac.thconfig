@@ -295,7 +295,7 @@ layout layout-coupe
 		\fi
 		\cavename={Gouffre du Colonney (C52)}
 		\newtoks\club \club={CESAME}
-		\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
+		%\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
 		\newtoks\wpage \wpage={http://cesame.ardeche.free.fr}
 		\newtoks\datat \datat={https://github.com/Alex38Lyon/Synthese-Flaine-Plate}
 		\newtoks\synth \synth={Alexandre Pont}

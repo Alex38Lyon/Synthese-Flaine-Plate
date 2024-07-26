@@ -164,7 +164,7 @@ layout my_layout
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={CESAME}
-		\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
+		%\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
 		\newtoks\wpage \wpage={http://cesame.ardeche.free.fr}
 		\newtoks\datat \datat={https://github.com/Alex38Lyon/Synthese-Flaine-Plate}
 		\newtoks\synth \synth={Alexandre Pont}
@@ -304,7 +304,7 @@ layout layout-coupe
 		\fi
 		\cavename={Gouffre de la Chimelle}
 		\newtoks\club \club={CESAME}
-		\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
+		%\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
 		\newtoks\wpage \wpage={http://cesame.ardeche.free.fr}
 		\newtoks\datat \datat={https://github.com/Alex38Lyon/Synthese-Flaine-Plate}
 		\newtoks\synth \synth={Alexandre Pont}
