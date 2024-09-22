@@ -125,7 +125,7 @@ layout my_layout
 	#legend-width 14 cm
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Arâches-la-Frasse (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)"
 	
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
@@ -253,7 +253,7 @@ layout layout-coupe
 	
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Arâches-la-Frasse (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off

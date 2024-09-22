@@ -65,7 +65,7 @@ S     0.00 SC-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_Moquette_qui_suinte-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  26 JUL 2024 08:44
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 SEP 2024 15:50
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -90,7 +90,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  26 JUL 2024 08:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 SEP 2024 15:50
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -117,7 +117,7 @@ Overfull \hbox (36.98866pt too wide) in paragraph at lines 12--12
 Here is how much of TeX's memory you used:
  338 strings out of 94604
  4439 string characters out of 1142524
- 32758 words of memory out of 5015486
+ 32713 words of memory out of 5015441
  1990 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -126,7 +126,7 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
 on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
 e1/csssi10.pfb>
-Output written on data.pdf (1 page, 75390 bytes).
+Output written on data.pdf (1 page, 75367 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
@@ -149,7 +149,7 @@ S     -.-- SP-Gouffre_Moquette_qui_suinte_03@Gouffre_Moquette_qui_suinte ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_Moquette_qui_suinte-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  26 JUL 2024 08:44
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 SEP 2024 15:50
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -177,7 +177,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  26 JUL 2024 08:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 SEP 2024 15:50
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -191,7 +191,7 @@ entering extended mode
 Here is how much of TeX's memory you used:
  352 strings out of 94604
  4546 string characters out of 1142524
- 47204 words of memory out of 5028932
+ 47155 words of memory out of 5028883
  2004 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -200,7 +200,7 @@ Here is how much of TeX's memory you used:
 ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
 pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
 :/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 98982 bytes).
+Output written on data.pdf (1 page, 98960 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
@@ -214,7 +214,7 @@ writing Outputs/Gouffre_Moquette_qui_suinte.lox ....... done
 writing Outputs/Gouffre_Moquette_qui_suinte-model.kml ... done
 writing Outputs/Gouffre_Moquette_qui_suinte-3D.kml ... done
 writing Outputs/Gouffre_Moquette_qui_suinte.html ... done
-compilation time: 3 sec
+compilation time: 4 sec
 
 
 ###################### scrap distortions #######################
