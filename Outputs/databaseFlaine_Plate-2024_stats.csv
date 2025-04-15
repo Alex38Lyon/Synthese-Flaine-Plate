@@ -1,0 +1,40 @@
+*******************************************************************************************
+* Calcul des statistiques par entrées d'une BD Therion                                    *
+*       Script pythStat par alexandre.pont@yahoo.fr                                       *
+*       Version Février 2024 - Septembre 2024                                             *
+*       Fichier source: ./Inputs/databaseFlaine_Plate-2024.sql                            *
+*       Fichier destination: ./Outputs/databaseFlaine_Plate-2024_stats.csv                *
+*       Date: 2025-01-11 07:55:16                                                         *
+*       Durée calcul: 25(s) sans erreur                                                   *
+*******************************************************************************************
+Développement total centerline:	2022.49   	23.84     	0.00      	-         	-         	Dev.(m), Dupl.(m), Surf.(m)
+
+Développement total par réseaux
+	Entrée(s)                     	Nbre      	Dev.(m)   	Prof.(m)  	Dupl.(m)  	Surf.(m)  	Visées    	ID Sta.   	Alt. min(m)	ID Sta.   	Alt. max(m)
+	Totaux (entrées et points fixes)	8         	2022.49   	906.00    	23.84     	0.00      	355       	Grotte_du_Lac_L100	1519.0    	Gouffre_Chimelle	2425.00
+	Gouffre_de_la_petite_Marielle 	1         	748.13    	296.19    	0.00      	0.00      	118       	41.18     	2003.81   	Gouffre_de_la_petite_Marielle	2300.00
+	Gouffre_du_Colonney           	1         	693.43    	246.13    	0.00      	0.00      	104       	104       	2043.87   	Gouffre_du_Colonney	2290.00
+	Gouffre_Moquette_qui_suinte   	1         	311.44    	40.18     	0.00      	0.00      	81        	41.5      	2289.82   	Gouffre_Moquette_qui_suinte	2330.00
+	Gouffre_Chimelle              	1         	98.68     	92.93     	0.00      	0.00      	9         	fd        	2332.07   	Gouffre_Chimelle	2425.00
+	L_oeil_central_des_3_yeux     	1         	63.20     	3.43      	0.00      	0.00      	16        	2.6       	2292.10   	1.6       	2295.53
+	Grotte_de_Monthieu            	1         	54.62     	17.91     	0.00      	0.00      	11        	6         	2185.81   	1ht       	2203.72
+	Grotte_du_Lac_L100            	1         	27.23     	2.41      	0.00      	0.00      	6         	Grotte_du_Lac_L100	1519.00   	1.1       	1521.41
+	Grotte_des_3_gros             	1         	25.76     	2.20      	23.84     	0.00      	10        	8         	1563.63   	6         	1565.83
+
+Développement total topographié par année(s)
+	Année     	Dev.(m)   	Cumul (m) 	Dupl.(m)  	Cumul (m) 	Surf.(m)  	Cumul (m)
+	2010      	27.23     	27.23     	0.00      	0.00      	0.00      	0.00
+	2011      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2012      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2013      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2014      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2015      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2016      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2017      	0.00      	27.23     	0.00      	0.00      	0.00      	0.00
+	2018      	362.82    	390.05    	0.00      	0.00      	0.00      	0.00
+	2019      	387.87    	777.92    	0.00      	0.00      	0.00      	0.00
+	2020      	329.13    	1107.05   	0.00      	0.00      	0.00      	0.00
+	2021      	153.30    	1260.35   	0.00      	0.00      	0.00      	0.00
+	2022      	0.00      	1260.35   	0.00      	0.00      	0.00      	0.00
+	2023      	42.95     	1303.30   	0.00      	0.00      	0.00      	0.00
+	2024      	719.19    	2022.49   	23.84     	23.84     	0.00      	0.00

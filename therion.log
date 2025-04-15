@@ -1,6 +1,6 @@
-therion 6.1.8 (2023-06-14)
-  - using Proj 9.2.1, compiled against 9.2.1
-initialization file: C:\Program Files (x86)\Therion/therion.ini
+therion 6.3.1 (2024-11-22)
+  - using Proj 9.4.1, compiled against 9.4.1
+initialization file: C:\Program Files\Therion/therion.ini
 reading ... done
 configuration file: Flaine_Plate.thconfig
 reading ... done
@@ -31,12 +31,12 @@ calculating station coordinates ... done
 average loop error: 1.78%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright ¸ 1990-2021 Olly Betts
+ 1> Survex 1.4.15
+ 2> Copyright ¸ 1990-2024 Olly Betts
  3> 
  4> La topographie contient 1273 stations, connect‚es par 1268 vis‚es.
- 5> Il y a 4 bouclages.
- 6> La topographie contient 9 composants connect‚s.
+ 5> Il y a 3 bouclages.
+ 6> La topographie contient 8 composants connect‚s.
  7> Longueur totale de la topographie = 2022.49m (2022.02m ajust‚)
  8> Longueur totale en projection horizontale = 1281.63m
  9> Longueur totale verticale = 1169.49m
@@ -66,8 +66,8 @@ processing survey data ...
 33> 
 ######################### transcription ########################
  4> 1273 : 1.6@Grotte_du_lac.Grotte_du_lac.Flaine_Plate -- 1268 : 1.1@Grotte_du_lac.Grotte_du_lac.Flaine_Plate
- 5> 4 : 1.0@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
- 6> 9 : 2f.0@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+ 5> 3 : 1.2@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+ 6> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
 10> 238 : 9@Gouffre_Chimelle.Gouffre_Chimelle.Flaine_Plate -- 1267 : 1.0@Grotte_du_lac.Grotte_du_lac.Flaine_Plate
 11> 1271 : 1.4@Grotte_du_lac.Grotte_du_lac.Flaine_Plate -- 1092 : .@Colonney_Entree.Gouffre_du_Colonney.Flaine_Plate
 12> 235 : 41.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte.Flaine_Plate -- 1155 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate
@@ -99,17 +99,17 @@ processing references ... done
 selecting export objects ... done
 writing Outputs/Flaine_Plate.lox ...
 processing projection plan ... done
-average distortion: 0.64%
+average distortion: 0.63%
 .
-C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate -- multiple scrap outer outlines not supported yet
-C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate -- invalid scrap outline
+C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate -- invalid scrap outline
 .............. done
 writing Outputs/Flaine_Plate.plt ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  24 JUL 2024 19:24
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  11 JAN 2025 07:51
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
 1 output file written: data.1
 
@@ -125,14 +125,14 @@ average distortion: 0.04%
 done
 writing Outputs/ContinuationsFlaine_Plate-2024.html ... done
 writing Outputs/ContinuationsFlaine_Plate-2024.kml ... 
-C:\Program Files (x86)\Therion\therion.exe: warning -- geographical reference is not associated with table
+C:\Program Files\Therion\therion.exe: warning -- geographical reference is not associated with table
 done
 writing Outputs/SurveysFlaine_Plate2024.html ... done
 writing Outputs/CavesFlaine_Plate2024.html ... done
 writing Outputs/Caves-Flaine_Plate.txt ... done
 writing Outputs/Flaine_Plate/Caves.txt ... done
 writing xtherion file ... done
-compilation time: 25 sec
+compilation time: 9 sec
 
 
 ######################### loop errors ##########################
@@ -146,15 +146,15 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   2.47%  100.00%  SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
   10.97%  100.00%  SP-Gouffre_Chimelle@Gouffre_Chimelle.Flaine_Plate
+   2.24%  100.00%  SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
    0.12%    8.52%  SP-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte.Flaine_Plate
    0.05%    7.80%  SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney.Flaine_Plate
    0.20%    5.25%  SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle.Flaine_Plate
    0.04%    2.34%  SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
    0.04%    1.84%  SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle.Flaine_Plate
    0.04%    1.42%  SP-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.04%    1.28%  SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
+   0.04%    1.31%  SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
    0.06%    0.81%  SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
    0.01%    0.57%  SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
    0.03%    0.44%  SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate
@@ -173,7 +173,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.19%    4.92%  SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
    0.01%    2.94%  SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle.Flaine_Plate
    0.02%    1.47%  SC-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.03%    0.98%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
+   0.04%    1.12%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
    0.00%    0.44%  SC-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
    0.00%    0.25%  SC-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte.Flaine_Plate
    0.00%    0.04%  SC-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
