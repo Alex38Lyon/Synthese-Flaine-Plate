@@ -1,5 +1,5 @@
-therion 6.3.1 (2024-11-22)
-  - using Proj 9.4.1, compiled against 9.4.1
+therion 6.3.4 (2025-04-08)
+  - using Proj 9.5.1, compiled against 9.5.1
 initialization file: C:\Program Files\Therion/therion.ini
 reading ... done
 configuration file: Flaine_Plate.thconfig
@@ -7,90 +7,51 @@ reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM32
-meridian convergence (deg): 1.6551
+meridian convergence (deg): 1.655
 geomag declinations (deg):
   2010.1.1  0.8601
   2011.1.1  0.9932
-  2012.1.1  1.1261
-  2013.1.1  1.2589
-  2014.1.1  1.3914
-  2015.1.1  1.5239
-  2016.1.1  1.6766
-  2017.1.1  1.8292
-  2018.1.1  1.9815
-  2019.1.1  2.1337
-  2020.1.1  2.2857
-  2021.1.1  2.4492
-  2022.1.1  2.6124
-  2023.1.1  2.7755
-  2024.1.1  2.9384
-  2025.1.1  3.1011
+  2012.1.1  1.126
+  2013.1.1  1.259
+  2014.1.1  1.391
+  2015.1.1  1.524
+  2016.1.1  1.676
+  2017.1.1  1.828
+  2018.1.1  1.979
+  2019.1.1  2.131
+  2020.1.1  2.282
+  2021.1.1  2.416
+  2022.1.1  2.549
+  2023.1.1  2.683
+  2024.1.1  2.816
+  2025.1.1  2.949
+  2026.1.1  3.074
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
 average loop error: 1.78%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.15
- 2> Copyright ¸ 1990-2024 Olly Betts
+ 1> Survex 1.4.17
+ 2> Copyright ¸ 1990-2025 Olly Betts
  3> 
- 4> La topographie contient 1273 stations, connect‚es par 1268 vis‚es.
+ 4> La topographie contient 1286 stations, connect‚es par 1281 vis‚es.
  5> Il y a 3 bouclages.
  6> La topographie contient 8 composants connect‚s.
- 7> Longueur totale de la topographie = 2022.49m (2022.02m ajust‚)
- 8> Longueur totale en projection horizontale = 1281.63m
- 9> Longueur totale verticale = 1169.49m
-10> Intervalle vertical = 906.00m (de 238 … 2425.00m jusqu'… 1267 … 1519.00m)
-11> Intervalle Nord-Sud = 3010.16m (de 1271 … 5097272.89m jusqu'… 1092 … 5094262.72m)
-12> Intervalle Est-Ouest = 3117.57m (de 235 … 323001.44m jusqu'… 1155 … 319883.87m)
-13>  928 1-noeuds.
-14>  223 2-noeuds.
-15>   28 3-noeuds.
-16>    1 4-noeud.
-17>    1 5-noeud.
-18>    2 6-noeuds.
-19>    8 7-noeuds.
-20>    8 8-noeuds.
-21>   10 9-noeuds.
-22>   15 10-noeuds.
-23>    7 11-noeuds.
-24>    7 12-noeuds.
-25>   13 13-noeuds.
-26>    6 14-noeuds.
-27>    3 15-noeuds.
-28>    7 16-noeuds.
-29>    1 18-noeud.
-30>    2 19-noeuds.
-31>    2 20-noeuds.
-32>    1 30-noeud.
-33> 
+ 7> Longueur totale de la topographie = 2053.62m (2053.15m ajust‚)
+ 8> Longueur totale en projection horizontale = 1312.44m
+ 9> Longueur totale verticale = 1174.08m
+10> Intervalle vertical = 906.00m (de 251 … 2425.00m jusqu'… 1280 … 1519.00m)
+11> Intervalle Nord-Sud = 3009.97m (de 1284 … 5097272.89m jusqu'… 1105 … 5094262.92m)
+12> Intervalle Est-Ouest = 3133.74m (de 248 … 323017.63m jusqu'… 1168 … 319883.89m)
+13> 
 ######################### transcription ########################
- 4> 1273 : 1.6@Grotte_du_lac.Grotte_du_lac.Flaine_Plate -- 1268 : 1.1@Grotte_du_lac.Grotte_du_lac.Flaine_Plate
+ 4> 1286 : 1.6@Grotte_du_lac.Grotte_du_lac.Flaine_Plate -- 1281 : 1.1@Grotte_du_lac.Grotte_du_lac.Flaine_Plate
  5> 3 : 1.2@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
  6> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-10> 238 : 9@Gouffre_Chimelle.Gouffre_Chimelle.Flaine_Plate -- 1267 : 1.0@Grotte_du_lac.Grotte_du_lac.Flaine_Plate
-11> 1271 : 1.4@Grotte_du_lac.Grotte_du_lac.Flaine_Plate -- 1092 : .@Colonney_Entree.Gouffre_du_Colonney.Flaine_Plate
-12> 235 : 41.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte.Flaine_Plate -- 1155 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate
-13> 928 : .@Colonney_Entree.Gouffre_du_Colonney.Flaine_Plate
-14> 223 : 45.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte.Flaine_Plate
-15> 28 : 4.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-16> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-17> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-18> 2 : 0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-19> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-20> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-21> 10 : 2f.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-22> 15 : 2.5@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-23> 7 : 1.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-24> 7 : 1.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-25> 13 : 2.3@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-26> 6 : 1.0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-27> 3 : 1.2@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-28> 7 : 1.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-29> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-30> 2 : 0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-31> 2 : 0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
-32> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate
+10> 251 : 9@Gouffre_Chimelle.Gouffre_Chimelle.Flaine_Plate -- 1280 : 1.0@Grotte_du_lac.Grotte_du_lac.Flaine_Plate
+11> 1284 : 1.4@Grotte_du_lac.Grotte_du_lac.Flaine_Plate -- 1105 : .@Colonney_Entree.Gouffre_du_Colonney.Flaine_Plate
+12> 248 : 41.18@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte.Flaine_Plate -- 1168 : .@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -99,14 +60,14 @@ processing references ... done
 selecting export objects ... done
 writing Outputs/Flaine_Plate.lox ...
 processing projection plan ... done
-average distortion: 0.63%
+average distortion: 0.62%
 .
 C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate -- multiple scrap outer outlines not supported yet
 C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate -- invalid scrap outline
 .............. done
 writing Outputs/Flaine_Plate.plt ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  11 JAN 2025 07:51
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 17:32
 **data.mp
 (c:/Program Files/Therion/texmf/mpost/mpost.mp
 (c:/Program Files/Therion/texmf/mpost/plain.mp
@@ -137,8 +98,8 @@ compilation time: 9 sec
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  4.45%    1.9m   43.5m  12   -1.8m   -0.7m    0.2m [1.0@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux.Flaine_Plate - 2.8 - 2.7 - 2.6 - 2.5 - 2.4 - 2.3 - 2.2 - 2.1 - 2.0 - 1.2 - 1.1 - 1.0]
-  1.14%    0.6m   49.6m  10    0.4m   -0.1m   -0.4m [Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate - 8 - 7 - 6 - 5 - 4b - 4 - 3 - 2 - 1 - Grotte_des_3_gros]
+   4.4%    1.9m   43.5m  12   -1.8m   -0.7m    0.2m [1.0@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux.Flaine_Plate - 2.8 - 2.7 - 2.6 - 2.5 - 2.4 - 2.3 - 2.2 - 2.1 - 2.0 - 1.2 - 1.1 - 1.0]
+   1.1%    0.6m   49.6m  10    0.4m   -0.1m   -0.4m [Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros.Flaine_Plate - 8 - 7 - 6 - 5 - 4b - 4 - 3 - 2 - 1 - Grotte_des_3_gros]
   0.87%    1.2m  139.3m  28    0.3m    0.3m   -1.1m [10.4@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle.Flaine_Plate - 20.11 - 20.10 - 20.9 - 20.8 - 20.7 - 20.6 - 20.5 - 20.4 - 20.3 - 20.2 - 20.1 - 20.0 - 12.7 - 12.6 - 12.5 - 12.4 - 12.3 - 12.2 - 12.1 - 12.0 - 11.3 - 11.2 - 11.1 - 11.0 - 10.1 - 10.2 - 10.3 - 10.4]
 ##################### end of loop errors #######################
 
@@ -146,39 +107,40 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-  10.97%  100.00%  SP-Gouffre_Chimelle@Gouffre_Chimelle.Flaine_Plate
-   2.24%  100.00%  SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
-   0.12%    8.52%  SP-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.05%    7.80%  SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney.Flaine_Plate
-   0.20%    5.25%  SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.04%    2.34%  SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
-   0.04%    1.84%  SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.04%    1.42%  SP-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.04%    1.31%  SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.06%    0.81%  SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
-   0.01%    0.57%  SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
-   0.03%    0.44%  SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.04%    0.36%  SP-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.04%    0.32%  SP-Grotte_des_3_gros_00@Grotte_des_3_gros.Flaine_Plate
-   0.00%    0.00%  SP-Gouffre_Moquette_qui_suinte_03@Gouffre_Moquette_qui_suinte.Flaine_Plate
+     11%   1e+02%  SP-Gouffre_Chimelle@Gouffre_Chimelle.Flaine_Plate
+    2.2%   1e+02%  SP-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
+   0.12%     8.5%  SP-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte.Flaine_Plate
+  0.067%     7.8%  SP-Gouffre_du_Colonney_04@Gouffre_du_Colonney.Flaine_Plate
+   0.19%     5.4%  SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle.Flaine_Plate
+  0.068%     4.6%  SP-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte.Flaine_Plate
+   0.11%     1.9%  SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
+  0.046%     1.9%  SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle.Flaine_Plate
+  0.029%     1.3%  SP-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte.Flaine_Plate
+  0.037%     1.1%  SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
+  0.059%     1.1%  SP-Gouffre_Moquette_qui_suinte_03@Gouffre_Moquette_qui_suinte.Flaine_Plate
+  0.081%    0.77%  SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
+  0.038%    0.65%  SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
+  0.019%    0.32%  SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate
+  0.039%    0.24%  SP-Grotte_des_3_gros_00@Grotte_des_3_gros.Flaine_Plate
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.08%   12.20%  SC-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
-   0.03%    8.34%  SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.09%    8.07%  SC-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.19%    4.92%  SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
-   0.01%    2.94%  SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.02%    1.47%  SC-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.04%    1.12%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.00%    0.44%  SC-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
-   0.00%    0.25%  SC-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte.Flaine_Plate
-   0.00%    0.04%  SC-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
-   0.00%    0.01%  SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle.Flaine_Plate
-   0.00%    0.00%  SC-Gouffre_Chimelle@Gouffre_Chimelle.Flaine_Plate
+   0.08%      12%  SC-Gouffre_du_Colonney_00@Gouffre_du_Colonney.Flaine_Plate
+  0.031%     8.3%  SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle.Flaine_Plate
+  0.095%     8.1%  SC-Gouffre_Moquette_qui_suinte_01@Gouffre_Moquette_qui_suinte.Flaine_Plate
+   0.19%     4.9%  SC-Gouffre_du_Colonney_03@Gouffre_du_Colonney.Flaine_Plate
+ 0.0062%     2.9%  SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle.Flaine_Plate
+  0.018%     1.5%  SC-Gouffre_Moquette_qui_suinte_00@Gouffre_Moquette_qui_suinte.Flaine_Plate
+  0.037%     1.1%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle.Flaine_Plate
+   0.01%    0.96%  SC-Gouffre_Moquette_qui_suinte_02@Gouffre_Moquette_qui_suinte.Flaine_Plate
+ 0.0028%    0.44%  SC-Gouffre_du_Colonney_02@Gouffre_du_Colonney.Flaine_Plate
+ 0.0038%    0.17%  SC-Gouffre_Moquette_qui_suinte_03@Gouffre_Moquette_qui_suinte.Flaine_Plate
+ 0.00043%   0.036%  SC-Gouffre_du_Colonney_01@Gouffre_du_Colonney.Flaine_Plate
+ 0.00046%   0.015%  SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle.Flaine_Plate
+ 0.00048%  0.0041%  SC-Gouffre_Chimelle@Gouffre_Chimelle.Flaine_Plate
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############

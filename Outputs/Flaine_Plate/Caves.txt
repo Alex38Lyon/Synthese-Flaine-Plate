@@ -1,10 +1,10 @@
 Title	Length	Depth	Explored	X	Y	Altitude
-Karst de Faine / Platé	2022	906				
+Karst de Faine / Platé	2054	906				
   Gouffre de la petite Marielle	748	296				
     Gouffre de la petite Marielle	748	296				
       Gouffre de la petite Marielle				322898.000000	5094854.000000	2300.000000
-  Gouffre de la moquette qui suinte	311	40				
-    Gouffre Moquette qui suinte P66 (ou P63)	311	40				
+  Gouffre de la moquette qui suinte	343	44				
+    Gouffre Moquette qui suinte P66 (ou P63)	301	40				
       Gouffre Moquette qui suinte				322894.000000	5094747.000000	2330.000000
   Gouffre Chimelle	99	93				
     Gouffre de la Chimelle	99	93				

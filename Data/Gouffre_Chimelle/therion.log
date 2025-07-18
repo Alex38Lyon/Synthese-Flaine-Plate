@@ -1,23 +1,23 @@
-therion 6.1.8 (2023-06-14)
-  - using Proj 9.2.1, compiled against 9.2.1
-initialization file: C:\Program Files (x86)\Therion/therion.ini
+therion 6.3.4 (2025-04-08)
+  - using Proj 9.5.1, compiled against 9.5.1
+initialization file: C:\Program Files\Therion/therion.ini
 reading ... done
 configuration file: Gouffre_Chimelle.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM32
-meridian convergence (deg): 1.6603
+meridian convergence (deg): 1.66
 geomag declinations (deg):
-  2021.1.1  2.4473
-  2022.1.1  2.6106
+  2021.1.1  2.414
+  2022.1.1  2.547
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright ¸ 1990-2021 Olly Betts
+ 1> Survex 1.4.17
+ 2> Copyright ¸ 1990-2025 Olly Betts
  3> 
  4> La topographie contient 12 stations, connect‚es par 11 vis‚es.
  5> Il y a 0 bouclages.
@@ -26,53 +26,45 @@ processing survey data ...
  8> Longueur totale verticale =   92.93m
  9> Intervalle vertical = 92.93m (de 3 … 2425.00m jusqu'… 4 … 2332.07m)
 10> Intervalle Nord-Sud = 10.83m (de 7 … 5094752.21m jusqu'… 12 … 5094741.38m)
-11> Intervalle Est-Ouest = 3.62m (de 7 … 321224.56m jusqu'… 4 … 321220.94m)
-12>    2 1-noeuds.
-13>   10 2-noeuds.
-14> 
+11> Intervalle Est-Ouest = 3.61m (de 7 … 321224.55m jusqu'… 4 … 321220.94m)
+12> 
 ######################### transcription ########################
  4> 12 : 8@Gouffre_Chimelle.Gouffre_Chimelle -- 11 : 7@Gouffre_Chimelle.Gouffre_Chimelle
  9> 3 : 9@Gouffre_Chimelle.Gouffre_Chimelle -- 4 : fd@Gouffre_Chimelle.Gouffre_Chimelle
 10> 7 : 3@Gouffre_Chimelle.Gouffre_Chimelle -- 12 : 8@Gouffre_Chimelle.Gouffre_Chimelle
 11> 7 : 3@Gouffre_Chimelle.Gouffre_Chimelle -- 4 : fd@Gouffre_Chimelle.Gouffre_Chimelle
-12> 2 : 0d@Gouffre_Chimelle.Gouffre_Chimelle
-13> 10 : 6@Gouffre_Chimelle.Gouffre_Chimelle
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
-selecting export objects ... 
-C:\Program Files (x86)\Therion\therion.exe: warning -- Gouffre_Chimelle.thconfig [336] -- object not found -- "MC-Gouffre_Chimelle-coupe"
-done
+selecting export objects ... done
 processing projection extended ... done
 average distortion: 0.00%
 
 
 ############### export maps & scraps selection #################
-M     0.00 MC-Gouffre_Chimelle@Gouffre_Chimelle (Gouffre de la Chimelle)
-S     0.00 SC-Gouffre_Chimelle@Gouffre_Chimelle ()
+M        0 MC-Gouffre_Chimelle@Gouffre_Chimelle (Gouffre de la Chimelle)
+S        0 SC-Gouffre_Chimelle@Gouffre_Chimelle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_Chimelle-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 SEP 2024 15:57
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 17:31
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[15] [1]
-[Warning: scrap outline intersects itself in scrap SC-Gouffre_Chimelle@Gouffre_
-Chimelle] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+[15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8]
 [9] [10] [11] [12] [13] [14] )
  
 Here is how much of MetaPost's memory you used:
- 2751 strings using 78055 characters
- 2564024 bytes of node memory
- 1756 symbolic tokens
+ 2798 strings using 78795 characters
+ 3834824 bytes of node memory
+ 1794 symbolic tokens
  9i,82n,16p,423b,5f stack positions out of 16i,98n,20p,487b,6f
 29 output files written: data-patt.1 .. data-patt.15
 
@@ -81,12 +73,12 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 SEP 2024 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  18 JUL 2025 17:31
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex
 Overfull \hbox (36.98866pt too wide) in paragraph at lines 12--12
 [] []|
@@ -102,119 +94,88 @@ Overfull \hbox (36.98866pt too wide) in paragraph at lines 12--12
 .\glue(\rightskip) 0.0
 .\rule(*+*)x5.0
 
-(./th_legend.tex)) (./th_pages.tex)
+(./th_legend.tex) <d:/08 GitHub/Synthese-Flaine-Plate/Data/Gouffre_Chimelle/Out
+puts/Gouffre_Chimelle-plan.pdf>) (./th_pages.tex)
  63 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 321 strings out of 94604
- 4266 string characters out of 1142524
- 29970 words of memory out of 5013698
- 1973 multiletter control sequences out of 15000+50000
+ 330 strings out of 95671
+ 4348 string characters out of 1192323
+ 34911 words of memory out of 1520954
+ 1723 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
- 1416 hyphenation exceptions out of 5000
- 12i,5n,8p,712b,73s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
-Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
-on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
-e1/csssi10.pfb>
-Output written on data.pdf (1 page, 51215 bytes).
+ 844 hyphenation exceptions out of 5000
+ 13i,5n,8p,1736b,73s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/
+Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/typ
+e1/csss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 74149 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 processing projection plan ... done
-average distortion: 10.97%
+average distortion: 11.00%
 
 
 ############### export maps & scraps selection #################
-M  2386.85 MP-Gouffre_Chimelle@Gouffre_Chimelle (Gouffre de la Chimelle)
-S  2386.85 SP-Gouffre_Chimelle@Gouffre_Chimelle ()
+M  2.4e+03 MP-Gouffre_Chimelle@Gouffre_Chimelle (Gouffre de la Chimelle)
+S  2.4e+03 SP-Gouffre_Chimelle@Gouffre_Chimelle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_Chimelle-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 SEP 2024 15:57
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 17:31
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8]
-[9] [10] [11] [12] [13] [14] )
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 2276 strings using 59944 characters
- 2549992 bytes of node memory
- 1746 symbolic tokens
- 11i,82n,14p,312b,5f stack positions out of 16i,98n,17p,312b,6f
-29 output files written: data-patt.1 .. data-patt.15
+ 2270 strings using 62565 characters
+ 3772040 bytes of node memory
+ 1784 symbolic tokens
+ 9i,82n,13p,312b,5f stack positions out of 16i,98n,16p,312b,6f
+21 output files written: data-patt.1 .. data-patt.15
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 SEP 2024 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  18 JUL 2025 17:31
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex
-Overfull \hbox (8.32932pt too wide) in paragraph at lines 12--12
-[]\thfb Donn\thfc é\thfb es to-pographiques : \thfb https://github.com/Alex38Ly
-on/Synthese-Flaine-Plate |
-
-\hbox(9.0+3.0)x398.33818, glue set - 1.0
-.\hbox(0.0+0.0)x0.0
-.\thfb D
-.\thfb o
-.\thfb n
-.\thfb n
-.etc.
-
-
-Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
-[]\thfb (c) li-cence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/
-4.0/ 2024 |
-
-\hbox(9.0+3.0)x398.33818, glue set - 1.0
-.\hbox(0.0+0.0)x0.0
-.\thfb (
-.\thfb c
-.\thfb )
-.\glue 4.0 plus 2.0 minus 1.33333
-.etc.
-
-(./th_legend.tex)) (./th_pages.tex)
- 63 numeric registers used out of 32768
- [1] )
-(\end occurred when \ifx on line 12 was incomplete) 
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 56 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 320 strings out of 94604
- 4259 string characters out of 1142524
- 29864 words of memory out of 5013592
- 1972 multiletter control sequences out of 15000+50000
- 21229 words of font info for 66 fonts, out of 1000000 for 2000
- 1416 hyphenation exceptions out of 5000
- 12i,5n,8p,712b,73s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Ther
-ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
-pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
-:/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 50422 bytes).
+ 316 strings out of 95671
+ 4223 string characters out of 1192323
+ 27358 words of memory out of 1514401
+ 1714 multiletter control sequences out of 15000+50000
+ 16503 words of font info for 54 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 6i,5n,6p,1736b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb>
+Output written on data.pdf (1 page, 23023 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -223,20 +184,21 @@ writing Outputs/Gouffre_Chimelle.lox .... done
 writing Outputs/Gouffre_Chimelle-model.kml ... done
 writing Outputs/Gouffre_Chimelle-3D.kml ... done
 writing Outputs/Gouffre_Chimelle.html ... done
-compilation time: 3 sec
+writing xtherion file ... done
+compilation time: 2 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-  10.97%  100.00%  SP-Gouffre_Chimelle@Gouffre_Chimelle
+     11%   1e+02%  SP-Gouffre_Chimelle@Gouffre_Chimelle
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.00%    0.00%  SC-Gouffre_Chimelle@Gouffre_Chimelle
+ 0.00048%  0.0041%  SC-Gouffre_Chimelle@Gouffre_Chimelle
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############

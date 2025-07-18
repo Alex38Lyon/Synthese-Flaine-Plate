@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 63.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.43m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 2295.53m to 2.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 2292.10m)\nnorth-south range: 12.61m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 5094854.59m to 2.8@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 5094841.98m)\neast-west range: 34.61m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 322901.51m to 2.7@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 322866.90m)\nnumber of shots: 18\nnumber of stations: 18"
+xth_cp_data_tree_insert 51 1 1 L_oeil_central_des_3_yeux L_oeil_central_des_3_yeux "L'oeil central des 3 yeux" "L'oeil central des 3 yeux" "length: 63.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.43m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 2295.53m to 2.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 2292.10m)\nnorth-south range: 12.61m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 5094854.59m to 2.8@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 5094841.98m)\neast-west range: 34.61m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 322901.51m to 2.7@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 322866.90m)\nnumber of shots: 18\nnumber of stations: 18"
+xth_cp_data_tree_insert 53 51 2 oeil_central_des_3_yeux oeil_central_des_3_yeux.L_oeil_central_des_3_yeux "L'oeil central des 3 yeux" "L'oeil central des 3 yeux" "length: 63.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.43m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 2295.53m to 2.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 2292.10m)\nnorth-south range: 12.61m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 5094854.59m to 2.8@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 5094841.98m)\neast-west range: 34.61m (from 1.6@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 322901.51m to 2.7@oeil_central_des_3_yeux.L_oeil_central_des_3_yeux at 322866.90m)\nnumber of shots: 18\nnumber of stations: 18"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 63 0
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1752847777
+

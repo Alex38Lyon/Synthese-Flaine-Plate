@@ -21,7 +21,7 @@ map MC-Gouffre_Moquette_qui_suinte -title "Gouffre_Moquette_qui_suinte"
 	SC-Gouffre_Moquette_qui_suinte_01
 	break
 	SC-Gouffre_Moquette_qui_suinte_02
-	#break
-	#SC-Gouffre_Moquette_qui_suinte_03
+	break
+	SC-Gouffre_Moquette_qui_suinte_03
 endmap
 

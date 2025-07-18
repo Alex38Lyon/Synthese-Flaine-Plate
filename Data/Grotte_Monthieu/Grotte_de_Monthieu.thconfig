@@ -31,7 +31,7 @@ encoding  utf-8
 source Grotte_de_Monthieu-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../config.thc
@@ -56,7 +56,7 @@ endlayout
 #debut de la definition du layout "my_layout"
 layout my_layout
 	# Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	# copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
@@ -104,7 +104,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Grotte_de_Monthieu plan - 1:1000"
+	doc-title "Grotte_de_Monthieu plan"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -218,7 +218,7 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Grotte_de_Monthieu coupe développée - 1:1000"
+	doc-title "Grotte_de_Monthieu coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :

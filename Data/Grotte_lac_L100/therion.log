@@ -1,13 +1,13 @@
-therion 6.1.8 (2023-06-14)
-  - using Proj 9.2.1, compiled against 9.2.1
-initialization file: C:\Program Files (x86)\Therion/therion.ini
+therion 6.3.4 (2025-04-08)
+  - using Proj 9.5.1, compiled against 9.5.1
+initialization file: C:\Program Files\Therion/therion.ini
 reading ... done
 configuration file: Grotte_du_lac_L100.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM32
-meridian convergence (deg): 1.6689
+meridian convergence (deg): 1.669
 geomag declinations (deg):
   2010.1.1  0.8547
   2011.1.1  0.9879
@@ -16,8 +16,8 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright ¸ 1990-2021 Olly Betts
+ 1> Survex 1.4.17
+ 2> Copyright ¸ 1990-2025 Olly Betts
  3> 
  4> La topographie contient 8 stations, connect‚es par 7 vis‚es.
  5> Il y a 0 bouclages.
@@ -27,21 +27,19 @@ processing survey data ...
  9> Intervalle vertical = 2.41m (de 3 … 1521.41m jusqu'… 2 … 1519.00m)
 10> Intervalle Nord-Sud = 14.89m (de 6 … 5097272.89m jusqu'… 2 … 5097258.00m)
 11> Intervalle Est-Ouest = 12.35m (de 8 … 320450.27m jusqu'… 4 … 320437.93m)
-12>    2 1-noeuds.
-13>    6 2-noeuds.
-14> 
+12> 
 ######################### transcription ########################
  4> 8 : 1.6@Grotte_du_lac.Grotte_du_lac -- 7 : 1.5@Grotte_du_lac.Grotte_du_lac
  9> 3 : 1.1@Grotte_du_lac.Grotte_du_lac -- 2 : 1.0@Grotte_du_lac.Grotte_du_lac
 10> 6 : 1.4@Grotte_du_lac.Grotte_du_lac -- 2 : 1.0@Grotte_du_lac.Grotte_du_lac
 11> 8 : 1.6@Grotte_du_lac.Grotte_du_lac -- 4 : 1.2@Grotte_du_lac.Grotte_du_lac
-12> 2 : 1.0@Grotte_du_lac.Grotte_du_lac
-13> 6 : 1.4@Grotte_du_lac.Grotte_du_lac
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
 processing extended elevation ... done
-processing references ... done
+processing references ... 
+C:\Program Files\Therion\therion.exe: warning -- Grotte_du_lac_L100.thconfig [186] -- source layout not found -- Coords_Header_CDa
+done
 selecting export objects ... done
 processing projection plan ... done
 writing Data/Grotte_du_lac_L100-map.xvi ... done
@@ -49,6 +47,7 @@ writing Outputs/Grotte_du_lac_L100.lox ... done
 writing Outputs/Grotte_du_lac_L100-model.kml ... done
 writing Outputs/Grotte_du_lac_L100-3D.kml ... done
 writing Outputs/Grotte_du_lac_L100.html ... done
+writing xtherion file ... done
 compilation time: 0 sec
 
 ############# CRS transformations chosen by PROJ ###############

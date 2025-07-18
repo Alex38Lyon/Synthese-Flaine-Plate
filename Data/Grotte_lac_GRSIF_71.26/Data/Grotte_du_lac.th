@@ -5,7 +5,7 @@ survey Grotte_du_lac -title "Grotte du lac (GRSIF 71.26)"
 	centerline
 		
 		cs UTM32
-		#fix Grotte_du_Lac 321222.00 5094742.00 2425.00
+		fix Grotte_du_Lac 321222.00 5094742.00 2425.00
 		station Grotte_du_Lac "Grotte du lac (GRSIF 71.26)" entrance
 		
 		date 2010.08.28

@@ -1,0 +1,64 @@
+therion 6.3.4 (2025-04-08)
+  - using Proj 9.5.1, compiled against 9.5.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: Grotte_du_lac.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.66
+geomag declinations (deg):
+  2010.1.1  0.8583
+  2011.1.1  0.9914
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.17
+ 2> Copyright ¸ 1990-2025 Olly Betts
+ 3> 
+ 4> La topographie contient 31 stations, connect‚es par 30 vis‚es.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =  190.28m ( 190.28m ajust‚)
+ 7> Longueur totale en projection horizontale =  186.16m
+ 8> Longueur totale verticale =   24.17m
+ 9> Intervalle vertical = 11.81m (de 26 … 2435.72m jusqu'… 5 … 2423.91m)
+10> Intervalle Nord-Sud = 60.79m (de 25 … 5094802.79m jusqu'… 2 … 5094742.00m)
+11> Intervalle Est-Ouest = 91.33m (de 2 … 321222.00m jusqu'… 27 … 321130.67m)
+12> 
+######################### transcription ########################
+ 4> 31 : 1.26@Grotte_du_lac.Grotte_du_lac -- 30 : 1.25@Grotte_du_lac.Grotte_du_lac
+ 9> 26 : 1.21@Grotte_du_lac.Grotte_du_lac -- 5 : 2.2@Grotte_du_lac.Grotte_du_lac
+10> 25 : 1.20@Grotte_du_lac.Grotte_du_lac -- 2 : 1.0d@Grotte_du_lac.Grotte_du_lac
+11> 2 : 1.0d@Grotte_du_lac.Grotte_du_lac -- 27 : 1.22@Grotte_du_lac.Grotte_du_lac
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing Data/Grotte_du_lac-map.xvi ... done
+writing Outputs/Grotte_du_lac.lox ... done
+writing Outputs/Grotte_du_lac-model.kml ... done
+writing Outputs/Grotte_du_lac-3D.kml ... done
+writing Outputs/Grotte_du_lac.html ... done
+writing xtherion file ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+     0%    0.0m    0.0m   2    0.0m    0.0m    0.0m [Grotte_du_Lac@Grotte_du_lac.Grotte_du_lac - 1.0d - Grotte_du_Lac]
+##################### end of loop errors #######################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.692, 45.983) (6.692, 45.983)
+  [UTM32 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 â†’ UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

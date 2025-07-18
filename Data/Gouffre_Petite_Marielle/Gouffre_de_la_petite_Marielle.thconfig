@@ -31,7 +31,7 @@ encoding  utf-8
 source Gouffre_de_la_petite_Marielle-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../config.thc
@@ -81,7 +81,7 @@ layout my_layout
 	scale 1 200
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 50 m
+	scale-bar 30 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	grid bottom
@@ -105,7 +105,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre de la petite Marielle plan - 1:200"
+	doc-title "Gouffre de la petite Marielle plan"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -122,11 +122,11 @@ layout my_layout
 	# "legend off" = pas de legende
 	legend on
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 19 cm
 	legend-columns 3
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.898 km, 5094.854 km, Alt.: 2300 m<br>\"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -232,7 +232,7 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre de la petite Marielle coupe développée - 1:500"
+	doc-title "Gouffre de la petite Marielle coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -253,7 +253,8 @@ layout layout-coupe
 	legend-columns 5
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.898 km, 5094.854 km, Alt.: 2300 m<br>\"
+	
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off

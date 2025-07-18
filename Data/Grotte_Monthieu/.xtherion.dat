@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 54.62m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.91m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 2203.72m to 6@Grotte_de_Monthieu.Grotte_de_Monthieu at 2185.81m)\nnorth-south range: 23.50m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 5094607.94m to 6@Grotte_de_Monthieu.Grotte_de_Monthieu at 5094584.44m)\neast-west range: 8.19m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 321519.15m to 2@Grotte_de_Monthieu.Grotte_de_Monthieu at 321510.96m)\nnumber of shots: 12\nnumber of stations: 13"
+xth_cp_data_tree_insert 51 1 1 Grotte_de_Monthieu Grotte_de_Monthieu "Gouffre de Monthieu" "Gouffre de Monthieu" "length: 54.62m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.91m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 2203.72m to 6@Grotte_de_Monthieu.Grotte_de_Monthieu at 2185.81m)\nnorth-south range: 23.50m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 5094607.94m to 6@Grotte_de_Monthieu.Grotte_de_Monthieu at 5094584.44m)\neast-west range: 8.19m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 321519.15m to 2@Grotte_de_Monthieu.Grotte_de_Monthieu at 321510.96m)\nnumber of shots: 12\nnumber of stations: 13"
+xth_cp_data_tree_insert 53 51 2 Grotte_de_Monthieu Grotte_de_Monthieu.Grotte_de_Monthieu "Grotte de Monthieu" "Grotte de Monthieu" "length: 54.62m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.91m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 2203.72m to 6@Grotte_de_Monthieu.Grotte_de_Monthieu at 2185.81m)\nnorth-south range: 23.50m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 5094607.94m to 6@Grotte_de_Monthieu.Grotte_de_Monthieu at 5094584.44m)\neast-west range: 8.19m (from 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu at 321519.15m to 2@Grotte_de_Monthieu.Grotte_de_Monthieu at 321510.96m)\nnumber of shots: 12\nnumber of stations: 13"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 55 0
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1752847703
+

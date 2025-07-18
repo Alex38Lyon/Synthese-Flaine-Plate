@@ -31,7 +31,7 @@ encoding  utf-8
 source Grotte_du_lac_L100-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../config.thc
@@ -56,7 +56,7 @@ endlayout
 #debut de la definition du layout "my_layout"
 layout my_layout
 	# Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	# copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
@@ -109,7 +109,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Grotte du Lac (GRSIF 71.26) Plan - 1:100"
+	doc-title "Grotte du Lac (GRSIF 71.26) Plan"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -131,7 +131,8 @@ layout my_layout
 	#legend-columns 3
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Arâches-la-Frasse (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé,  Arâches-la-Frasse (Haute-Savoie)<br>Coordonnées :(UTM32/WGS84) 322.803 km, 5094.375 km, Alt.: 2290 m<br>\"
+	
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -184,7 +185,7 @@ endlayout
 #debut de la definition du layout "layout-coupe"
 layout layout-coupe
 	## Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	# copy Coords_Header_CDa
 	## Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy header_coupe
@@ -233,7 +234,7 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre du Colonney coupe développée - 1:500"
+	doc-title "Gouffre du Colonney coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -254,7 +255,8 @@ layout layout-coupe
 	#legend-columns 5
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Arâche-la-frasse (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé,  Arâches-la-Frasse (Haute-Savoie)<br>Coordonnées :(UTM32/WGS84) 322.803 km, 5094.375 km, Alt.: 2290 m<br>\"
+		
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off

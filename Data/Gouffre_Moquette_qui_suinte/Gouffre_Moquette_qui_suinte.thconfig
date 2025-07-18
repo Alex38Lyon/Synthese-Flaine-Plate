@@ -31,7 +31,7 @@ encoding  utf-8
 source Gouffre_Moquette_qui_suinte-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../config.thc
@@ -56,7 +56,7 @@ endlayout
 #debut de la definition du layout "my_layout"
 layout my_layout
 	# Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	# copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
@@ -105,7 +105,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre de la Moquette qui suinte (P66 ou P63) plan - 1:100"
+	doc-title "Gouffre de la Moquette qui suinte (P66 ou P63) plan"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -114,7 +114,7 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 80 95 nw
+	map-header 65 95 nw
 	# arrière plan de la manchette
 	map-header-bg on
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -126,7 +126,7 @@ layout my_layout
 	legend-columns 4
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.894 km, 5094.747 km, Alt.: 2330 m<br>\"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -139,9 +139,9 @@ layout my_layout
 	symbol-hide line survey
 	symbol-hide point u:symbol_plan
 	symbol-hide point u:symbol_extend
-	#symbol-hide point station
+
 	#debug scrap-names
-	#debug station-names
+	# debug station-names
 	#symbol-hide line survey
 	
 	#color map-fg altitude
@@ -149,7 +149,7 @@ layout my_layout
 	
 	layers on
 	
-	overlap 1 cm
+	overlap 2 cm
 	
 	# Modification du Titre de la topo
 	code tex-map
@@ -183,7 +183,7 @@ endlayout
 #debut de la definition du layout "layout-coupe"
 layout layout-coupe
 	## Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	# copy Coords_Header_CDa
 	## Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	#copy header_coupe
@@ -234,7 +234,7 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre de la Moquette qui suinte coupe développée - 1:100"
+	doc-title "Gouffre de la Moquette qui suinte coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -255,7 +255,9 @@ layout layout-coupe
 	legend-columns 4
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)"
+	
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.894 km, 5094.747 km, Alt.: 2330 m<br>\"
+	
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -320,12 +322,12 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-#export map -fmt xvi -layout xviexport -o Data/Gouffre_Moquette_qui_suinte-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/Gouffre_Moquette_qui_suinte-coupe.xvi
+# export map -fmt xvi -layout xviexport -o Data/Gouffre_Moquette_qui_suinte-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Gouffre_Moquette_qui_suinte-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-Gouffre_Moquette_qui_suinte@Gouffre_Moquette_qui_suinte
-select MC-Gouffre_Moquette_qui_suinte-coupe@Gouffre_Moquette_qui_suinte
+select MC-Gouffre_Moquette_qui_suinte@Gouffre_Moquette_qui_suinte
 
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !

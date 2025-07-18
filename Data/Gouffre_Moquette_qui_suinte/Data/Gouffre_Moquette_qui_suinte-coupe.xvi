@@ -1,297 +1,333 @@
 set XVIgrids {2.0 m}
 set XVIstations {
-  {    -3176.11       790.94 Gouffre_Moquette_qui_suinte}
-  {    -3176.11       790.94 0d}
-  {    -3176.11       790.94 Gouffre_Moquette_qui_suinte}
-  {    -3176.11       790.94 1.0}
-  {    -3176.11       790.94 1.0}
-  {    -3133.84       600.39 1.1}
-  {    -3133.84       600.39 1.1}
-  {    -2936.04       530.31 1.2}
-  {    -2936.04       530.31 1.2}
-  {    -2896.86       409.84 1.3}
-  {    -2896.86       409.84 1.3}
-  {    -2811.69       381.50 1.4}
-  {    -2811.69       381.50 1.4}
-  {    -2689.13       171.65 1.5}
-  {    -2689.13       171.65 1.5}
-  {    -2492.88       438.98 1.6}
-  {    -2492.88       438.98 1.6}
-  {    -2434.94       414.17 1.7}
-  {    -2434.94       414.17 1.7}
-  {    -2293.57       403.94 1.8}
-  {    -2293.57       403.94 1.8}
-  {    -2245.38       399.21 1.9}
-  {    -2245.38       399.21 1.9}
-  {    -2149.25       407.09 1.10}
-  {    -2149.25       407.09 1.10}
-  {    -2056.84       391.73 1.11}
-  {    -2056.84       391.73 1.11}
-  {    -1958.25       359.84 1.12}
-  {    -1958.25       359.84 1.12}
-  {    -1924.47       369.29 1.13}
-  {    -1924.47       369.29 1.13}
-  {    -1816.20       387.80 1.14}
-  {    -1816.20       387.80 1.14}
-  {    -1740.17       443.31 1.15}
-  {    -1740.17       443.31 1.15}
-  {    -1605.65       573.23 1.16}
-  {    -2936.04       530.31 1.2}
-  {    -2936.04       530.31 2.0}
-  {    -2936.04       530.31 2.0}
-  {    -3062.59       499.21 2.1}
-  {    -3062.59       499.21 2.1}
-  {    -3129.76       351.18 2.2}
-  {    -1958.25       359.84 1.12}
-  {    -1958.25       359.84 3.0}
-  {    -1958.25       359.84 3.0}
-  {    -1981.43       361.42 3.1}
-  {    -1981.43       361.42 3.1}
-  {    -1987.14       -47.64 3.2}
-  {    -1958.25       359.84 1.12}
-  {    -1958.25       359.84 4.0}
-  {    -1958.25       359.84 4.0}
-  {    -1895.03       340.55 4.1}
-  {    -1895.03       340.55 4.1}
-  {    -1803.11       350.79 4.2}
-  {    -1803.11       350.79 4.2}
-  {    -1748.19       355.51 4.3}
-  {    -2689.13       171.65 1.5}
-  {    -2689.13       171.65 6.0}
-  {    -2689.13       171.65 6.0}
-  {    -2599.15       141.34 6.1}
-  {    -2599.15       141.34 6.1}
-  {    -2467.88        97.24 6.2}
-  {    -2467.88        97.24 6.2}
-  {    -2416.59        46.46 6.3}
-  {    -2416.59        46.46 6.3}
-  {    -2306.69       -19.69 6.4}
-  {    -2306.69       -19.69 6.4}
-  {    -2247.41       -15.35 6.5}
-  {    -2247.41       -15.35 6.5}
-  {    -2042.01      -118.50 6.6}
-  {    -2042.01      -118.50 6.6}
-  {    -1945.15      -197.24 6.7}
-  {    -1945.15      -197.24 6.7}
-  {    -1788.04      -243.31 6.8}
-  {    -1788.04      -243.31 6.8}
-  {    -1625.90      -342.91 6.9}
-  {    -1625.90      -342.91 6.9}
-  {    -1605.58      -471.26 6.10}
-  {    -1605.58      -471.26 6.10}
-  {    -1520.90      -507.48 6.11}
-  {    -1520.90      -507.48 6.11}
-  {    -1475.28      -585.04 6.12}
-  {    -1475.28      -585.04 6.12}
-  {    -1475.28      -585.04 8.0}
-  {    -1475.28      -585.04 8.0}
-  {    -1304.41      -585.43 8.1}
-  {    -1304.41      -585.43 8.1}
-  {    -1226.87      -572.05 8.2}
-  {    -1226.87      -572.05 8.2}
-  {    -1151.17      -600.00 8.3}
-  {    -1605.58      -471.26 6.10}
-  {    -1605.58      -471.26 7.0}
-  {    -1605.58      -471.26 7.0}
-  {    -1814.84      -514.96 7.1}
-  {    -1814.84      -514.96 7.1}
-  {    -1858.98      -498.03 7.2}
-  {    -1858.98      -498.03 7.2}
-  {    -1989.62      -530.71 7.3}
-  {    -1475.28      -585.04 6.12}
-  {    -1418.05      -590.55 6.13}
-  {    -1418.05      -590.55 6.13}
-  {    -1333.23      -596.85 6.14}
-  {    -1333.23      -596.85 6.14}
-  {    -1246.71      -600.79 6.15}
-  {     1493.14      -670.87 40.0}
-  {     1493.14      -670.87 40.0d}
-  {     1493.14      -670.87 40.0}
-  {     1493.14      -670.87 41.0}
-  {     1493.14      -670.87 40.0}
-  {     1343.67      -725.20 40.1}
-  {     1343.67      -725.20 40.1}
-  {     1257.44      -706.69 40.2}
-  {     1257.44      -706.69 40.2}
-  {     1185.93      -682.28 40.3}
-  {     1185.93      -682.28 40.3}
-  {     1083.42      -661.02 40.4}
-  {     1083.42      -661.02 40.4}
-  {      953.25      -654.72 40.5}
-  {      953.25      -654.72 40.5}
-  {      905.08      -711.02 40.6}
-  {      905.08      -711.02 40.6}
-  {      814.43      -639.76 40.7}
-  {      814.43      -639.76 40.7}
-  {      766.52      -649.21 40.8}
-  {      766.52      -649.21 40.8}
-  {      708.06      -640.94 40.9}
-  {      708.06      -640.94 40.9}
-  {      402.95      -637.40 40.10}
-  {      402.95      -637.40 40.10}
-  {      402.95      -637.40 43.0}
-  {      402.95      -637.40 43.0}
-  {      288.46      -633.46 43.1}
-  {      402.95      -637.40 40.10}
-  {      -71.78      -645.67 40.11}
-  {      -71.78      -645.67 40.11}
-  {      -71.78      -645.67 44.0}
-  {      -71.78      -645.67 44.0}
-  {     -269.20      -704.33 44.1}
-  {     -269.20      -704.33 44.1}
-  {     -418.64      -711.42 44.2}
-  {      -71.78      -645.67 40.11}
-  {      -71.78      -645.67 45.0}
-  {      -71.78      -645.67 45.0}
-  {     -361.67      -345.67 45.1}
-  {     -361.67      -345.67 45.1}
-  {     -498.13      -194.09 45.2}
-  {     -498.13      -194.09 45.2}
-  {     -570.39      -203.15 45.3}
-  {     -570.39      -203.15 45.3}
-  {     -606.39        11.81 45.4}
-  {     -606.39        11.81 45.4}
-  {     -821.73        73.62 45.5}
-  {     -821.73        73.62 45.5}
-  {     -821.73        73.62 46.0}
-  {     -821.73        73.62 46.0}
-  {    -1003.24       275.20 46.1}
-  {     -821.73        73.62 45.5}
-  {     -883.47        81.10 45.6}
-  {     -883.47        81.10 45.6}
-  {    -1103.23        63.39 45.7}
-  {    -1103.23        63.39 45.7}
-  {    -1238.61       111.81 45.8}
-  {    -1238.61       111.81 45.8}
-  {    -1355.55       268.50 45.9}
-  {    -1355.55       268.50 45.9}
-  {    -1492.18       258.66 45.10}
-  {    -1492.18       258.66 45.10}
-  {    -1587.91       357.87 45.11}
-  {    -1587.91       357.87 45.11}
-  {    -1735.49       353.94 45.12}
-  {    -1735.49       353.94 45.12}
-  {    -1891.67       347.64 45.13}
-  {    -1891.67       347.64 45.13}
-  {    -1958.25       359.84 45.14}
-  {    -1958.25       359.84 45.14}
-  {    -1958.25       359.84 1.12}
-  {      708.06      -640.94 40.9}
-  {      708.06      -640.94 42.0}
-  {      708.06      -640.94 42.0}
-  {      495.85      -640.94 42.1}
-  {     1493.14      -670.87 41.0}
-  {     1724.23      -718.11 41.1}
-  {     1724.23      -718.11 41.1}
-  {     2005.50      -736.61 41.2}
-  {     2005.50      -736.61 41.2}
-  {     2364.67      -764.17 41.3}
-  {     2364.67      -764.17 41.3}
-  {     2448.24      -774.80 41.4}
-  {     2448.24      -774.80 41.4}
-  {     2652.73      -790.94 41.5}
-  {     2652.73      -790.94 41.5}
-  {     2782.41      -783.07 41.6}
-  {     2782.41      -783.07 41.6}
-  {     3176.11      -783.07 41.7}
+  {    -3782.71       856.69 Gouffre_Moquette_qui_suinte@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3782.71       856.69 0d@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3782.71       856.69 Gouffre_Moquette_qui_suinte@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3782.71       856.69 1.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3782.71       856.69 1.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3740.45       666.14 1.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3740.45       666.14 1.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3542.64       596.06 1.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3542.64       596.06 1.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3503.47       475.59 1.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3503.47       475.59 1.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3418.29       447.24 1.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3418.29       447.24 1.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3295.74       237.40 1.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3295.74       237.40 1.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3099.49       504.72 1.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3099.49       504.72 1.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3041.54       479.92 1.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3041.54       479.92 1.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2900.17       469.69 1.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2900.17       469.69 1.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2851.99       464.96 1.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2851.99       464.96 1.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2755.86       472.83 1.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2755.86       472.83 1.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2663.44       457.48 1.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2663.44       457.48 1.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 1.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 1.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2531.07       435.04 1.13@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2531.07       435.04 1.13@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2422.80       453.54 1.14@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2422.80       453.54 1.14@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2346.77       509.06 1.15@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2346.77       509.06 1.15@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2212.25       638.98 1.16@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3542.64       596.06 1.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3542.64       596.06 2.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3542.64       596.06 2.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3669.19       564.96 2.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3669.19       564.96 2.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3736.36       416.93 2.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 1.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 3.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 3.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2588.03       427.17 3.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2588.03       427.17 3.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2593.74        18.11 3.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 1.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 4.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 4.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2501.64       406.30 4.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2501.64       406.30 4.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2409.71       416.54 4.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2409.71       416.54 4.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2354.79       421.26 4.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3295.74       237.40 1.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3295.74       237.40 6.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3295.74       237.40 6.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3205.76       207.09 6.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3205.76       207.09 6.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3074.49       162.99 6.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3074.49       162.99 6.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3023.19       112.20 6.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -3023.19       112.20 6.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2913.29        46.06 6.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2913.29        46.06 6.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2854.02        50.39 6.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2854.02        50.39 6.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2648.61       -52.76 6.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2648.61       -52.76 6.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2551.76      -131.50 6.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2551.76      -131.50 6.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2394.64      -177.56 6.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2394.64      -177.56 6.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2232.51      -277.17 6.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2232.51      -277.17 6.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2212.18      -405.51 6.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2212.18      -405.51 6.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2127.51      -441.73 6.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2127.51      -441.73 6.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2081.88      -519.29 6.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2081.88      -519.29 6.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2081.88      -519.29 8.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2081.88      -519.29 8.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1911.02      -519.69 8.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1911.02      -519.69 8.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1833.47      -506.30 8.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1833.47      -506.30 8.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1757.78      -534.25 8.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2212.18      -405.51 6.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2212.18      -405.51 7.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2212.18      -405.51 7.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2421.45      -449.21 7.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2421.45      -449.21 7.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2465.58      -432.28 7.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2465.58      -432.28 7.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2596.23      -464.96 7.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2081.88      -519.29 6.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2024.66      -524.80 6.13@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2024.66      -524.80 6.13@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1939.84      -531.10 6.14@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1939.84      -531.10 6.14@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1853.31      -535.04 6.15@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      886.53      -605.12 40.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      886.53      -605.12 40.0d@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      886.53      -605.12 40.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      886.53      -605.12 41.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      886.53      -605.12 40.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      737.07      -659.45 40.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      737.07      -659.45 40.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      650.84      -640.94 40.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      650.84      -640.94 40.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      579.32      -616.54 40.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      579.32      -616.54 40.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      476.81      -595.28 40.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      476.81      -595.28 40.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      346.64      -588.98 40.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      346.64      -588.98 40.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      298.47      -645.28 40.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      298.47      -645.28 40.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      207.82      -574.02 40.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      207.82      -574.02 40.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      159.92      -583.46 40.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      159.92      -583.46 40.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      101.45      -575.20 40.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      101.45      -575.20 40.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -203.65      -571.65 40.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -203.65      -571.65 40.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -203.65      -571.65 43.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -203.65      -571.65 43.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -318.15      -567.72 43.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -203.65      -571.65 40.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 40.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 40.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 44.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 44.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -875.81      -638.58 44.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -875.81      -638.58 44.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1025.25      -645.67 44.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 40.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 45.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -678.38      -579.92 45.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -968.28      -279.92 45.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -968.28      -279.92 45.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1104.74      -128.35 45.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1104.74      -128.35 45.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1177.00      -137.40 45.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1177.00      -137.40 45.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1213.00        77.56 45.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1213.00        77.56 45.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1428.34       139.37 45.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1428.34       139.37 45.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1428.34       139.37 46.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1428.34       139.37 46.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1609.84       340.94 46.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1428.34       139.37 45.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1490.08       146.85 45.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1490.08       146.85 45.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1709.84       129.13 45.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1709.84       129.13 45.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1845.21       177.56 45.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1845.21       177.56 45.8@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1962.15       334.25 45.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -1962.15       334.25 45.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2098.79       324.41 45.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2098.79       324.41 45.10@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2194.51       423.62 45.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2194.51       423.62 45.11@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2342.10       419.69 45.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2342.10       419.69 45.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2498.27       413.39 45.13@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2498.27       413.39 45.13@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 45.14@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 45.14@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {    -2564.85       425.59 1.12@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      101.45      -575.20 40.9@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      101.45      -575.20 42.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      101.45      -575.20 42.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     -110.75      -575.20 42.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {      886.53      -605.12 41.0@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1117.62      -652.36 41.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1117.62      -652.36 41.1@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1398.89      -670.87 41.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1398.89      -670.87 41.2@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1758.07      -698.43 41.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1758.07      -698.43 41.3@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1841.64      -709.06 41.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     1841.64      -709.06 41.4@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     2046.12      -725.20 41.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     2046.12      -725.20 41.5@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     2175.80      -717.32 41.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     2175.80      -717.32 41.6@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     2569.50      -717.32 41.7@Gouffre_Moquette_qui_suinte.Gouffre_Moquette_qui_suinte}
+  {     2175.80      -717.32 41.06@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2264.29      -726.77 41.07@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2264.29      -726.77 41.07@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2458.46      -747.64 41.08@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2458.46      -747.64 41.08@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2586.50      -761.02 41.09@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2586.50      -761.02 41.09@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2714.67      -786.61 41.10@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2714.67      -786.61 41.10@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2837.52      -776.77 41.11@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     2837.52      -776.77 41.11@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3031.92      -805.12 41.12@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3031.92      -805.12 41.12@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3177.89      -810.24 41.13@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3177.89      -810.24 41.13@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3226.67      -799.21 41.14@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3226.67      -799.21 41.14@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3294.10      -815.35 41.15@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3294.10      -815.35 41.15@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3550.42      -843.70 41.16@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3550.42      -843.70 41.16@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3729.20      -854.72 41.17@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3729.20      -854.72 41.17@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
+  {     3782.71      -856.69 41.18@Gouffre_Moquette_qui_suinte_02.Gouffre_Moquette_qui_suinte}
 }
 set XVIshots {
-  {    -3176.11       790.94     -3176.11       790.94     -3176.11       790.94     -3176.11       790.94     -3176.11       790.94     -3176.11       790.94}
-  {    -3176.11       790.94     -3176.11       790.94     -3207.60       594.09     -3176.11       594.09     -3176.11       790.94     -3207.60       790.94}
-  {    -3176.11       790.94     -3133.84       600.39     -3176.11       790.94     -2941.66       643.02     -3133.84       600.39     -3368.29       748.32}
-  {    -3133.84       600.39     -2936.04       530.31     -3133.84       797.24     -2936.04       589.37     -2936.04       372.83     -3133.84       600.39}
-  {    -2936.04       530.31     -2896.86       409.84     -2879.88       548.58     -2821.98       434.19     -2953.02       391.58     -3085.80       481.62}
-  {    -2896.86       409.84     -2811.69       381.50     -2896.86       488.58     -2811.69       401.18     -2811.69       145.28     -2896.86       350.79}
-  {    -2811.69       381.50     -2689.13       171.65     -2811.69       401.18     -2689.13       230.71     -2689.13       -13.39     -2811.69       145.28}
-  {    -2689.13       171.65     -2492.88       438.98     -2689.13       230.71     -2492.88       486.22     -2492.88       379.92     -2689.13       -13.39}
-  {    -2492.88       438.98     -2434.94       414.17     -2492.88       486.22     -2434.94       453.54     -2434.94       406.30     -2492.88       379.92}
-  {    -2434.94       414.17     -2293.57       403.94     -2434.94       453.54     -2293.57       427.56     -2293.57       352.76     -2434.94       406.30}
-  {    -2293.57       403.94     -2245.38       399.21     -2293.57       427.56     -2245.38       430.71     -2245.38       348.03     -2293.57       352.76}
-  {    -2245.38       399.21     -2149.25       407.09     -2245.38       430.71     -2149.25       438.58     -2149.25       348.03     -2245.38       348.03}
-  {    -2149.25       407.09     -2056.84       391.73     -2149.25       438.58     -2056.84       407.48     -2056.84       340.55     -2149.25       348.03}
-  {    -2056.84       391.73     -1958.25       359.84     -2056.84       407.48     -1958.25       458.27     -1958.25       320.47     -2056.84       340.55}
-  {    -1958.25       359.84     -1924.47       369.29     -1958.25       458.27     -1924.47       408.66     -1924.47       290.55     -1958.25       320.47}
-  {    -1924.47       369.29     -1816.20       387.80     -1924.47       408.66     -1816.20       458.66     -1816.20       340.55     -1924.47       290.55}
-  {    -1816.20       387.80     -1740.17       443.31     -1816.20       458.66     -1740.17       522.05     -1740.17       384.25     -1816.20       340.55}
-  {    -1740.17       443.31     -1605.65       573.23     -1740.17       522.05     -1605.65       592.91     -1605.65       376.38     -1740.17       384.25}
-  {    -2936.04       530.31     -2936.04       530.31     -3093.52       372.83     -2896.67       372.83     -2896.67       589.37     -3093.52       589.37}
-  {    -2936.04       530.31     -3062.59       499.21     -2936.04       546.06     -3062.59       507.09     -3062.59       448.03     -2936.04       522.44}
-  {    -3062.59       499.21     -3129.76       351.18     -3062.59       507.09     -3129.76       429.92     -3129.76       351.18     -3062.59       448.03}
-  {    -1958.25       359.84     -1958.25       359.84     -1989.74       320.47     -1942.50       320.47     -1942.50       458.27     -1989.74       458.27}
-  {    -1958.25       359.84     -1981.43       361.42     -1958.25       399.21     -1981.43       400.79     -1981.43       -32.28     -1958.25       320.47}
-  {    -1981.43       361.42     -1987.14       -47.64     -1587.77       355.92     -1967.46       -47.91     -2042.25       -46.87     -2020.79       361.97}
-  {    -1958.25       359.84     -1958.25       359.84     -1989.74       300.79     -1938.56       300.79     -1938.56       458.27     -1989.74       458.27}
-  {    -1958.25       359.84     -1895.03       340.55     -1958.25       418.90     -1895.03       419.29     -1895.03       324.80     -1958.25       300.79}
-  {    -1895.03       340.55     -1803.11       350.79     -1895.03       419.29     -1803.11       409.84     -1803.11       311.42     -1895.03       324.80}
-  {    -1803.11       350.79     -1748.19       355.51     -1803.11       409.84     -1748.19       434.25     -1748.19       296.46     -1803.11       311.42}
-  {    -2689.13       171.65     -2689.13       171.65     -2767.87       -13.39     -2590.71       -13.39     -2590.71       376.38     -2767.87       376.38}
-  {    -2689.13       171.65     -2599.15       141.34     -2689.13       376.38     -2599.15       365.75     -2599.15       105.91     -2689.13       124.41}
-  {    -2599.15       141.34     -2467.88        97.24     -2599.15       365.75     -2467.88       148.43     -2467.88        34.25     -2599.15       105.91}
-  {    -2467.88        97.24     -2416.59        46.46     -2467.88       148.43     -2416.59        58.27     -2416.59        26.77     -2467.88        34.25}
-  {    -2416.59        46.46     -2306.69       -19.69     -2416.59        58.27     -2306.69        -7.87     -2306.69       -47.24     -2416.59        26.77}
-  {    -2306.69       -19.69     -2247.41       -15.35     -2306.69        -7.87     -2247.41        31.89     -2247.41       -62.60     -2306.69       -47.24}
-  {    -2247.41       -15.35     -2042.01      -118.50     -2247.41        31.89     -2042.01      -102.76     -2042.01      -181.50     -2247.41       -62.60}
-  {    -2042.01      -118.50     -1945.15      -197.24     -2042.01      -102.76     -1945.15      -173.62     -1945.15      -307.48     -2042.01      -181.50}
-  {    -1945.15      -197.24     -1788.04      -243.31     -1945.15      -173.62     -1788.04      -231.50     -1788.04      -314.17     -1945.15      -307.48}
-  {    -1788.04      -243.31     -1625.90      -342.91     -1788.04      -231.50     -1625.90      -319.29     -1625.90      -512.20     -1788.04      -314.17}
-  {    -1625.90      -342.91     -1605.58      -471.26     -1602.57      -339.22     -1566.69      -465.10     -1800.01      -502.05     -1793.11      -369.39}
-  {    -1605.58      -471.26     -1520.90      -507.48     -1605.58      -431.89     -1520.90      -393.31     -1520.90      -507.48     -1605.58      -668.11}
-  {    -1520.90      -507.48     -1475.28      -585.04     -1520.90      -393.31     -1475.28      -388.19     -1475.28      -624.41     -1520.90      -507.48}
-  {    -1475.28      -585.04     -1475.28      -585.04     -1475.28      -624.41     -1439.85      -624.41     -1439.85      -388.19     -1475.28      -388.19}
-  {    -1475.28      -585.04     -1304.41      -585.43     -1475.28      -545.67     -1304.41      -506.69     -1304.41      -605.12     -1475.28      -624.41}
-  {    -1304.41      -585.43     -1226.87      -572.05     -1304.41      -506.69     -1226.87      -493.31     -1226.87      -611.42     -1304.41      -605.12}
-  {    -1226.87      -572.05     -1151.17      -600.00     -1226.87      -493.31     -1151.17      -596.06     -1151.17      -639.37     -1226.87      -611.42}
-  {    -1605.58      -471.26     -1605.58      -471.26     -1644.95      -668.11     -1566.21      -668.11     -1566.21      -431.89     -1644.95      -431.89}
-  {    -1605.58      -471.26     -1814.84      -514.96     -1605.58      -431.89     -1814.84      -471.65     -1814.84      -518.90     -1605.58      -589.37}
-  {    -1814.84      -514.96     -1858.98      -498.03     -1814.84      -471.65     -1858.98      -470.47     -1858.98      -513.78     -1814.84      -518.90}
-  {    -1858.98      -498.03     -1989.62      -530.71     -1858.98      -470.47     -1989.62      -483.46     -1989.62      -530.71     -1858.98      -513.78}
-  {    -1475.28      -585.04     -1418.05      -590.55     -1475.28      -388.19     -1418.05      -551.18     -1418.05      -610.24     -1475.28      -624.41}
-  {    -1418.05      -590.55     -1333.23      -596.85     -1418.05      -551.18     -1333.23      -557.48     -1333.23      -616.54     -1418.05      -610.24}
-  {    -1333.23      -596.85     -1246.71      -600.79     -1333.23      -557.48     -1246.71      -592.91     -1246.71      -620.47     -1333.23      -616.54}
-  {     1493.14      -670.87      1493.14      -670.87      1485.26      -682.68      1497.07      -682.68      1497.07      -592.13      1485.26      -592.13}
-  {     1493.14      -670.87      1493.14      -670.87      1445.89      -733.86      1497.07      -733.86      1497.07      -592.13      1445.89      -592.13}
-  {     1493.14      -670.87      1343.67      -725.20      1493.14      -592.13      1343.67      -646.46      1343.67      -737.01      1493.14      -682.68}
-  {     1343.67      -725.20      1257.44      -706.69      1343.67      -646.46      1257.44      -647.64      1257.44      -710.63      1343.67      -737.01}
-  {     1257.44      -706.69      1185.93      -682.28      1257.44      -647.64      1185.93      -658.66      1185.93      -709.84      1257.44      -710.63}
-  {     1185.93      -682.28      1083.42      -661.02      1185.93      -658.66      1083.42      -653.15      1083.42      -704.33      1185.93      -709.84}
-  {     1083.42      -661.02       953.25      -654.72      1083.42      -653.15       953.25      -650.79       953.25      -725.59      1083.42      -704.33}
-  {      953.25      -654.72       905.08      -711.02       953.25      -650.79       905.08      -651.97       905.08      -722.83       953.25      -725.59}
-  {      905.08      -711.02       814.43      -639.76       905.08      -651.97       814.43      -627.95       814.43      -710.63       905.08      -722.83}
-  {      814.43      -639.76       766.52      -649.21       814.43      -627.95       766.52      -633.46       766.52      -716.14       814.43      -710.63}
-  {      766.52      -649.21       708.06      -640.94       766.52      -633.46       708.06      -637.01       708.06      -719.69       766.52      -716.14}
-  {      708.06      -640.94       402.95      -637.40       708.06      -637.01       402.95      -637.40       402.95      -708.27       708.06      -719.69}
-  {      402.95      -637.40       402.95      -637.40       367.52      -716.14       414.77      -716.14       414.77      -637.40       367.52      -637.40}
-  {      402.95      -637.40       288.46      -633.46       402.95      -637.40       288.46      -633.46       288.46      -712.20       402.95      -716.14}
-  {      402.95      -637.40       -71.78      -645.67       402.95      -637.40       -71.78      -637.80       -71.78      -724.41       402.95      -708.27}
-  {      -71.78      -645.67       -71.78      -645.67      -130.83      -724.41       -52.09      -724.41       -52.09      -625.98      -130.83      -625.98}
-  {      -71.78      -645.67      -269.20      -704.33       -71.78      -625.98      -269.20      -696.46      -269.20      -712.20       -71.78      -685.04}
-  {     -269.20      -704.33      -418.64      -711.42      -269.20      -696.46      -418.64      -703.54      -418.64      -719.29      -269.20      -712.20}
-  {      -71.78      -645.67       -71.78      -645.67       -83.59      -724.41       -56.03      -724.41       -56.03      -637.80       -83.59      -637.80}
-  {      -71.78      -645.67      -361.67      -345.67       -71.78      -645.67      -361.67      -148.82      -361.67      -424.41       -71.78      -645.67}
-  {     -361.67      -345.67      -498.13      -194.09      -361.67      -148.82      -498.13        42.13      -498.13      -272.83      -361.67      -424.41}
-  {     -498.13      -194.09      -570.39      -203.15      -498.13        42.13      -570.39       111.81      -570.39      -262.20      -498.13      -272.83}
-  {     -570.39      -203.15      -606.39        11.81      -628.64      -212.90      -800.54       -20.70      -598.63        13.11      -259.76      -151.13}
-  {     -606.39        11.81      -821.73        73.62      -606.39        19.69      -821.73        93.31      -821.73      -123.23      -606.39      -185.04}
-  {     -821.73        73.62      -821.73        73.62      -841.42      -123.23      -790.23      -123.23      -790.23       112.99      -841.42       112.99}
-  {     -821.73        73.62     -1003.24       275.20      -821.73       112.99     -1003.24       294.88     -1003.24       235.83      -821.73        -5.12}
-  {     -821.73        73.62      -883.47        81.10      -821.73        93.31      -883.47       104.72      -883.47       -37.01      -821.73      -123.23}
-  {     -883.47        81.10     -1103.23        63.39      -883.47       104.72     -1103.23       122.44     -1103.23      -172.83      -883.47       -37.01}
-  {    -1103.23        63.39     -1238.61       111.81     -1103.23       122.44     -1238.61       162.99     -1238.61       -85.04     -1103.23      -172.83}
-  {    -1238.61       111.81     -1355.55       268.50     -1238.61       162.99     -1355.55       347.24     -1355.55       229.13     -1238.61       -85.04}
-  {    -1355.55       268.50     -1492.18       258.66     -1355.55       347.24     -1492.18       416.14     -1492.18       219.29     -1355.55       229.13}
-  {    -1492.18       258.66     -1587.91       357.87     -1492.18       416.14     -1587.91       373.62     -1587.91       279.13     -1492.18       219.29}
-  {    -1587.91       357.87     -1735.49       353.94     -1587.91       373.62     -1735.49       393.31     -1735.49       314.57     -1587.91       279.13}
-  {    -1735.49       353.94     -1891.67       347.64     -1735.49       393.31     -1891.67       387.01     -1891.67       288.58     -1735.49       314.57}
-  {    -1891.67       347.64     -1958.25       359.84     -1891.67       387.01     -1958.25       399.21     -1958.25       300.79     -1891.67       288.58}
-  {    -1958.25       359.84     -1958.25       359.84     -1977.93       300.79     -1938.56       300.79     -1938.56       399.21     -1977.93       399.21}
-  {      708.06      -640.94       708.06      -640.94       692.31      -719.69       711.99      -719.69       711.99      -637.01       692.31      -637.01}
-  {      708.06      -640.94       495.85      -640.94       708.06      -637.01       495.85      -637.01       495.85      -680.31       708.06      -680.31}
-  {     1493.14      -670.87      1724.23      -718.11      1493.14      -631.50      1724.23      -678.74      1724.23      -737.80      1493.14      -690.55}
-  {     1724.23      -718.11      2005.50      -736.61      1724.23      -678.74      2005.50      -712.99      2005.50      -760.24      1724.23      -737.80}
-  {     2005.50      -736.61      2364.67      -764.17      2005.50      -712.99      2364.67      -716.93      2364.67      -787.80      2005.50      -760.24}
-  {     2364.67      -764.17      2448.24      -774.80      2364.67      -716.93      2448.24      -727.56      2448.24      -798.43      2364.67      -787.80}
-  {     2448.24      -774.80      2652.73      -790.94      2448.24      -727.56      2652.73      -712.20      2652.73      -861.81      2448.24      -798.43}
-  {     2652.73      -790.94      2782.41      -783.07      2652.73      -712.20      2782.41      -743.70      2782.41      -846.06      2652.73      -861.81}
-  {     2782.41      -783.07      3176.11      -783.07      2782.41      -743.70      3176.11      -771.26      3176.11      -794.88      2782.41      -846.06}
+  {    -3782.71       856.69     -3782.71       856.69     -3782.71       856.69     -3782.71       856.69     -3782.71       856.69     -3782.71       856.69}
+  {    -3782.71       856.69     -3782.71       856.69     -3814.21       659.84     -3782.71       659.84     -3782.71       856.69     -3814.21       856.69}
+  {    -3782.71       856.69     -3740.45       666.14     -3782.71       856.69     -3548.27       708.77     -3740.45       666.14     -3974.89       814.07}
+  {    -3740.45       666.14     -3542.64       596.06     -3740.45       862.99     -3542.64       655.12     -3542.64       438.58     -3740.45       666.14}
+  {    -3542.64       596.06     -3503.47       475.59     -3486.48       614.32     -3428.59       499.94     -3559.63       457.33     -3692.40       547.36}
+  {    -3503.47       475.59     -3418.29       447.24     -3503.47       554.33     -3418.29       466.93     -3418.29       211.02     -3503.47       416.54}
+  {    -3418.29       447.24     -3295.74       237.40     -3418.29       466.93     -3295.74       296.46     -3295.74        52.36     -3418.29       211.02}
+  {    -3295.74       237.40     -3099.49       504.72     -3295.74       296.46     -3099.49       551.97     -3099.49       445.67     -3295.74        52.36}
+  {    -3099.49       504.72     -3041.54       479.92     -3099.49       551.97     -3041.54       519.29     -3041.54       472.05     -3099.49       445.67}
+  {    -3041.54       479.92     -2900.17       469.69     -3041.54       519.29     -2900.17       493.31     -2900.17       418.50     -3041.54       472.05}
+  {    -2900.17       469.69     -2851.99       464.96     -2900.17       493.31     -2851.99       496.46     -2851.99       413.78     -2900.17       418.50}
+  {    -2851.99       464.96     -2755.86       472.83     -2851.99       496.46     -2755.86       504.33     -2755.86       413.78     -2851.99       413.78}
+  {    -2755.86       472.83     -2663.44       457.48     -2755.86       504.33     -2663.44       473.23     -2663.44       406.30     -2755.86       413.78}
+  {    -2663.44       457.48     -2564.85       425.59     -2663.44       473.23     -2564.85       524.02     -2564.85       386.22     -2663.44       406.30}
+  {    -2564.85       425.59     -2531.07       435.04     -2564.85       524.02     -2531.07       474.41     -2531.07       356.30     -2564.85       386.22}
+  {    -2531.07       435.04     -2422.80       453.54     -2531.07       474.41     -2422.80       524.41     -2422.80       406.30     -2531.07       356.30}
+  {    -2422.80       453.54     -2346.77       509.06     -2422.80       524.41     -2346.77       587.80     -2346.77       450.00     -2422.80       406.30}
+  {    -2346.77       509.06     -2212.25       638.98     -2346.77       587.80     -2212.25       658.66     -2212.25       442.13     -2346.77       450.00}
+  {    -3542.64       596.06     -3542.64       596.06     -3700.12       438.58     -3503.27       438.58     -3503.27       655.12     -3700.12       655.12}
+  {    -3542.64       596.06     -3669.19       564.96     -3542.64       611.81     -3669.19       572.83     -3669.19       513.78     -3542.64       588.19}
+  {    -3669.19       564.96     -3736.36       416.93     -3669.19       572.83     -3736.36       495.67     -3736.36       416.93     -3669.19       513.78}
+  {    -2564.85       425.59     -2564.85       425.59     -2596.35       386.22     -2549.11       386.22     -2549.11       524.02     -2596.35       524.02}
+  {    -2564.85       425.59     -2588.03       427.17     -2564.85       464.96     -2588.03       466.54     -2588.03        33.46     -2564.85       386.22}
+  {    -2588.03       427.17     -2593.74        18.11     -2194.37       421.67     -2574.06        17.84     -2648.86        18.88     -2627.40       427.71}
+  {    -2564.85       425.59     -2564.85       425.59     -2596.35       366.54     -2545.17       366.54     -2545.17       524.02     -2596.35       524.02}
+  {    -2564.85       425.59     -2501.64       406.30     -2564.85       484.65     -2501.64       485.04     -2501.64       390.55     -2564.85       366.54}
+  {    -2501.64       406.30     -2409.71       416.54     -2501.64       485.04     -2409.71       475.59     -2409.71       377.17     -2501.64       390.55}
+  {    -2409.71       416.54     -2354.79       421.26     -2409.71       475.59     -2354.79       500.00     -2354.79       362.20     -2409.71       377.17}
+  {    -3295.74       237.40     -3295.74       237.40     -3374.48        52.36     -3197.31        52.36     -3197.31       442.13     -3374.48       442.13}
+  {    -3295.74       237.40     -3205.76       207.09     -3295.74       442.13     -3205.76       431.50     -3205.76       171.65     -3295.74       190.16}
+  {    -3205.76       207.09     -3074.49       162.99     -3205.76       431.50     -3074.49       214.17     -3074.49       100.00     -3205.76       171.65}
+  {    -3074.49       162.99     -3023.19       112.20     -3074.49       214.17     -3023.19       124.02     -3023.19        92.52     -3074.49       100.00}
+  {    -3023.19       112.20     -2913.29        46.06     -3023.19       124.02     -2913.29        57.87     -2913.29        18.50     -3023.19        92.52}
+  {    -2913.29        46.06     -2854.02        50.39     -2913.29        57.87     -2854.02        97.64     -2854.02         3.15     -2913.29        18.50}
+  {    -2854.02        50.39     -2648.61       -52.76     -2854.02        97.64     -2648.61       -37.01     -2648.61      -115.75     -2854.02         3.15}
+  {    -2648.61       -52.76     -2551.76      -131.50     -2648.61       -37.01     -2551.76      -107.87     -2551.76      -241.73     -2648.61      -115.75}
+  {    -2551.76      -131.50     -2394.64      -177.56     -2551.76      -107.87     -2394.64      -165.75     -2394.64      -248.43     -2551.76      -241.73}
+  {    -2394.64      -177.56     -2232.51      -277.17     -2394.64      -165.75     -2232.51      -253.54     -2232.51      -446.46     -2394.64      -248.43}
+  {    -2232.51      -277.17     -2212.18      -405.51     -2209.18      -273.47     -2173.30      -399.35     -2406.61      -436.30     -2399.72      -303.64}
+  {    -2212.18      -405.51     -2127.51      -441.73     -2212.18      -366.14     -2127.51      -327.56     -2127.51      -441.73     -2212.18      -602.36}
+  {    -2127.51      -441.73     -2081.88      -519.29     -2127.51      -327.56     -2081.88      -322.44     -2081.88      -558.66     -2127.51      -441.73}
+  {    -2081.88      -519.29     -2081.88      -519.29     -2081.88      -558.66     -2046.45      -558.66     -2046.45      -322.44     -2081.88      -322.44}
+  {    -2081.88      -519.29     -1911.02      -519.69     -2081.88      -479.92     -1911.02      -440.94     -1911.02      -539.37     -2081.88      -558.66}
+  {    -1911.02      -519.69     -1833.47      -506.30     -1911.02      -440.94     -1833.47      -427.56     -1833.47      -545.67     -1911.02      -539.37}
+  {    -1833.47      -506.30     -1757.78      -534.25     -1833.47      -427.56     -1757.78      -530.31     -1757.78      -573.62     -1833.47      -545.67}
+  {    -2212.18      -405.51     -2212.18      -405.51     -2251.55      -602.36     -2172.81      -602.36     -2172.81      -366.14     -2251.55      -366.14}
+  {    -2212.18      -405.51     -2421.45      -449.21     -2212.18      -366.14     -2421.45      -405.91     -2421.45      -453.15     -2212.18      -523.62}
+  {    -2421.45      -449.21     -2465.58      -432.28     -2421.45      -405.91     -2465.58      -404.72     -2465.58      -448.03     -2421.45      -453.15}
+  {    -2465.58      -432.28     -2596.23      -464.96     -2465.58      -404.72     -2596.23      -417.72     -2596.23      -464.96     -2465.58      -448.03}
+  {    -2081.88      -519.29     -2024.66      -524.80     -2081.88      -322.44     -2024.66      -485.43     -2024.66      -544.49     -2081.88      -558.66}
+  {    -2024.66      -524.80     -1939.84      -531.10     -2024.66      -485.43     -1939.84      -491.73     -1939.84      -550.79     -2024.66      -544.49}
+  {    -1939.84      -531.10     -1853.31      -535.04     -1939.84      -491.73     -1853.31      -527.17     -1853.31      -554.72     -1939.84      -550.79}
+  {      886.53      -605.12       886.53      -605.12       878.66      -616.93       890.47      -616.93       890.47      -526.38       878.66      -526.38}
+  {      886.53      -605.12       886.53      -605.12       839.29      -668.11       890.47      -668.11       890.47      -526.38       839.29      -526.38}
+  {      886.53      -605.12       737.07      -659.45       886.53      -526.38       737.07      -580.71       737.07      -671.26       886.53      -616.93}
+  {      737.07      -659.45       650.84      -640.94       737.07      -580.71       650.84      -581.89       650.84      -644.88       737.07      -671.26}
+  {      650.84      -640.94       579.32      -616.54       650.84      -581.89       579.32      -592.91       579.32      -644.09       650.84      -644.88}
+  {      579.32      -616.54       476.81      -595.28       579.32      -592.91       476.81      -587.40       476.81      -638.58       579.32      -644.09}
+  {      476.81      -595.28       346.64      -588.98       476.81      -587.40       346.64      -585.04       346.64      -659.84       476.81      -638.58}
+  {      346.64      -588.98       298.47      -645.28       346.64      -585.04       298.47      -586.22       298.47      -657.09       346.64      -659.84}
+  {      298.47      -645.28       207.82      -574.02       298.47      -586.22       207.82      -562.20       207.82      -644.88       298.47      -657.09}
+  {      207.82      -574.02       159.92      -583.46       207.82      -562.20       159.92      -567.72       159.92      -650.39       207.82      -644.88}
+  {      159.92      -583.46       101.45      -575.20       159.92      -567.72       101.45      -571.26       101.45      -653.94       159.92      -650.39}
+  {      101.45      -575.20      -203.65      -571.65       101.45      -571.26      -203.65      -571.65      -203.65      -642.52       101.45      -653.94}
+  {     -203.65      -571.65      -203.65      -571.65      -239.08      -650.39      -191.84      -650.39      -191.84      -571.65      -239.08      -571.65}
+  {     -203.65      -571.65      -318.15      -567.72      -203.65      -571.65      -318.15      -567.72      -318.15      -646.46      -203.65      -650.39}
+  {     -203.65      -571.65      -678.38      -579.92      -203.65      -571.65      -678.38      -572.05      -678.38      -658.66      -203.65      -642.52}
+  {     -678.38      -579.92      -678.38      -579.92      -737.44      -658.66      -658.70      -658.66      -658.70      -560.24      -737.44      -560.24}
+  {     -678.38      -579.92      -875.81      -638.58      -678.38      -560.24      -875.81      -630.71      -875.81      -646.46      -678.38      -619.29}
+  {     -875.81      -638.58     -1025.25      -645.67      -875.81      -630.71     -1025.25      -637.80     -1025.25      -653.54      -875.81      -646.46}
+  {     -678.38      -579.92      -678.38      -579.92      -690.19      -658.66      -662.63      -658.66      -662.63      -572.05      -690.19      -572.05}
+  {     -678.38      -579.92      -968.28      -279.92      -678.38      -579.92      -968.28       -83.07      -968.28      -358.66      -678.38      -579.92}
+  {     -968.28      -279.92     -1104.74      -128.35      -968.28       -83.07     -1104.74       107.87     -1104.74      -207.09      -968.28      -358.66}
+  {    -1104.74      -128.35     -1177.00      -137.40     -1104.74       107.87     -1177.00       177.56     -1177.00      -196.46     -1104.74      -207.09}
+  {    -1177.00      -137.40     -1213.00        77.56     -1235.24      -147.16     -1407.14        45.05     -1205.23        78.86      -866.36       -85.38}
+  {    -1213.00        77.56     -1428.34       139.37     -1213.00        85.43     -1428.34       159.06     -1428.34       -57.48     -1213.00      -119.29}
+  {    -1428.34       139.37     -1428.34       139.37     -1448.02       -57.48     -1396.84       -57.48     -1396.84       178.74     -1448.02       178.74}
+  {    -1428.34       139.37     -1609.84       340.94     -1428.34       178.74     -1609.84       360.63     -1609.84       301.57     -1428.34        60.63}
+  {    -1428.34       139.37     -1490.08       146.85     -1428.34       159.06     -1490.08       170.47     -1490.08        28.74     -1428.34       -57.48}
+  {    -1490.08       146.85     -1709.84       129.13     -1490.08       170.47     -1709.84       188.19     -1709.84      -107.09     -1490.08        28.74}
+  {    -1709.84       129.13     -1845.21       177.56     -1709.84       188.19     -1845.21       228.74     -1845.21       -19.29     -1709.84      -107.09}
+  {    -1845.21       177.56     -1962.15       334.25     -1845.21       228.74     -1962.15       412.99     -1962.15       294.88     -1845.21       -19.29}
+  {    -1962.15       334.25     -2098.79       324.41     -1962.15       412.99     -2098.79       481.89     -2098.79       285.04     -1962.15       294.88}
+  {    -2098.79       324.41     -2194.51       423.62     -2098.79       481.89     -2194.51       439.37     -2194.51       344.88     -2098.79       285.04}
+  {    -2194.51       423.62     -2342.10       419.69     -2194.51       439.37     -2342.10       459.06     -2342.10       380.31     -2194.51       344.88}
+  {    -2342.10       419.69     -2498.27       413.39     -2342.10       459.06     -2498.27       452.76     -2498.27       354.33     -2342.10       380.31}
+  {    -2498.27       413.39     -2564.85       425.59     -2498.27       452.76     -2564.85       464.96     -2564.85       366.54     -2498.27       354.33}
+  {    -2564.85       425.59     -2564.85       425.59     -2584.54       366.54     -2545.17       366.54     -2545.17       464.96     -2584.54       464.96}
+  {      101.45      -575.20       101.45      -575.20        85.70      -653.94       105.39      -653.94       105.39      -571.26        85.70      -571.26}
+  {      101.45      -575.20      -110.75      -575.20       101.45      -571.26      -110.75      -571.26      -110.75      -614.57       101.45      -614.57}
+  {      886.53      -605.12      1117.62      -652.36       886.53      -565.75      1117.62      -612.99      1117.62      -672.05       886.53      -624.80}
+  {     1117.62      -652.36      1398.89      -670.87      1117.62      -612.99      1398.89      -647.24      1398.89      -694.49      1117.62      -672.05}
+  {     1398.89      -670.87      1758.07      -698.43      1398.89      -647.24      1758.07      -651.18      1758.07      -722.05      1398.89      -694.49}
+  {     1758.07      -698.43      1841.64      -709.06      1758.07      -651.18      1841.64      -661.81      1841.64      -732.68      1758.07      -722.05}
+  {     1841.64      -709.06      2046.12      -725.20      1841.64      -661.81      2046.12      -646.46      2046.12      -796.06      1841.64      -732.68}
+  {     2046.12      -725.20      2175.80      -717.32      2046.12      -646.46      2175.80      -677.95      2175.80      -780.31      2046.12      -796.06}
+  {     2175.80      -717.32      2569.50      -717.32      2175.80      -677.95      2569.50      -705.51      2569.50      -729.13      2175.80      -780.31}
+  {     2175.80      -717.32      2264.29      -726.77      2175.80      -658.27      2264.29      -667.72      2264.29      -772.05      2175.80      -762.60}
+  {     2264.29      -726.77      2458.46      -747.64      2264.29      -667.72      2458.46      -688.58      2458.46      -779.13      2264.29      -772.05}
+  {     2458.46      -747.64      2586.50      -761.02      2458.46      -688.58      2586.50      -690.16      2586.50      -764.96      2458.46      -779.13}
+  {     2586.50      -761.02      2714.67      -786.61      2586.50      -690.16      2714.67      -707.87      2714.67      -798.43      2586.50      -764.96}
+  {     2714.67      -786.61      2837.52      -776.77      2714.67      -707.87      2837.52      -761.02      2837.52      -800.39      2714.67      -798.43}
+  {     2837.52      -776.77      3031.92      -805.12      2837.52      -761.02      3031.92      -773.62      3031.92      -824.80      2837.52      -800.39}
+  {     3031.92      -805.12      3177.89      -810.24      3031.92      -773.62      3177.89      -786.61      3177.89      -837.80      3031.92      -824.80}
+  {     3177.89      -810.24      3226.67      -799.21      3177.89      -786.61      3226.67      -775.59      3226.67      -830.71      3177.89      -837.80}
+  {     3226.67      -799.21      3294.10      -815.35      3226.67      -775.59      3294.10      -799.61      3294.10      -842.91      3226.67      -830.71}
+  {     3294.10      -815.35      3550.42      -843.70      3294.10      -799.61      3550.42      -827.95      3550.42      -859.45      3294.10      -842.91}
+  {     3550.42      -843.70      3729.20      -854.72      3550.42      -827.95      3729.20      -831.10      3729.20      -874.41      3550.42      -859.45}
+  {     3729.20      -854.72      3782.71      -856.69      3729.20      -831.10      3782.71      -785.83      3782.71      -876.38      3729.20      -874.41}
 }
-set XVIgrid  {-4120.99 -1571.26 78.7402 0.0 0.0 78.7402 102 39}
+set XVIgrid  {-4806.33 -1741.73 78.7402 0.0 0.0 78.7402 120 44}

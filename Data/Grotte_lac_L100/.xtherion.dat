@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 27.23m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.41m (from 1.1@Grotte_du_lac.Grotte_du_lac at 1521.41m to Grotte_du_Lac_L100@Grotte_du_lac.Grotte_du_lac at 1519.00m)\nnorth-south range: 14.89m (from 1.4@Grotte_du_lac.Grotte_du_lac at 5097272.89m to Grotte_du_Lac_L100@Grotte_du_lac.Grotte_du_lac at 5097258.00m)\neast-west range: 12.34m (from 1.6@Grotte_du_lac.Grotte_du_lac at 320450.27m to 1.2@Grotte_du_lac.Grotte_du_lac at 320437.93m)\nnumber of shots: 7\nnumber of stations: 8"
+xth_cp_data_tree_insert 51 1 1 Grotte_du_lac Grotte_du_lac "Grotte du Lac (L100)" "Grotte du Lac (L100)" "length: 27.23m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.41m (from 1.1@Grotte_du_lac.Grotte_du_lac at 1521.41m to Grotte_du_Lac_L100@Grotte_du_lac.Grotte_du_lac at 1519.00m)\nnorth-south range: 14.89m (from 1.4@Grotte_du_lac.Grotte_du_lac at 5097272.89m to Grotte_du_Lac_L100@Grotte_du_lac.Grotte_du_lac at 5097258.00m)\neast-west range: 12.34m (from 1.6@Grotte_du_lac.Grotte_du_lac at 320450.27m to 1.2@Grotte_du_lac.Grotte_du_lac at 320437.93m)\nnumber of shots: 7\nnumber of stations: 8"
+xth_cp_data_tree_insert 53 51 2 Grotte_du_lac Grotte_du_lac.Grotte_du_lac "Grotte du lac (L100)" "Grotte du lac (L100)" "length: 27.23m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.41m (from 1.1@Grotte_du_lac.Grotte_du_lac at 1521.41m to Grotte_du_Lac_L100@Grotte_du_lac.Grotte_du_lac at 1519.00m)\nnorth-south range: 14.89m (from 1.4@Grotte_du_lac.Grotte_du_lac at 5097272.89m to Grotte_du_Lac_L100@Grotte_du_lac.Grotte_du_lac at 5097258.00m)\neast-west range: 12.34m (from 1.6@Grotte_du_lac.Grotte_du_lac at 320450.27m to 1.2@Grotte_du_lac.Grotte_du_lac at 320437.93m)\nnumber of shots: 7\nnumber of stations: 8"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 27 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1752847609
+

@@ -8,6 +8,8 @@ encoding  utf-8
 survey Gouffre_Moquette_qui_suinte -title "Gouffre de la moquette qui suinte"
 	# Pour importer les différentes données de différents fichiers topos :
 	input Data/Gouffre_Moquette_qui_suinte.th
+	input Data/Gouffre_Moquette_qui_suinte_02.th
+	equate 41.6@Gouffre_Moquette_qui_suinte 41.06@Gouffre_Moquette_qui_suinte_02
 	
 	# Import du dessin en plan
 	input  Data/Gouffre_Moquette_qui_suinte_Plan.th2

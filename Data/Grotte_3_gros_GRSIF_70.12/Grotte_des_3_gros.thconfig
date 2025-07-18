@@ -31,7 +31,7 @@ encoding  utf-8
 source Grotte_des_3_gros-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../config.thc
@@ -55,8 +55,6 @@ endlayout
 
 #debut de la definition du layout "my_layout"
 layout my_layout
-	# Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
@@ -105,7 +103,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Grotte des trois gros (GRSIF 70-12) - 1:100"
+	doc-title "Grotte des trois gros (GRSIF 70-12)"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -127,7 +125,8 @@ layout my_layout
 	
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Arâches-la-Frasse (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Arâches-la-Frasse (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) : 319.890 km, 5097.019 km,  Alt. : 1564m<br>\"
+		
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -232,7 +231,9 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Grotte_des_3_gros coupe développée - 1:1000"
+	doc-title "Grotte_des_3_gros coupe développée"
+	
+	map-comment "Massif de Flaine-Platé, Arâches-la-Frasse (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) : 319.890 km, 5097.019 km,  Alt. : 1564m<br>\"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :

@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 25.76m (surface 0.00m, duplicated 23.84m)\nvertical range: 2.20m (from 6@Grotte_des_3_gros.Grotte_des_3_gros at 1565.83m to 8@Grotte_des_3_gros.Grotte_des_3_gros at 1563.63m)\nnorth-south range: 20.72m (from 4@Grotte_des_3_gros.Grotte_des_3_gros at 5097039.72m to Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros at 5097019.00m)\neast-west range: 7.48m (from 1@Grotte_des_3_gros.Grotte_des_3_gros at 319897.48m to Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros at 319890.00m)\nnumber of shots: 114\nnumber of stations: 114"
+xth_cp_data_tree_insert 51 1 1 Grotte_des_3_gros Grotte_des_3_gros "Grotte des trois gros (GRSIF 70-12)" "Grotte des trois gros (GRSIF 70-12)" "length: 25.76m (surface 0.00m, duplicated 23.84m)\nvertical range: 2.20m (from 6@Grotte_des_3_gros.Grotte_des_3_gros at 1565.83m to 8@Grotte_des_3_gros.Grotte_des_3_gros at 1563.63m)\nnorth-south range: 20.72m (from 4@Grotte_des_3_gros.Grotte_des_3_gros at 5097039.72m to Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros at 5097019.00m)\neast-west range: 7.48m (from 1@Grotte_des_3_gros.Grotte_des_3_gros at 319897.48m to Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros at 319890.00m)\nnumber of shots: 114\nnumber of stations: 114"
+xth_cp_data_tree_insert 53 51 2 Grotte_des_3_gros Grotte_des_3_gros.Grotte_des_3_gros "Grotte des trois gros (GRSIF 70-12)" "Grotte des trois gros (GRSIF 70-12)" "length: 25.76m (surface 0.00m, duplicated 23.84m)\nvertical range: 2.20m (from 6@Grotte_des_3_gros.Grotte_des_3_gros at 1565.83m to 8@Grotte_des_3_gros.Grotte_des_3_gros at 1563.63m)\nnorth-south range: 20.72m (from 4@Grotte_des_3_gros.Grotte_des_3_gros at 5097039.72m to Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros at 5097019.00m)\neast-west range: 7.48m (from 1@Grotte_des_3_gros.Grotte_des_3_gros at 319897.48m to Grotte_des_3_gros@Grotte_des_3_gros.Grotte_des_3_gros at 319890.00m)\nnumber of shots: 114\nnumber of stations: 114"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 85X1 p1 1 MP-Grotte_des_3_gros MP-Grotte_des_3_gros@Grotte_des_3_gros "Grotte des trois gros" "Grotte des trois gros"
+xth_cp_map_tree_create
+xth_cp_comp_stat 26 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1752847224
+

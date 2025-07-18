@@ -1,73 +1,71 @@
-therion 6.1.8 (2023-06-14)
-  - using Proj 9.2.1, compiled against 9.2.1
-initialization file: C:\Program Files (x86)\Therion/therion.ini
+therion 6.3.4 (2025-04-08)
+  - using Proj 9.5.1, compiled against 9.5.1
+initialization file: C:\Program Files\Therion/therion.ini
 reading ... done
-configuration file: Gouffre_de_la_petite_Marielle.thconfig
+configuration file: Gouffre_de_la_Petite_Marielle.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM32
-meridian convergence (deg): 1.6448
+meridian convergence (deg): 1.645
 geomag declinations (deg):
-  2018.1.1  1.9851
-  2019.1.1  2.1372
-  2020.1.1  2.2892
-  2021.1.1  2.4526
+  2018.1.1  1.983
+  2019.1.1  2.134
+  2020.1.1  2.286
+  2021.1.1  2.419
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
 average loop error: 0.87%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright ¸ 1990-2021 Olly Betts
+ 1> Survex 1.4.17
+ 2> Copyright ¸ 1990-2025 Olly Betts
  3> 
  4> La topographie contient 137 stations, connect‚es par 137 vis‚es.
  5> Il y a 1 bouclage.
  6> Longueur totale de la topographie =  748.13m ( 748.13m ajust‚)
  7> Longueur totale en projection horizontale =  433.00m
  8> Longueur totale verticale =  473.20m
- 9> Intervalle vertical = 296.19m (de 2 … 2300.00m jusqu'… 137 … 2003.81m)
-10> Intervalle Nord-Sud = 79.37m (de 137 … 5094933.37m jusqu'… 2 … 5094854.00m)
+ 9> Intervalle vertical = 296.19m (de 8 … 2300.00m jusqu'… 137 … 2003.81m)
+10> Intervalle Nord-Sud = 79.37m (de 137 … 5094933.37m jusqu'… 8 … 5094854.00m)
 11> Intervalle Est-Ouest = 101.68m (de 76 … 322993.05m jusqu'… 10 … 322891.38m)
-12>   15 1-noeuds.
-13>  107 2-noeuds.
-14>   15 3-noeuds.
-15> 
+12> 
 ######################### transcription ########################
  4> 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
  5> 1 : Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
- 9> 2 : 0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
-10> 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 2 : 0d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
+ 9> 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
+10> 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 8 : 1.2d@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
 11> 76 : 21.0@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 10 : 2f.1@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
-12> 15 : 2.5@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
-13> 107 : 30.23@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
-14> 15 : 2.5@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
 processing extended elevation ... done
-processing references ... done
+processing references ... 
+C:\Program Files\Therion\therion.exe: warning -- Gouffre_de_la_Petite_Marielle.thconfig [57] -- source layout not found -- Coords_Header_CDa
+
+C:\Program Files\Therion\therion.exe: warning -- Gouffre_de_la_Petite_Marielle.thconfig [180] -- source layout not found -- Coords_Header_CDa
+done
 selecting export objects ... 
-C:\Program Files (x86)\Therion\therion.exe: warning -- Gouffre_de_la_petite_Marielle.thconfig [325] -- object not found -- "MC-Gouffre_de_la_petite_Marielle-coupe"
+C:\Program Files\Therion\therion.exe: warning -- Gouffre_de_la_Petite_Marielle.thconfig [326] -- object not found -- "MC-Gouffre_de_la_petite_Marielle-coupe"
 done
 processing projection extended ... done
 average distortion: 0.01%
 
 
 ############### export maps & scraps selection #################
-M     0.00 MC-Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle (Gouffre_de_la_petite_Marielle)
-S     0.00 SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle ()
-S     0.00 SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle ()
-S     0.00 SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle ()
-S     0.00 SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
+M        0 MC-Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle (Gouffre_de_la_petite_Marielle)
+S        0 SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle ()
+S        0 SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle ()
+S        0 SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle ()
+S        0 SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_de_la_petite_Marielle-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 SEP 2024 15:52
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 15:57
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -78,9 +76,9 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [23] [24] [25] [26] [27] [28] )
  
 Here is how much of MetaPost's memory you used:
- 9666 strings using 243709 characters
- 2592912 bytes of node memory
- 1756 symbolic tokens
+ 9788 strings using 245444 characters
+ 3865032 bytes of node memory
+ 1794 symbolic tokens
  9i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
 43 output files written: data-patt.1 .. data.28
 
@@ -89,29 +87,28 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 SEP 2024 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  18 JUL 2025 15:57
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
  83 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 341 strings out of 94604
- 4493 string characters out of 1142524
- 31802 words of memory out of 5014530
- 1993 multiletter control sequences out of 15000+50000
+ 350 strings out of 95671
+ 4575 string characters out of 1192323
+ 32858 words of memory out of 1518901
+ 1743 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
- 1416 hyphenation exceptions out of 5000
- 12i,5n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
-iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therio
-n/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type
-1/csssi10.pfb>
-Output written on data.pdf (1 page, 80303 bytes).
+ 844 hyphenation exceptions out of 5000
+ 12i,5n,8p,1736b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/T
+herion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type
+1/csss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 81161 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
@@ -122,22 +119,22 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 processing projection plan ... done
-average distortion: 0.04%
+average distortion: 0.08%
 
 
 ############### export maps & scraps selection #################
-M  2205.50 MP-Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle (Gouffre de la petite Marielle)
-S  2288.02 SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle ()
-S  2235.48 SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle ()
-S  2192.03 SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle ()
-S  2106.46 SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
+M  2.2e+03 MP-Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle (Gouffre de la petite Marielle)
+S  2.3e+03 SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle ()
+S  2.2e+03 SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle ()
+S  2.2e+03 SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle ()
+S  2.1e+03 SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_de_la_petite_Marielle-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 SEP 2024 15:52
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 15:57
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -158,9 +155,9 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] )
  
 Here is how much of MetaPost's memory you used:
- 10559 strings using 263818 characters
- 2633740 bytes of node memory
- 1757 symbolic tokens
+ 10702 strings using 266160 characters
+ 4061040 bytes of node memory
+ 1795 symbolic tokens
  9i,82n,16p,536b,5f stack positions out of 16i,98n,20p,608b,6f
 55 output files written: data-patt.1 .. data.40
 
@@ -169,30 +166,30 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 SEP 2024 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  18 JUL 2025 15:57
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
  95 numeric registers used out of 32768
 
 [1] )
 (\end occurred when \ifx on line 12 was incomplete) 
 Here is how much of TeX's memory you used:
- 353 strings out of 94604
- 4586 string characters out of 1142524
- 42811 words of memory out of 5025539
- 2005 multiletter control sequences out of 15000+50000
+ 362 strings out of 95671
+ 4668 string characters out of 1192323
+ 42597 words of memory out of 1527640
+ 1755 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
- 1416 hyphenation exceptions out of 5000
- 12i,5n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Ther
-ion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/ty
-pe1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c
-:/Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 104086 bytes).
+ 844 hyphenation exceptions out of 5000
+ 12i,5n,8p,1736b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/te
+xmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmssi10.
+pfb><c:/Program Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Th
+erion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 105087 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
@@ -203,8 +200,8 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 writing Outputs/Gouffre_de_la_petite_Marielle.lox ....
-C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle -- multiple scrap outer outlines not supported yet
-C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle -- invalid scrap outline
+C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle -- invalid scrap outline
 ... done
 writing Outputs/Gouffre_de_la_petite_Marielle-model.kml ... done
 writing Outputs/Gouffre_de_la_petite_Marielle-3D.kml ... done
@@ -221,20 +218,20 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.17%    5.06%  SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle
-   0.06%    1.67%  SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle
-   0.00%    0.03%  SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle
-   0.00%    0.01%  SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle
+    0.2%     5.2%  SP-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle
+  0.052%     1.8%  SP-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle
+  0.061%     1.7%  SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle
+   0.03%    0.85%  SP-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.03%    8.34%  SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle
-   0.01%    2.94%  SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle
-   0.04%    1.12%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle
-   0.00%    0.01%  SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle
+  0.031%     8.3%  SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle
+ 0.0062%     2.9%  SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle
+  0.037%     1.1%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle
+ 0.00046%   0.015%  SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############

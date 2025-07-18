@@ -1,23 +1,23 @@
-therion 6.1.8 (2023-06-14)
-  - using Proj 9.2.1, compiled against 9.2.1
-initialization file: C:\Program Files (x86)\Therion/therion.ini
+therion 6.3.4 (2025-04-08)
+  - using Proj 9.5.1, compiled against 9.5.1
+initialization file: C:\Program Files\Therion/therion.ini
 reading ... done
 configuration file: Grotte_de_Monthieu.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM32
-meridian convergence (deg): 1.6575
+meridian convergence (deg): 1.657
 geomag declinations (deg):
-  2021.1.1  2.4482
-  2022.1.1  2.6115
+  2021.1.1  2.415
+  2022.1.1  2.548
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright ¸ 1990-2021 Olly Betts
+ 1> Survex 1.4.17
+ 2> Copyright ¸ 1990-2025 Olly Betts
  3> 
  4> La topographie contient 13 stations, connect‚es par 12 vis‚es.
  5> Il y a 0 bouclages.
@@ -25,20 +25,14 @@ processing survey data ...
  7> Longueur totale en projection horizontale =   39.70m
  8> Longueur totale verticale =   28.05m
  9> Intervalle vertical = 17.91m (de 3 … 2203.72m jusqu'… 13 … 2185.81m)
-10> Intervalle Nord-Sud = 23.49m (de 3 … 5094607.94m jusqu'… 13 … 5094584.45m)
+10> Intervalle Nord-Sud = 23.50m (de 3 … 5094607.94m jusqu'… 13 … 5094584.44m)
 11> Intervalle Est-Ouest = 8.19m (de 3 … 321519.15m jusqu'… 10 … 321510.96m)
-12>    4 1-noeuds.
-13>    7 2-noeuds.
-14>    2 3-noeuds.
-15> 
+12> 
 ######################### transcription ########################
  4> 13 : 6@Grotte_de_Monthieu.Grotte_de_Monthieu -- 12 : 5@Grotte_de_Monthieu.Grotte_de_Monthieu
  9> 3 : 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu -- 13 : 6@Grotte_de_Monthieu.Grotte_de_Monthieu
 10> 3 : 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu -- 13 : 6@Grotte_de_Monthieu.Grotte_de_Monthieu
 11> 3 : 1ht@Grotte_de_Monthieu.Grotte_de_Monthieu -- 10 : 3@Grotte_de_Monthieu.Grotte_de_Monthieu
-12> 4 : 1bas@Grotte_de_Monthieu.Grotte_de_Monthieu
-13> 7 : A2@Grotte_de_Monthieu.Grotte_de_Monthieu
-14> 2 : 0d@Grotte_de_Monthieu.Grotte_de_Monthieu
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -51,6 +45,7 @@ writing Outputs/Grotte_de_Monthieu.lox ... done
 writing Outputs/Grotte_de_Monthieu-model.kml ... done
 writing Outputs/Grotte_de_Monthieu-3D.kml ... done
 writing Outputs/Grotte_de_Monthieu.html ... done
+writing xtherion file ... done
 compilation time: 0 sec
 
 ############# CRS transformations chosen by PROJ ###############

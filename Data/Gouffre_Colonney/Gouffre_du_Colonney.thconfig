@@ -31,7 +31,7 @@ encoding  utf-8
 source Gouffre_du_Colonney-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../config.thc
@@ -72,7 +72,7 @@ layout my_layout
 	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
 	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
 	# des caractères et des traits.
-	base-scale 1 200
+	base-scale 1 600
 	
 	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
 	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
@@ -109,7 +109,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre du Colonney plan - 1:500"
+	doc-title "Gouffre du Colonney (plan)"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -127,11 +127,11 @@ layout my_layout
 	# "legend off" = pas de legende
 	legend on
 	# Par défaut, la légende est de 14 cm de largeur
-	#legend-width 10 cm
+	legend-width 20 cm
 	legend-columns 3
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Passy (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.803 km, 5094.375 km, Alt.: 2290 m<br>\"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -154,7 +154,7 @@ layout my_layout
 	
 	layers on
 	
-	overlap 1 cm
+	overlap 2 cm
 	
 	code tex-map
 		% Output map title as determined by Therion is stored in cavename, défini par la une Map.
@@ -162,13 +162,13 @@ layout my_layout
 		% AND there are multiple source surveys identified in the thconfig file
 		% ie Therion can not infer a unique title from the input data given.
 		% This code allows you to define an output map title {cavename} if it happens to be empty
-		\edef\temp{\the\cavename}        % cavename from Therion
-		\edef\nostring{}                 % empty string
-		\ifx\temp\nostring             % test if cavename is empty
+		%\edef\temp{\the\cavename}        % cavename from Therion
+		%\edef\nostring{}                 % empty string
+		%\ifx\temp\nostring             % test if cavename is empty
 		% if empty
-		reassign cavename to describe selected maps as a group
-		\else % if not empty keep the value set by therion, or assign an override cavename here
-		\fi
+		%reassign cavename to describe selected maps as a group
+		%\else % if not empty keep the value set by therion, or assign an override cavename here
+		%\fi
 		\cavename={Gouffre du Colonney (C52)}
 		\newtoks\club \club={CESAME}
 		%\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
@@ -199,7 +199,7 @@ layout layout-coupe
 	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
 	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
 	# des caractères et des traits.
-	base-scale 1 500
+	base-scale 1 1200
 	
 	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
 	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
@@ -233,7 +233,7 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre du Colonney coupe développée - 1:500"
+	doc-title "Gouffre du Colonney coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -242,7 +242,7 @@ layout layout-coupe
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 0 sw
+	map-header 2 2 sw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -250,11 +250,11 @@ layout layout-coupe
 	# "legend off" = pas de legende
 	legend on
 	# Par défaut, la légende est de 14 cm de largeur
-	#legend-width 14 cm
-	#legend-columns 5
+	legend-width 17 cm
+	legend-columns 3
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Passy (Haute-Savoie)"
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.803 km, 5094.375 km, Alt.: 2290 m<br>\"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -277,7 +277,7 @@ layout layout-coupe
 	
 	layers on
 	
-	overlap 1 cm
+	overlap 2 cm
 	
 	# Modification du Titre de la topo
 	code tex-map
@@ -286,13 +286,13 @@ layout layout-coupe
 		% AND there are multiple source surveys identified in the thconfig file
 		% ie Therion can not infer a unique title from the input data given.
 		% This code allows you to define an output map title {cavename} if it happens to be empty
-		\edef\temp{\the\cavename}        % cavename from Therion
-		\edef\nostring{}                 % empty string
-		\ifx\temp\nostring             % test if cavename is empty
+		%\edef\temp{\the\cavename}        % cavename from Therion
+		%\edef\nostring{}                 % empty string
+		%\ifx\temp\nostring             % test if cavename is empty
 		% if empty
-		reassign cavename to describe selected maps as a group
-		\else % if not empty keep the value set by therion, or assign an override cavename here
-		\fi
+		%reassign cavename to describe selected maps as a group
+		%\else % if not empty keep the value set by therion, or assign an override cavename here
+		%\fi
 		\cavename={Gouffre du Colonney (C52)}
 		\newtoks\club \club={CESAME}
 		%\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
@@ -360,7 +360,7 @@ layout layout-coupe-plan
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre du Colonney plan et coupe développée - 1:500"
+	doc-title "Gouffre du Colonney plan et coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -381,7 +381,9 @@ layout layout-coupe-plan
 	legend-columns 5
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Massif de Flaine-Platé, Passy (Haute-Savoie)"
+	
+	map-comment "Massif de Flaine-Platé, Sallanches (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.803 km, 5094.375 km, Alt.: 2290 m<br>\"
+	
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -405,28 +407,28 @@ layout layout-coupe-plan
 	layers on
 	
 	# Modification du Titre de la topo
-	code tex-map
-		% Output map title as determined by Therion is stored in cavename, défini par la une Map.
-		% It will be empty if there are multiple maps selected for any one projection
-		% AND there are multiple source surveys identified in the thconfig file
-		% ie Therion can not infer a unique title from the input data given.
-		% This code allows you to define an output map title {cavename} if it happens to be empty
-		\edef\temp{\the\cavename}        % cavename from Therion
-		\edef\nostring{}                 % empty string
-		\ifx\temp\nostring             % test if cavename is empty
-		% if empty
-		reassign cavename to describe selected maps as a group
-		%\cavename={Grotte du Curé}
-		\else % if not empty keep the value set by therion, or assign an override cavename here
-		\fi
-		\cavename={Gouffre du Colonney (C52)}
-		\newtoks\club \club={CESAME}
-		%\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
-		\newtoks\wpage \wpage={http://cesame.ardeche.free.fr}
-		\newtoks\datat \datat={https://github.com/Alex38Lyon/Synthese-Flaine-Plate}
-		\newtoks\synth \synth={Alexandre Pont}
-		\framethickness=0.8mm
-	endcode
+	# code tex-map
+		# % Output map title as determined by Therion is stored in cavename, défini par la une Map.
+		# % It will be empty if there are multiple maps selected for any one projection
+		# % AND there are multiple source surveys identified in the thconfig file
+		# % ie Therion can not infer a unique title from the input data given.
+		# % This code allows you to define an output map title {cavename} if it happens to be empty
+		# %\edef\temp{\the\cavename}        % cavename from Therion
+		# %\edef\nostring{}                 % empty string
+		# %\ifx\temp\nostring             % test if cavename is empty
+		# % if empty
+		# %reassign cavename to describe selected maps as a group
+		# %\cavename={Grotte du Curé}
+		# %\else % if not empty keep the value set by therion, or assign an override cavename here
+		# %\fi
+		# %\cavename={Gouffre du Colonney (C52)}
+		# %\newtoks\club \club={CESAME}
+		# %\newtoks\thanksto \thanksto={Alpes Minages pour son soutien actif et Loire Travaux Spéciaux l'aide logistique}
+		# %\newtoks\wpage \wpage={http://cesame.ardeche.free.fr}
+		# %\newtoks\datat \datat={https://github.com/Alex38Lyon/Synthese-Flaine-Plate}
+		# %\newtoks\synth \synth={Alexandre Pont}
+		# %\framethickness=0.8mm
+	# endcode
 	
 	## add extended-elev on the same pdf
 	map-image 0 0 nw Outputs/Gouffre_du_Colonney-Plan-LT.pdf
@@ -485,7 +487,7 @@ layout layout-coupe-LT
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre du Colonney coupe développée - 1:500"
+	doc-title "Gouffre du Colonney coupe développée"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -557,7 +559,7 @@ layout layout-plan-LT
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 500
+	scale 1 400
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
 	scale-bar 100 m
@@ -584,7 +586,7 @@ layout layout-plan-LT
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre du Colonney plan - 1:500"
+	doc-title "Gouffre du Colonney plan"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
