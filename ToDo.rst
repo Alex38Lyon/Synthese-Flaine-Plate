@@ -1,12 +1,10 @@
-To Do List 2025
+To Do List
 ==========================================================================================================
 
-Débug Th Config, reprendre cartouches, config, ... 
-Ajuster dessin Chimelle (sections)
+Ajouter dessin chimelle (sections)
 Topo 2025 Colonney
-Mettre en publique
 Topo ChaBaDa ? 
 
-Mettre lien liste charlot
-Mettre kml charlot
+
+
 
