@@ -105,7 +105,7 @@ layout my_layout
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre de la petite Marielle plan"
+	doc-title "Gouffre de la petite Marielle (plan)"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -204,7 +204,7 @@ layout layout-coupe
 	scale 1 500
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 100 m
+	scale-bar 80 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	#grid bottom
@@ -232,7 +232,7 @@ layout layout-coupe
 	# Auteur
 	doc-author "Alexandre Pont"
 	# Titule
-	doc-title "Gouffre de la petite Marielle coupe développée"
+	doc-title "Gouffre de la petite Marielle (coupe développée)"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -241,7 +241,7 @@ layout layout-coupe
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 50 40 nw
+	map-header 50 60 nw
 	# arrière plan de la manchette
 	map-header-bg on
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -249,8 +249,8 @@ layout layout-coupe
 	# "legend off" = pas de legende
 	legend on
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 25 cm
-	legend-columns 5
+	legend-width 18 cm
+	legend-columns 3
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
 	map-comment "Massif de Flaine-Platé, Magland (Haute-Savoie)<br>Coordonnées : (UTM32/WGS84) 322.898 km, 5094.854 km, Alt.: 2300 m<br>\"
@@ -319,7 +319,7 @@ endlayout
 
 # Export des xvi pour le dessin si besoin
 # export map -fmt xvi -layout xviexport -o Data/Gouffre_de_la_petite_Marielle-map.xvi
-# export map -proj extended -layout xviexport -fmt xvi -o Data/Gouffre_de_la_petite_Marielle-coupe.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Gouffre_de_la_petite_Marielle-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-Gouffre_de_la_petite_Marielle@Gouffre_de_la_petite_Marielle

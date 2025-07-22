@@ -22,14 +22,14 @@ processing survey data ...
  1> Survex 1.4.17
  2> Copyright ¸ 1990-2025 Olly Betts
  3> 
- 4> La topographie contient 137 stations, connect‚es par 137 vis‚es.
- 5> Il y a 1 bouclage.
- 6> Longueur totale de la topographie =  748.13m ( 748.13m ajust‚)
- 7> Longueur totale en projection horizontale =  433.00m
- 8> Longueur totale verticale =  473.20m
- 9> Intervalle vertical = 296.19m (de 8 … 2300.00m jusqu'… 137 … 2003.81m)
-10> Intervalle Nord-Sud = 79.37m (de 137 … 5094933.37m jusqu'… 8 … 5094854.00m)
-11> Intervalle Est-Ouest = 101.68m (de 76 … 322993.05m jusqu'… 10 … 322891.38m)
+ 4> Survey contains 137 survey stations, joined by 137 legs.
+ 5> There is 1 loop.
+ 6> Total length of survey legs =  748.13m ( 748.13m adjusted)
+ 7> Total plan length of survey legs =  433.00m
+ 8> Total vertical length of survey legs =  473.20m
+ 9> Vertical range = 296.19m (from 8 at 2300.00m to 137 at 2003.81m)
+10> North-South range = 79.37m (from 137 at 5094933.37m to 8 at 5094854.00m)
+11> East-West range = 101.68m (from 76 at 322993.05m to 10 at 322891.38m)
 12> 
 ######################### transcription ########################
  4> 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle -- 137 : 41.18@Gouffre_de_la_petite_Marielle.Gouffre_de_la_petite_Marielle
@@ -51,6 +51,7 @@ C:\Program Files\Therion\therion.exe: warning -- Gouffre_de_la_Petite_Marielle.t
 done
 processing projection extended ... done
 average distortion: 0.01%
+writing Data/Gouffre_de_la_petite_Marielle-coupe.xvi ... done
 
 
 ############### export maps & scraps selection #################
@@ -62,7 +63,7 @@ S        0 SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_de_la_petite_Marielle-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 15:57
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JUL 2025 18:17
 **data.mp
 (c:/Program Files/Therion/texmf/mpost/mpost.mp
 (c:/Program Files/Therion/texmf/mpost/plain.mp
@@ -73,47 +74,47 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
 (./mptextmp.mp) [16] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [17] [18] [19] [20] [21] [22]
-[23] [24] [25] [26] [27] [28] )
+[23] [24] [25] [26] [27] [28] [29] )
  
 Here is how much of MetaPost's memory you used:
- 9788 strings using 245444 characters
- 3865032 bytes of node memory
+ 9999 strings using 250837 characters
+ 3867288 bytes of node memory
  1794 symbolic tokens
  9i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
-43 output files written: data-patt.1 .. data.28
+44 output files written: data-patt.1 .. data.29
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  18 JUL 2025 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  21 JUL 2025 18:17
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
 rogram Files/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 83 numeric registers used out of 32768
+ 84 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 350 strings out of 95671
- 4575 string characters out of 1192323
- 32858 words of memory out of 1518901
- 1743 multiletter control sequences out of 15000+50000
+ 351 strings out of 95671
+ 4582 string characters out of 1192323
+ 32667 words of memory out of 1518710
+ 1744 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  844 hyphenation exceptions out of 5000
  12i,5n,8p,1736b,75s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/T
 herion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type
 1/csss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 81161 bytes).
+Output written on data.pdf (1 page, 82105 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -131,7 +132,7 @@ S  2.1e+03 SP-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_de_la_petite_Marielle-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 JUL 2025 15:57
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JUL 2025 18:17
 **data.mp
 (c:/Program Files/Therion/texmf/mpost/mpost.mp
 (c:/Program Files/Therion/texmf/mpost/plain.mp
@@ -166,7 +167,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  18 JUL 2025 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  21 JUL 2025 18:17
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -180,7 +181,7 @@ rogram Files/Therion/texmf/fonts/pdftex.map})
 Here is how much of TeX's memory you used:
  362 strings out of 95671
  4668 string characters out of 1192323
- 42597 words of memory out of 1527640
+ 42606 words of memory out of 1527649
  1755 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  844 hyphenation exceptions out of 5000
@@ -189,7 +190,7 @@ Here is how much of TeX's memory you used:
 xmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmssi10.
 pfb><c:/Program Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Th
 erion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 105087 bytes).
+Output written on data.pdf (1 page, 105106 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
@@ -206,7 +207,7 @@ C:\Program Files\Therion\therion.exe: warning -- SP-Gouffre_Petite_Marielle_00@G
 writing Outputs/Gouffre_de_la_petite_Marielle-model.kml ... done
 writing Outputs/Gouffre_de_la_petite_Marielle-3D.kml ... done
 writing Outputs/Gouffre_de_la_petite_Marielle.html ... done
-compilation time: 3 sec
+compilation time: 4 sec
 
 
 ######################### loop errors ##########################
@@ -230,8 +231,8 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  AVERAGE  MAXIMAL  SCRAP
   0.031%     8.3%  SC-Gouffre_Petite_Marielle_00@Gouffre_de_la_petite_Marielle
  0.0062%     2.9%  SC-Gouffre_Petite_Marielle_01@Gouffre_de_la_petite_Marielle
-  0.037%     1.1%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle
- 0.00046%   0.015%  SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle
+ 0.00033%   0.018%  SC-Gouffre_Petite_Marielle_03@Gouffre_de_la_petite_Marielle
+ 0.00044%  0.0095%  SC-Gouffre_Petite_Marielle_02@Gouffre_de_la_petite_Marielle
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############

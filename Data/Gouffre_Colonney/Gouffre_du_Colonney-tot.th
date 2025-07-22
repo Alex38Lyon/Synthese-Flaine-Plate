@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Copyright (C) 2025 Alexandre Pont <alexandre.pont***@***yahoo.fr>
 # Fichiers / Organisation dossiers, d'après Xavier Robert
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
@@ -8,6 +8,9 @@ encoding  utf-8
 survey Gouffre_du_Colonney -title "Gouffre du Colonney"
 	# Pour importer les différentes données de différents fichiers topos :
 	input Data/Gouffre_du_Colonney_00.th
+	input Data/Gouffre_du_Colonney_01.th
+	equate 103@Colonney_Entree B01@Colonney_01
+	
 	# input Data/Gouffre_sous_Colonney.th
 	
 	# Import du dessin en plan

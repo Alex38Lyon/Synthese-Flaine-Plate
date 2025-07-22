@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 2024 Alexandre Pont <alexandre.pont***@***yahoo.fr>
+# Copyright (C) 2025 Alexandre Pont <alexandre.pont***@***yahoo.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
@@ -14,6 +14,8 @@ map MP-Gouffre_du_Colonney -title "Gouffre du Colonney"
 	SP-Gouffre_du_Colonney_03
 	break
 	SP-Gouffre_du_Colonney_04
+	break
+	SP-Gouffre_du_Colonney_05
 endmap
 
 
@@ -25,5 +27,7 @@ map MC-Gouffre_du_Colonney -title "Gouffre du Colonney"
 	SC-Gouffre_du_Colonney_02
 	break
 	SC-Gouffre_du_Colonney_03
+	break
+	SC-Gouffre_du_Colonney_04
 endmap
 

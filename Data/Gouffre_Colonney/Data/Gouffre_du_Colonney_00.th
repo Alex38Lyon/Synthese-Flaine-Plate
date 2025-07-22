@@ -16,7 +16,7 @@ survey Colonney_Entree -title "Gouffre du Colonney"
 		
 		cs UTM32
 		fix Gouffre_du_Colonney 322803.00 5094375.00 2290.00
-		station Gouffre_du_Colonney "Gouffre du colonney" entrance
+		station Gouffre_du_Colonney "Gouffre du Colonney" entrance
 		
 		units length meters
 		units compass clino degrees
@@ -1182,8 +1182,10 @@ survey Colonney_Entree -title "Gouffre du Colonney"
 		103 . 7.73 48.4 -67.1
 		103 . 20.83 121.1 -76.7
 		
+		flags duplicate
 		# 104, bas p100 ? sous amarrage  fin du jour
 		103 104 20.85 283.8 -88.7
+		flags not duplicate
 		
 	endcenterline
 endsurvey
