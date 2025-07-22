@@ -1986,18 +1986,21 @@ point 2549.5 742.5 label -align left -text R5
 line pit -reverse on
   2752.5 795.5
   2752.5 795.5 2827.5 787.0 2835.5 753.0
+  smooth off
 endline
 
 line wall -reverse on -subtype unsurveyed
   2793.0 648.5
   2793.0 648.5 2775.5 604.5 2767.5 583.0
   2759.5 561.5 2749.0 544.5 2745.5 536.5
+  smooth off
 endline
 
 line wall -subtype unsurveyed
   2726.5 689.5
   2726.5 689.5 2722.0 652.5 2715.0 635.5
   2708.0 618.5 2692.0 570.0 2689.0 560.5
+  smooth off
 endline
 
 point 5223.01 -1979.4300000000007 station -name B35
@@ -2091,6 +2094,20 @@ endline
 point 3043.88 700.8899999999993 station -name B07
 
 point 3083.25 772.1499999999994 station -name B04
+
+line gradient
+  3127.0 755.0
+  3075.0 754.0
+endline
+
+line gradient
+  3083.0 676.0
+  3111.0 631.0
+endline
+
+point 3350.0 518.0 danger
+
+point 5025.0 -1549.0 dig
 
 point 3253.3300000000004 681.1999999999994 station -name B02
 

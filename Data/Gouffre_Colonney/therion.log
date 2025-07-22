@@ -41,7 +41,7 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.65%
+average distortion: 0.64%
 writing Data/Gouffre_du_Colonney-map.xvi ... done
 processing projection extended ... done
 average distortion: 0.06%
@@ -58,7 +58,7 @@ S        0 SC-Gouffre_du_Colonney_04@Gouffre_du_Colonney ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_du_Colonney-Coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 JUL 2025 11:20
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 JUL 2025 15:26
 **data.mp
 (c:/Program Files/Therion/texmf/mpost/mpost.mp
 (c:/Program Files/Therion/texmf/mpost/plain.mp
@@ -90,7 +90,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  22 JUL 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  22 JUL 2025 15:26
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -103,7 +103,7 @@ rogram Files/Therion/texmf/fonts/pdftex.map})
 Here is how much of TeX's memory you used:
  364 strings out of 95671
  4711 string characters out of 1192323
- 43840 words of memory out of 1528883
+ 43911 words of memory out of 1528954
  1757 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  844 hyphenation exceptions out of 5000
@@ -111,7 +111,7 @@ Here is how much of TeX's memory you used:
 <c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/T
 herion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type
 1/csss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 125422 bytes).
+Output written on data.pdf (1 page, 125886 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
@@ -134,7 +134,7 @@ S    2e+03 SP-Gouffre_du_Colonney_05@Gouffre_du_Colonney ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Gouffre_du_Colonney-Plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 JUL 2025 11:20
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 JUL 2025 15:26
 **data.mp
 (c:/Program Files/Therion/texmf/mpost/mpost.mp
 (c:/Program Files/Therion/texmf/mpost/plain.mp
@@ -164,7 +164,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  22 JUL 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  22 JUL 2025 15:26
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -178,7 +178,7 @@ rogram Files/Therion/texmf/fonts/pdftex.map})
 Here is how much of TeX's memory you used:
  386 strings out of 95671
  4900 string characters out of 1192323
- 60629 words of memory out of 1543672
+ 60700 words of memory out of 1543743
  1779 multiletter control sequences out of 15000+50000
  21229 words of font info for 66 fonts, out of 1000000 for 2000
  844 hyphenation exceptions out of 5000
@@ -187,7 +187,7 @@ Here is how much of TeX's memory you used:
 xmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmssi10.
 pfb><c:/Program Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Th
 erion/texmf/fonts/type1/csssi10.pfb>
-Output written on data.pdf (1 page, 170700 bytes).
+Output written on data.pdf (1 page, 171259 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
@@ -201,6 +201,7 @@ writing Outputs/Gouffre_du_Colonney.lox ......... done
 writing Outputs/Gouffre_du_Colonney-model.kml ... done
 writing Outputs/Gouffre_du_Colonney-3D.kml ... done
 writing Outputs/Gouffre_du_Colonney.html ... done
+writing xtherion file ... done
 compilation time: 3 sec
 
 
@@ -212,7 +213,7 @@ compilation time: 3 sec
   0.093%     4.2%  SP-Gouffre_du_Colonney_00@Gouffre_du_Colonney
   0.037%     1.1%  SP-Gouffre_du_Colonney_02@Gouffre_du_Colonney
   0.081%    0.77%  SP-Gouffre_du_Colonney_03@Gouffre_du_Colonney
- 0.0026%    0.44%  SP-Gouffre_du_Colonney_05@Gouffre_du_Colonney
+ 0.0029%    0.46%  SP-Gouffre_du_Colonney_05@Gouffre_du_Colonney
 ################### end of scrap distortions ###################
 
 
